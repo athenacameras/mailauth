@@ -69,7 +69,7 @@
     if (managedObjectModel != nil) {
         return managedObjectModel;
     }
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:@"org.mynigma.Mynigma-iOS"];
+    NSBundle *bundle = [NSBundle bundleWithIdentifier:@"org.authenticatedreality.mailauth-ios"];
     if(!bundle)
         NSLog(@"No bundle!");
     managedObjectModel = [NSManagedObjectModel mergedModelFromBundles:@[bundle]];

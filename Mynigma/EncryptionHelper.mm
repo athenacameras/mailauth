@@ -880,7 +880,7 @@ static NSMutableSet* accountsForWhichKeysAreBeingGenerated;
         if(decryptedData && sessionKeyData && HMACSecretData)
         {
             [message setSessionKeyData:sessionKeyData];
-            [message setHmacSecretData:HMACSecretData];
+//    remove by ddo        [message setHmacSecretData:HMACSecretData];
 
             //now unwrap the data and verify the signature
 
@@ -943,12 +943,12 @@ static NSMutableSet* accountsForWhichKeysAreBeingGenerated;
     }
     
     //check the HMAC, if present
-    if(fileAttachment.hmacValue && ![self verifyHMAC:fileAttachment.hmacValue ofData:encryptedData withKey:message.hmacSecretData])
-    {
-        if(mynigmaFeedback)
-            *mynigmaFeedback = [MynigmaFeedback feedback:MynigmaDecryptionErrorInvalidHMAC];
-        return nil;
-    }
+//remove by ddo    if(fileAttachment.hmacValue && ![self verifyHMAC:fileAttachment.hmacValue ofData:encryptedData withKey:message.hmacSecretData])
+//    {
+//        if(mynigmaFeedback)
+//            *mynigmaFeedback = [MynigmaFeedback feedback:MynigmaDecryptionErrorInvalidHMAC];
+//        return nil;
+//    }
 
     NSData* decryptedData = [AppleEncryptionWrapper AESdecryptData:encryptedData withSessionKeyData:message.sessionKeyData withFeedback:mynigmaFeedback];
 

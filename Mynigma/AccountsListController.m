@@ -144,13 +144,13 @@
         return cell;
     } */
 
-    if(indexPath.row==[UserSettings usedAccounts].count+2)
-    {
-        static NSString *CellIdentifier = @"CreditsCell";
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-
-        return cell;
-    }
+//    if(indexPath.row==[UserSettings usedAccounts].count+2)
+//    {
+//        static NSString *CellIdentifier = @"CreditsCell";
+//        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+//
+//        return cell;
+//    }
 
     if(indexPath.row==[UserSettings usedAccounts].count+3)
     {

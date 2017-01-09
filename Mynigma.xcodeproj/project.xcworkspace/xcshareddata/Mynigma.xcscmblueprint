@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5F64760B60CD2F2A9FA67056F9370024CE6F2AEB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "689AA82008E9C4782CA556E961D7755D54DEF5F6" : 0,
+    "5F64760B60CD2F2A9FA67056F9370024CE6F2AEB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4934D91E-B724-4315-8322-7F639D0A6C3C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "689AA82008E9C4782CA556E961D7755D54DEF5F6" : "PGPandSMIME",
+    "5F64760B60CD2F2A9FA67056F9370024CE6F2AEB" : "M\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Mynigma",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mynigma.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Mynigma\/M.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F64760B60CD2F2A9FA67056F9370024CE6F2AEB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Mynigma\/mynigma.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "689AA82008E9C4782CA556E961D7755D54DEF5F6"
+    }
+  ]
+}

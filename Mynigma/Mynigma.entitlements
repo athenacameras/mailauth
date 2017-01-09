@@ -32,6 +32,7 @@
 	<key>keychain-access-groups</key>
 	<array>
 		<string>$(AppIdentifierPrefix)org.mynigma.Mynigma</string>
+		<string>$(AppIdentifierPrefix)org.authenticatedreality.mailauth</string>
 	</array>
 </dict>
 </plist>

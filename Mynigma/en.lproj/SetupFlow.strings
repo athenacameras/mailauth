@@ -26,8 +26,8 @@
 /* Class = "IBUITextField"; placeholder = "SMTP user name"; ObjectID = "5ck-pl-K1R"; */
 "5ck-pl-K1R.placeholder" = "SMTP user name";
 
-/* Class = "IBUILabel"; text = "Mynigma is free and open source.\n\n\nYou're welcome.\n\n\nIf you like Mynigma, you can help by rating us on the App Store and recommending us to your friends."; ObjectID = "6Fq-y3-s4l"; */
-"6Fq-y3-s4l.text" = "Mynigma is free and open source.\n\n\nYou're welcome.\n\n\nIf you like Mynigma, you can help by rating us on the App Store and recommending us to your friends.";
+/* Class = "IBUILabel"; text = "MailAuth is free and open source.\n\n\nYou're welcome.\n\n\nIf you like MailAuth, you can help by rating us on the App Store and recommending us to your friends."; ObjectID = "6Fq-y3-s4l"; */
+"6Fq-y3-s4l.text" = "MailAuth is simple .\n\n\nYou're welcome.\n\n\nIf you like MailAuth, you can help by rating us on the App Store and recommending us to your friends.";
 
 /* Class = "IBUITextField"; placeholder = "User name"; ObjectID = "6H7-cm-Aa8"; */
 "6H7-cm-Aa8.placeholder" = "User name";
@@ -47,8 +47,8 @@
 /* Class = "IBUILabel"; text = "detect"; ObjectID = "AK3-Og-f5O"; */
 "AK3-Og-f5O.text" = "detect";
 
-/* Class = "IBUILabel"; text = "Mynigma is an email app with built-in privacy."; ObjectID = "CBw-k8-9PO"; */
-"CBw-k8-9PO.text" = "Mynigma is an email app with built-in privacy.";
+/* Class = "IBUILabel"; text = "MailAuth is an email app with built-in privacy."; ObjectID = "CBw-k8-9PO"; */
+"CBw-k8-9PO.text" = "MailAuth is an email app with built-in privacy.";
 
 /* Class = "IBUITextField"; placeholder = "IMAP server"; ObjectID = "CUx-dO-0Y7"; */
 "CUx-dO-0Y7.placeholder" = "IMAP server";
@@ -131,8 +131,8 @@
 /* Class = "IBUITextField"; placeholder = "Port"; ObjectID = "YjX-Fr-CfJ"; */
 "YjX-Fr-CfJ.placeholder" = "Port";
 
-/* Class = "IBUILabel"; text = "Mynigma has automatically recognised these settings. You probably won't need to change them."; ObjectID = "Yq9-1i-rwa"; */
-"Yq9-1i-rwa.text" = "Mynigma has automatically recognised these settings. You probably won't need to change them.";
+/* Class = "IBUILabel"; text = "MailAuth has automatically recognised these settings. You probably won't need to change them."; ObjectID = "Yq9-1i-rwa"; */
+"Yq9-1i-rwa.text" = "MailAuth has automatically recognised these settings. You probably won't need to change them.";
 
 /* Class = "IBUILabel"; text = "You are logging in directly with your email provider.   As always, no data is sent to us."; ObjectID = "ZMg-jl-qTC"; */
 "ZMg-jl-qTC.text" = "You are logging in directly with your email provider.   As always, no data is sent to us.";
@@ -188,8 +188,8 @@
 /* Class = "IBUIButton"; normalTitle = "Auth required"; ObjectID = "mrb-hX-XLN"; */
 "mrb-hX-XLN.normalTitle" = "Auth required";
 
-/* Class = "IBUILabel"; text = "Messages to other Mynigma users will be safe by default. All you need to do is send an open message first."; ObjectID = "n6c-qo-Xkl"; */
-"n6c-qo-Xkl.text" = "Messages to other Mynigma users will be safe by default. All you need to do is send an open message first.";
+/* Class = "IBUILabel"; text = "Messages to other MailAuth users will be safe by default. All you need to do is send an open message first."; ObjectID = "n6c-qo-Xkl"; */
+"n6c-qo-Xkl.text" = "Messages to other MailAuth users will be safe by default. All you need to do is send an open message first.";
 
 /* Class = "IBUILabel"; text = "A normal email is a postcard in the cloud."; ObjectID = "nkW-5o-zPG"; */
 "nkW-5o-zPG.text" = "A normal email is a postcard in the cloud.";
@@ -221,8 +221,8 @@
 /* Class = "IBUIButton"; normalTitle = "detect"; ObjectID = "uAf-SU-Pfb"; */
 "uAf-SU-Pfb.normalTitle" = "detect";
 
-/* Class = "IBUILabel"; text = "Mynigma has automatically recognised these settings. You probably won't need to change them."; ObjectID = "uXR-mE-jAi"; */
-"uXR-mE-jAi.text" = "Mynigma has automatically recognised these settings. You probably won't need to change them.";
+/* Class = "IBUILabel"; text = "MailAuth has automatically recognised these settings. You probably won't need to change them."; ObjectID = "uXR-mE-jAi"; */
+"uXR-mE-jAi.text" = "MailAuth has automatically recognised these settings. You probably won't need to change them.";
 
 /* Class = "IBUILabel"; text = "The reply and all future messages will be safe."; ObjectID = "uZZ-CI-cYQ"; */
 "uZZ-CI-cYQ.text" = "The reply and all future messages will be safe.";

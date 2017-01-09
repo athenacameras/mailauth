@@ -51,7 +51,9 @@
 #import "SelectionAndFilterHelper.h"
 #import "ViewControllersManager.h"
 
-
+#import "Recipient.h"
+#import "AddressDataHelper.h"
+#include <CommonCrypto/CommonDigest.h>
 
 
 #define TABLE_SIZE 100
@@ -799,8 +801,29 @@ static BOOL haveNewMessageToSelect = NO;
     [cell.subjectLabel setText:messageInstance.message.messageData.subject];
     [cell.dateLabel setText:[self formattedDate:messageInstance.message.dateSent]];
 
-    NSMutableString* previewString = [NSMutableString new];
+    //add by ddo verify hash
+    //ex: http://staging-eml.authenticatedreality.com/check?email=1bc59391e15d908c66931e83434d5b48036775299f229f1d5fba81c727ca5ca
 
+    Recipient *fromRecipient = [AddressDataHelper senderAsRecipientForMessage:messageInstance.message] ;
+    NSString  *hash = [self sha256:[fromRecipient displayEmail]];
+    NSError *error;
+    NSString *url_string = [NSString stringWithFormat: @"http://staging-eml.authenticatedreality.com/check?email=" ];
+    url_string= [url_string stringByAppendingString:hash];
+    NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
+    NSMutableArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+
+    NSLog(@"%@", [json valueForKey: @"authenticated"]);
+    NSNumber*  authenticated = [json valueForKey: @"authenticated"];
+    NSLog(@"From: %@ -> authenticated : %@",[fromRecipient displayEmail],authenticated);
+    if ([authenticated intValue]==1){
+        [cell.nameLabel setBackgroundColor:[UIColor greenColor]];
+    } else {
+        [cell.nameLabel setBackgroundColor:[UIColor whiteColor]];
+    }
+
+    // end add by ddo
+    
+    NSMutableString* previewString = [NSMutableString new];
     if(![messageInstance.inFolder isKindOfClass:[GmailLabelSetting class]] || ![(GmailLabelSetting*)messageInstance.inFolder allMailForAccount])
     {
         NSString* folderName = messageInstance.inFolder.displayName;
@@ -1043,6 +1066,32 @@ static BOOL haveNewMessageToSelect = NO;
     }
     searchBarTextField.enablesReturnKeyAutomatically = NO;
     searchBarTextField.returnKeyType = UIReturnKeyDone;
+}
+//add by ddo
+-(NSString*) sha256:(NSString *)clear{
+    const char *s=[clear cStringUsingEncoding:NSASCIIStringEncoding];
+    NSData *keyData=[NSData dataWithBytes:s length:strlen(s)];
+    
+    uint8_t digest[CC_SHA256_DIGEST_LENGTH]={0};
+    CC_SHA256(keyData.bytes, keyData.length, digest);
+    NSData *out=[NSData dataWithBytes:digest length:CC_SHA256_DIGEST_LENGTH];
+    NSString *hash=[out description];
+    hash = [hash stringByReplacingOccurrencesOfString:@" " withString:@""];
+    hash = [hash stringByReplacingOccurrencesOfString:@"<" withString:@""];
+    hash = [hash stringByReplacingOccurrencesOfString:@">" withString:@""];
+    return hash;
+}
+
+- (NSDictionary *) indexKeyedDictionaryFromArray:(NSArray *)array
+{
+    id objectInstance;
+    NSUInteger indexKey = 0U;
+    
+    NSMutableDictionary *mutableDictionary = [[NSMutableDictionary alloc] init];
+    for (objectInstance in array)
+        [mutableDictionary setObject:objectInstance forKey:[NSNumber numberWithUnsignedInt:indexKey++]];
+    
+    return (NSDictionary *)mutableDictionary;
 }
 
 @end

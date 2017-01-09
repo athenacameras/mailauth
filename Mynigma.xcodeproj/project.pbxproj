@@ -405,7 +405,6 @@
 		1E2D7762196194E1006C3C36 /* WelcomeScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D7761196194E1006C3C36 /* WelcomeScreenController.m */; };
 		1E2D77691961BBBA006C3C36 /* drawingOpenRed_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B541F018D740A600C6A7B5 /* drawingOpenRed_1.png */; };
 		1E2D776A1961BBBD006C3C36 /* drawingSafeGreen_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B541F618D7431900C6A7B5 /* drawingSafeGreen_1.png */; };
-		1E2D77701962CA01006C3C36 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2D776E1962CA01006C3C36 /* Sparkle.framework */; };
 		1E2E606218FBEF7D00D76ACD /* EncryptionHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E06122417B675A80043FB66 /* EncryptionHelper.mm */; };
 		1E2E606918FBF7FF00D76ACD /* Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E606818FBF7FF00D76ACD /* Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.pem */; };
 		1E2E606B18FBF91600D76ACD /* Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E606A18FBF91600D76ACD /* Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.p12 */; };
@@ -601,25 +600,18 @@
 		1E612F98185CEC100092A0DF /* DisplayMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E612F97185CEC100092A0DF /* DisplayMessageController.m */; };
 		1E61ADCA1A34995600DBBCC4 /* PGPPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADC91A34995600DBBCC4 /* PGPPrivateKey.m */; };
 		1E61ADCB1A34995600DBBCC4 /* PGPPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADC91A34995600DBBCC4 /* PGPPrivateKey.m */; };
-		1E61ADCC1A34995600DBBCC4 /* PGPPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADC91A34995600DBBCC4 /* PGPPrivateKey.m */; };
 		1E61ADCF1A34995600DBBCC4 /* PGPPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADCE1A34995600DBBCC4 /* PGPPublicKey.m */; };
 		1E61ADD01A34995600DBBCC4 /* PGPPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADCE1A34995600DBBCC4 /* PGPPublicKey.m */; };
-		1E61ADD11A34995600DBBCC4 /* PGPPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADCE1A34995600DBBCC4 /* PGPPublicKey.m */; };
 		1E61ADD41A34995700DBBCC4 /* MynigmaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADD31A34995700DBBCC4 /* MynigmaMessage.m */; };
 		1E61ADD51A34995700DBBCC4 /* MynigmaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADD31A34995700DBBCC4 /* MynigmaMessage.m */; };
-		1E61ADD61A34995700DBBCC4 /* MynigmaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADD31A34995700DBBCC4 /* MynigmaMessage.m */; };
 		1E61ADD91A34995700DBBCC4 /* MynigmaPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADD81A34995700DBBCC4 /* MynigmaPrivateKey.m */; };
 		1E61ADDA1A34995700DBBCC4 /* MynigmaPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADD81A34995700DBBCC4 /* MynigmaPrivateKey.m */; };
-		1E61ADDB1A34995700DBBCC4 /* MynigmaPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADD81A34995700DBBCC4 /* MynigmaPrivateKey.m */; };
 		1E61ADDE1A34995800DBBCC4 /* SMIMEPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADDD1A34995800DBBCC4 /* SMIMEPublicKey.m */; };
 		1E61ADDF1A34995800DBBCC4 /* SMIMEPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADDD1A34995800DBBCC4 /* SMIMEPublicKey.m */; };
-		1E61ADE01A34995800DBBCC4 /* SMIMEPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADDD1A34995800DBBCC4 /* SMIMEPublicKey.m */; };
 		1E61ADE31A34995900DBBCC4 /* SMIMEMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADE21A34995900DBBCC4 /* SMIMEMessage.m */; };
 		1E61ADE41A34995900DBBCC4 /* SMIMEMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADE21A34995900DBBCC4 /* SMIMEMessage.m */; };
-		1E61ADE51A34995900DBBCC4 /* SMIMEMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADE21A34995900DBBCC4 /* SMIMEMessage.m */; };
 		1E61ADED1A34995A00DBBCC4 /* SMIMEPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADEC1A34995A00DBBCC4 /* SMIMEPrivateKey.m */; };
 		1E61ADEE1A34995A00DBBCC4 /* SMIMEPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADEC1A34995A00DBBCC4 /* SMIMEPrivateKey.m */; };
-		1E61ADEF1A34995A00DBBCC4 /* SMIMEPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADEC1A34995A00DBBCC4 /* SMIMEPrivateKey.m */; };
 		1E61ADF21A34999700DBBCC4 /* EmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADF11A34999700DBBCC4 /* EmailMessage.m */; };
 		1E61ADF31A34999700DBBCC4 /* EmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADF11A34999700DBBCC4 /* EmailMessage.m */; };
 		1E61ADF41A34999700DBBCC4 /* EmailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADF11A34999700DBBCC4 /* EmailMessage.m */; };
@@ -629,22 +621,15 @@
 		1E61ADFC1A34A7D700DBBCC4 /* PGPMessage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADFB1A34A7D700DBBCC4 /* PGPMessage+Category.m */; };
 		1E61ADFD1A34A7D700DBBCC4 /* PGPMessage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADFB1A34A7D700DBBCC4 /* PGPMessage+Category.m */; };
 		1E61ADFE1A34A7D700DBBCC4 /* PGPMessage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61ADFB1A34A7D700DBBCC4 /* PGPMessage+Category.m */; };
-		1E61AE001A34C21000DBBCC4 /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E61ADFF1A34C20F00DBBCC4 /* MailCore.framework */; };
-		1E61AE011A34C21000DBBCC4 /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E61ADFF1A34C20F00DBBCC4 /* MailCore.framework */; };
-		1E61AE021A34C21F00DBBCC4 /* MailCore.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 1E61ADFF1A34C20F00DBBCC4 /* MailCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E61AE031A34C22D00DBBCC4 /* CrashReporter.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 1EC94AB21908732D0055524C /* CrashReporter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1E61AE041A34C24000DBBCC4 /* MailCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E61ADFF1A34C20F00DBBCC4 /* MailCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E61AE051A34C24900DBBCC4 /* CrashReporter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EC94AB21908732D0055524C /* CrashReporter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1E61AE061A34C25300DBBCC4 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E2D776E1962CA01006C3C36 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E61AE091A34C28C00DBBCC4 /* OpenPGPWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE081A34C28C00DBBCC4 /* OpenPGPWrapper.m */; };
 		1E61AE0A1A34C28C00DBBCC4 /* OpenPGPWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE081A34C28C00DBBCC4 /* OpenPGPWrapper.m */; };
 		1E61AE0B1A34C28C00DBBCC4 /* OpenPGPWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE081A34C28C00DBBCC4 /* OpenPGPWrapper.m */; };
 		1E61AE0E1A34C29B00DBBCC4 /* SMIMEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE0D1A34C29B00DBBCC4 /* SMIMEWrapper.m */; };
 		1E61AE0F1A34C29B00DBBCC4 /* SMIMEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE0D1A34C29B00DBBCC4 /* SMIMEWrapper.m */; };
-		1E61AE101A34C29B00DBBCC4 /* SMIMEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE0D1A34C29B00DBBCC4 /* SMIMEWrapper.m */; };
 		1E61AE131A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE121A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m */; };
 		1E61AE141A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE121A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m */; };
-		1E61AE151A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE121A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m */; };
 		1E61AE171A34D76200DBBCC4 /* OpenSSLWrapper_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE161A34D76200DBBCC4 /* OpenSSLWrapper_Tests.m */; };
 		1E61AE181A34D76200DBBCC4 /* OpenSSLWrapper_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E61AE161A34D76200DBBCC4 /* OpenSSLWrapper_Tests.m */; };
 		1E61AEB71A35101400DBBCC4 /* 3.1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1E61AE1B1A350F8700DBBCC4 /* 3.1.bin */; };
@@ -1188,69 +1173,6 @@
 		1E92F87B18EF6AB90048362E /* wire_format_lite.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD5A5C17B67A0B00E8516C /* wire_format_lite.cc */; };
 		1E92F87C18EF6AF90048362E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD541C18EC00AF00C308C3 /* Reachability.m */; };
 		1E92F88218EF6CF50048362E /* Mynigma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD5A9317B67D1300E8516C /* Mynigma.xcdatamodeld */; };
-		1E93543F1A42349200F192AC /* UNNetPGP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E93543E1A42349200F192AC /* UNNetPGP.m */; };
-		1E9354401A42349200F192AC /* UNNetPGP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E93543E1A42349200F192AC /* UNNetPGP.m */; };
-		1E9354411A42349200F192AC /* UNNetPGP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E93543E1A42349200F192AC /* UNNetPGP.m */; };
-		1E93546E1A4234C800F192AC /* mj.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354431A4234C800F192AC /* mj.c */; };
-		1E93546F1A4234C800F192AC /* mj.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354431A4234C800F192AC /* mj.c */; };
-		1E9354701A4234C800F192AC /* mj.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354431A4234C800F192AC /* mj.c */; };
-		1E9354711A4234C800F192AC /* bufgap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354451A4234C800F192AC /* bufgap.c */; };
-		1E9354721A4234C800F192AC /* bufgap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354451A4234C800F192AC /* bufgap.c */; };
-		1E9354731A4234C800F192AC /* bufgap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354451A4234C800F192AC /* bufgap.c */; };
-		1E9354741A4234C800F192AC /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354471A4234C800F192AC /* compress.c */; };
-		1E9354751A4234C800F192AC /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354471A4234C800F192AC /* compress.c */; };
-		1E9354761A4234C800F192AC /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354471A4234C800F192AC /* compress.c */; };
-		1E9354771A4234C800F192AC /* create.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354491A4234C800F192AC /* create.c */; };
-		1E9354781A4234C800F192AC /* create.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354491A4234C800F192AC /* create.c */; };
-		1E9354791A4234C800F192AC /* create.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354491A4234C800F192AC /* create.c */; };
-		1E93547A1A4234C800F192AC /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93544B1A4234C800F192AC /* crypto.c */; };
-		1E93547B1A4234C800F192AC /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93544B1A4234C800F192AC /* crypto.c */; };
-		1E93547C1A4234C800F192AC /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93544B1A4234C800F192AC /* crypto.c */; };
-		1E93547D1A4234C800F192AC /* fastctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93544F1A4234C800F192AC /* fastctype.c */; };
-		1E93547E1A4234C800F192AC /* fastctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93544F1A4234C800F192AC /* fastctype.c */; };
-		1E93547F1A4234C800F192AC /* fastctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93544F1A4234C800F192AC /* fastctype.c */; };
-		1E9354801A4234C800F192AC /* keyring.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354511A4234C800F192AC /* keyring.c */; };
-		1E9354811A4234C800F192AC /* keyring.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354511A4234C800F192AC /* keyring.c */; };
-		1E9354821A4234C800F192AC /* keyring.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354511A4234C800F192AC /* keyring.c */; };
-		1E9354831A4234C800F192AC /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354541A4234C800F192AC /* misc.c */; };
-		1E9354841A4234C800F192AC /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354541A4234C800F192AC /* misc.c */; };
-		1E9354851A4234C800F192AC /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354541A4234C800F192AC /* misc.c */; };
-		1E9354861A4234C800F192AC /* netpgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354551A4234C800F192AC /* netpgp.c */; };
-		1E9354871A4234C800F192AC /* netpgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354551A4234C800F192AC /* netpgp.c */; };
-		1E9354881A4234C800F192AC /* netpgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354551A4234C800F192AC /* netpgp.c */; settings = {COMPILER_FLAGS = "-w"; }; };
-		1E9354891A4234C800F192AC /* openssl_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545A1A4234C800F192AC /* openssl_crypto.c */; };
-		1E93548A1A4234C800F192AC /* openssl_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545A1A4234C800F192AC /* openssl_crypto.c */; };
-		1E93548B1A4234C800F192AC /* openssl_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545A1A4234C800F192AC /* openssl_crypto.c */; };
-		1E93548C1A4234C800F192AC /* packet-parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545C1A4234C800F192AC /* packet-parse.c */; };
-		1E93548D1A4234C800F192AC /* packet-parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545C1A4234C800F192AC /* packet-parse.c */; };
-		1E93548E1A4234C800F192AC /* packet-parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545C1A4234C800F192AC /* packet-parse.c */; };
-		1E93548F1A4234C800F192AC /* packet-print.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545E1A4234C800F192AC /* packet-print.c */; };
-		1E9354901A4234C800F192AC /* packet-print.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545E1A4234C800F192AC /* packet-print.c */; };
-		1E9354911A4234C800F192AC /* packet-print.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545E1A4234C800F192AC /* packet-print.c */; };
-		1E9354921A4234C800F192AC /* packet-show.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545F1A4234C800F192AC /* packet-show.c */; };
-		1E9354931A4234C800F192AC /* packet-show.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545F1A4234C800F192AC /* packet-show.c */; };
-		1E9354941A4234C800F192AC /* packet-show.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93545F1A4234C800F192AC /* packet-show.c */; };
-		1E9354951A4234C800F192AC /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354621A4234C800F192AC /* reader.c */; };
-		1E9354961A4234C800F192AC /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354621A4234C800F192AC /* reader.c */; };
-		1E9354971A4234C800F192AC /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354621A4234C800F192AC /* reader.c */; };
-		1E9354981A4234C800F192AC /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354641A4234C800F192AC /* signature.c */; };
-		1E9354991A4234C800F192AC /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354641A4234C800F192AC /* signature.c */; };
-		1E93549A1A4234C800F192AC /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354641A4234C800F192AC /* signature.c */; };
-		1E93549B1A4234C800F192AC /* ssh2pgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354661A4234C800F192AC /* ssh2pgp.c */; };
-		1E93549C1A4234C800F192AC /* ssh2pgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354661A4234C800F192AC /* ssh2pgp.c */; };
-		1E93549D1A4234C800F192AC /* ssh2pgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354661A4234C800F192AC /* ssh2pgp.c */; };
-		1E93549E1A4234C800F192AC /* symmetric.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354671A4234C800F192AC /* symmetric.c */; };
-		1E93549F1A4234C800F192AC /* symmetric.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354671A4234C800F192AC /* symmetric.c */; };
-		1E9354A01A4234C800F192AC /* symmetric.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354671A4234C800F192AC /* symmetric.c */; };
-		1E9354A11A4234C800F192AC /* validate.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354691A4234C800F192AC /* validate.c */; };
-		1E9354A21A4234C800F192AC /* validate.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354691A4234C800F192AC /* validate.c */; };
-		1E9354A31A4234C800F192AC /* validate.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354691A4234C800F192AC /* validate.c */; };
-		1E9354A41A4234C800F192AC /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93546C1A4234C800F192AC /* writer.c */; };
-		1E9354A51A4234C800F192AC /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93546C1A4234C800F192AC /* writer.c */; };
-		1E9354A61A4234C800F192AC /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E93546C1A4234C800F192AC /* writer.c */; };
-		1E9354A91A4234D000F192AC /* fmemopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354A71A4234D000F192AC /* fmemopen.c */; };
-		1E9354AA1A4234D000F192AC /* fmemopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354A71A4234D000F192AC /* fmemopen.c */; };
-		1E9354AB1A4234D000F192AC /* fmemopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9354A71A4234D000F192AC /* fmemopen.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		1E9354BC1A423A9700F192AC /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9EAE4219BDD8C1009D656C /* libresolv.dylib */; };
 		1E9354C11A423C6600F192AC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9354C01A423C6600F192AC /* libz.dylib */; };
 		1E9354C31A423CA500F192AC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9354C01A423C6600F192AC /* libz.dylib */; };
@@ -1380,7 +1302,6 @@
 		1EA816BC19DBF3F900D48930 /* refreshMenuIconTemplate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA816B819DBF3F900D48930 /* refreshMenuIconTemplate@2x.png */; };
 		1EA816BD19DBF3F900D48930 /* refreshMenuIconTemplate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EA816B819DBF3F900D48930 /* refreshMenuIconTemplate@2x.png */; };
 		1EA8BE0B195D7FF2003DDC12 /* CustomerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA8BE0A195D7FF2003DDC12 /* CustomerManager.m */; };
-		1EAB4E8719E83E8000173B1A /* Mynigma_iOS.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1E169E1F198658C60022A744 /* Mynigma_iOS.entitlements */; };
 		1EAB4E8D19E94BE600173B1A /* drawSafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB4E8C19E94BE600173B1A /* drawSafe.png */; };
 		1EAB4E9319E95FD700173B1A /* MuenzLogo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB4E9219E95FD700173B1A /* MuenzLogo1024.png */; };
 		1EAB4EA019EAA8EE00173B1A /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB4E9F19EAA8EE00173B1A /* cloud.png */; };
@@ -2072,7 +1993,6 @@
 		5E8BFF8E1A482037008B3B51 /* Temporary_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A947CD031A448FF600819CA6 /* Temporary_Tests.m */; };
 		5E8ED4F61A41FB30005E2CA3 /* SMIMEPublicKey+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ED4F51A41FB30005E2CA3 /* SMIMEPublicKey+Category.m */; };
 		5E8ED4F71A41FB30005E2CA3 /* SMIMEPublicKey+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ED4F51A41FB30005E2CA3 /* SMIMEPublicKey+Category.m */; };
-		5E8ED4F81A41FB30005E2CA3 /* SMIMEPublicKey+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ED4F51A41FB30005E2CA3 /* SMIMEPublicKey+Category.m */; };
 		5E8ED4FA1A41FE5C005E2CA3 /* SMIMEPublicKey_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ED4F91A41FE5C005E2CA3 /* SMIMEPublicKey_Tests.m */; };
 		5E8ED4FB1A41FE5C005E2CA3 /* SMIMEPublicKey_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ED4F91A41FE5C005E2CA3 /* SMIMEPublicKey_Tests.m */; };
 		5E8FDC901A7BCFF00060E678 /* DarkBlueOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDC8F1A7BCFF00060E678 /* DarkBlueOverlay.m */; };
@@ -2158,10 +2078,7 @@
 		5EFD05391A4333E80063F196 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFD05361A4333E80063F196 /* error@3x.png */; };
 		5EFD053A1A4337A40063F196 /* BG_Muenze.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E187D921A1E2BC7003B72B2 /* BG_Muenze.png */; };
 		5EFD053C1A4337AB0063F196 /* BG_Muenze@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E187D941A1E2BC7003B72B2 /* BG_Muenze@3x.png */; };
-		8002D38F1A45F59000C6A682 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8002D38E1A45F59000C6A682 /* libMailCore-ios.a */; };
 		8002D3901A45F59000C6A682 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8002D38E1A45F59000C6A682 /* libMailCore-ios.a */; };
-		8002D3921A45F59E00C6A682 /* libetpan-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8002D3911A45F59E00C6A682 /* libetpan-ios.a */; };
-		8002D3931A45F59E00C6A682 /* libetpan-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8002D3911A45F59E00C6A682 /* libetpan-ios.a */; };
 		801C31201A9B3AE8004EC40E /* unreadFilled16.png in Resources */ = {isa = PBXBuildFile; fileRef = 801C311D1A9B3AE8004EC40E /* unreadFilled16.png */; };
 		801C31211A9B3AE8004EC40E /* unreadFilled16.png in Resources */ = {isa = PBXBuildFile; fileRef = 801C311D1A9B3AE8004EC40E /* unreadFilled16.png */; };
 		801C31221A9B3AE8004EC40E /* unreadFilled16.png in Resources */ = {isa = PBXBuildFile; fileRef = 801C311D1A9B3AE8004EC40E /* unreadFilled16.png */; };
@@ -2195,7 +2112,6 @@
 		802D6C301A5BEBC900A4DC3D /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802D6C1B1A5BEBC900A4DC3D /* GTMOAuth2ViewTouch.xib */; };
 		802D6C311A5BEBC900A4DC3D /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802D6C1C1A5BEBC900A4DC3D /* GTMOAuth2Window.xib */; };
 		802D6C321A5BEBC900A4DC3D /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802D6C1C1A5BEBC900A4DC3D /* GTMOAuth2Window.xib */; };
-		802D6C331A5BEBC900A4DC3D /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802D6C1C1A5BEBC900A4DC3D /* GTMOAuth2Window.xib */; };
 		802D6C341A5BEBC900A4DC3D /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802D6C1E1A5BEBC900A4DC3D /* GTMOAuth2WindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		802D6C351A5BEBC900A4DC3D /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802D6C1E1A5BEBC900A4DC3D /* GTMOAuth2WindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		802D6C361A5BEBC900A4DC3D /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802D6C1E1A5BEBC900A4DC3D /* GTMOAuth2WindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -2351,6 +2267,81 @@
 		80EF52E71A1A004900B2DEA8 /* rightArrowHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EF52E11A1A004900B2DEA8 /* rightArrowHead.png */; };
 		80EF52EB1A1A004900B2DEA8 /* rightArrowHead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EF52E21A1A004900B2DEA8 /* rightArrowHead@2x.png */; };
 		80EF52EF1A1A004900B2DEA8 /* rightArrowHead@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EF52E31A1A004900B2DEA8 /* rightArrowHead@3x.png */; };
+		946C286E1E2215A400E4CB00 /* M.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 946C286D1E22156000E4CB00 /* M.entitlements */; };
+		949994331E2204E300A5679A /* bufgap.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994041E2204E300A5679A /* bufgap.c */; };
+		949994341E2204E300A5679A /* bufgap.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994041E2204E300A5679A /* bufgap.c */; };
+		949994351E2204E300A5679A /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994061E2204E300A5679A /* compress.c */; };
+		949994361E2204E300A5679A /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994061E2204E300A5679A /* compress.c */; };
+		949994371E2204E300A5679A /* create.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994081E2204E300A5679A /* create.c */; };
+		949994381E2204E300A5679A /* create.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994081E2204E300A5679A /* create.c */; };
+		949994391E2204E300A5679A /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499940A1E2204E300A5679A /* crypto.c */; };
+		9499943A1E2204E300A5679A /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499940A1E2204E300A5679A /* crypto.c */; };
+		9499943B1E2204E300A5679A /* fastctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499940E1E2204E300A5679A /* fastctype.c */; };
+		9499943C1E2204E300A5679A /* fastctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499940E1E2204E300A5679A /* fastctype.c */; };
+		9499943D1E2204E300A5679A /* fmemopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994101E2204E300A5679A /* fmemopen.c */; };
+		9499943E1E2204E300A5679A /* fmemopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994101E2204E300A5679A /* fmemopen.c */; };
+		9499943F1E2204E300A5679A /* keyring.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994121E2204E300A5679A /* keyring.c */; };
+		949994401E2204E300A5679A /* keyring.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994121E2204E300A5679A /* keyring.c */; };
+		949994411E2204E300A5679A /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994151E2204E300A5679A /* misc.c */; };
+		949994421E2204E300A5679A /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994151E2204E300A5679A /* misc.c */; };
+		949994431E2204E300A5679A /* mj.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994161E2204E300A5679A /* mj.c */; };
+		949994441E2204E300A5679A /* mj.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994161E2204E300A5679A /* mj.c */; };
+		949994451E2204E300A5679A /* netpgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994181E2204E300A5679A /* netpgp.c */; };
+		949994461E2204E300A5679A /* netpgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994181E2204E300A5679A /* netpgp.c */; };
+		949994471E2204E300A5679A /* openssl_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499941D1E2204E300A5679A /* openssl_crypto.c */; };
+		949994481E2204E300A5679A /* openssl_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499941D1E2204E300A5679A /* openssl_crypto.c */; };
+		949994491E2204E300A5679A /* packet-parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499941F1E2204E300A5679A /* packet-parse.c */; };
+		9499944A1E2204E300A5679A /* packet-parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499941F1E2204E300A5679A /* packet-parse.c */; };
+		9499944B1E2204E300A5679A /* packet-print.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994211E2204E300A5679A /* packet-print.c */; };
+		9499944C1E2204E300A5679A /* packet-print.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994211E2204E300A5679A /* packet-print.c */; };
+		9499944D1E2204E300A5679A /* packet-show.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994221E2204E300A5679A /* packet-show.c */; };
+		9499944E1E2204E300A5679A /* packet-show.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994221E2204E300A5679A /* packet-show.c */; };
+		9499944F1E2204E300A5679A /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994251E2204E300A5679A /* reader.c */; };
+		949994501E2204E300A5679A /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994251E2204E300A5679A /* reader.c */; };
+		949994511E2204E300A5679A /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994271E2204E300A5679A /* signature.c */; };
+		949994521E2204E300A5679A /* signature.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994271E2204E300A5679A /* signature.c */; };
+		949994531E2204E300A5679A /* ssh2pgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994291E2204E300A5679A /* ssh2pgp.c */; };
+		949994541E2204E300A5679A /* ssh2pgp.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994291E2204E300A5679A /* ssh2pgp.c */; };
+		949994551E2204E300A5679A /* symmetric.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499942A1E2204E300A5679A /* symmetric.c */; };
+		949994561E2204E300A5679A /* symmetric.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499942A1E2204E300A5679A /* symmetric.c */; };
+		949994571E2204E300A5679A /* UNNetPGP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499942D1E2204E300A5679A /* UNNetPGP.m */; };
+		949994581E2204E300A5679A /* UNNetPGP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499942D1E2204E300A5679A /* UNNetPGP.m */; };
+		949994591E2204E300A5679A /* validate.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499942E1E2204E300A5679A /* validate.c */; };
+		9499945A1E2204E300A5679A /* validate.c in Sources */ = {isa = PBXBuildFile; fileRef = 9499942E1E2204E300A5679A /* validate.c */; };
+		9499945B1E2204E300A5679A /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994311E2204E300A5679A /* writer.c */; };
+		9499945C1E2204E300A5679A /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994311E2204E300A5679A /* writer.c */; };
+		949994891E22056D00A5679A /* GenericPublicKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 9499945D1E22056900A5679A /* GenericPublicKey.h */; };
+		9499948A1E22056D00A5679A /* GenericPublicKey+Category.h in Sources */ = {isa = PBXBuildFile; fileRef = 9499945F1E22056900A5679A /* GenericPublicKey+Category.h */; };
+		9499948B1E22056D00A5679A /* KeychainHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994611E22056900A5679A /* KeychainHelper.h */; };
+		9499948C1E22056D00A5679A /* KeyExpectation.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994631E22056A00A5679A /* KeyExpectation.h */; };
+		9499948D1E22056D00A5679A /* KeyExpectation+Category.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994651E22056A00A5679A /* KeyExpectation+Category.h */; };
+		9499948E1E22056D00A5679A /* KeyListController.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994671E22056A00A5679A /* KeyListController.h */; };
+		9499948F1E22056D00A5679A /* KeyListTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994691E22056A00A5679A /* KeyListTableViewCell.h */; };
+		949994901E22056D00A5679A /* Mynigma encryption key info@mynigma.org|1377619023.914025.pem in Sources */ = {isa = PBXBuildFile; fileRef = 9499946B1E22056A00A5679A /* Mynigma encryption key info@mynigma.org|1377619023.914025.pem */; };
+		949994911E22056D00A5679A /* Mynigma signature key info@mynigma.org|1377619023.914025.pem in Sources */ = {isa = PBXBuildFile; fileRef = 9499946C1E22056A00A5679A /* Mynigma signature key info@mynigma.org|1377619023.914025.pem */; };
+		949994921E22056D00A5679A /* MynigmaPrivateKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 9499946D1E22056A00A5679A /* MynigmaPrivateKey.h */; };
+		949994931E22056D00A5679A /* MynigmaPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499946E1E22056B00A5679A /* MynigmaPrivateKey.m */; };
+		949994941E22056D00A5679A /* MynigmaPrivateKey+Category.h in Sources */ = {isa = PBXBuildFile; fileRef = 9499946F1E22056B00A5679A /* MynigmaPrivateKey+Category.h */; };
+		949994951E22056D00A5679A /* MynigmaPublicKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994711E22056B00A5679A /* MynigmaPublicKey.h */; };
+		949994961E22056D00A5679A /* MynigmaPublicKey+Category.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994731E22056B00A5679A /* MynigmaPublicKey+Category.h */; };
+		949994971E22056D00A5679A /* PGPPrivateKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994751E22056B00A5679A /* PGPPrivateKey.h */; };
+		949994981E22056D00A5679A /* PGPPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994761E22056B00A5679A /* PGPPrivateKey.m */; };
+		949994991E22056D00A5679A /* PGPPublicKey.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994771E22056B00A5679A /* PGPPublicKey.h */; };
+		9499949A1E22056D00A5679A /* PGPPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994781E22056B00A5679A /* PGPPublicKey.m */; };
+		9499949B1E22056D00A5679A /* PGPPublicKey+Category.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994791E22056B00A5679A /* PGPPublicKey+Category.h */; };
+		9499949C1E22056D00A5679A /* PrivateKeychain.h in Sources */ = {isa = PBXBuildFile; fileRef = 9499947B1E22056C00A5679A /* PrivateKeychain.h */; };
+		9499949D1E22056D00A5679A /* PublicKeyManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 9499947D1E22056C00A5679A /* PublicKeyManager.h */; };
+		9499949E1E22056D00A5679A /* SessionKeyEntryDataStructure.h in Sources */ = {isa = PBXBuildFile; fileRef = 9499947F1E22056C00A5679A /* SessionKeyEntryDataStructure.h */; };
+		9499949F1E22056D00A5679A /* SessionKeys.h in Sources */ = {isa = PBXBuildFile; fileRef = 949994811E22056C00A5679A /* SessionKeys.h */; };
+		949994AC1E22084500A5679A /* MynigmaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994AB1E22084500A5679A /* MynigmaMessage.m */; };
+		949994AF1E220AB300A5679A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949994AE1E220AB300A5679A /* Security.framework */; };
+		949994BE1E220EC500A5679A /* SMIMEMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994B31E220EC400A5679A /* SMIMEMessage.m */; };
+		949994BF1E220EC500A5679A /* SMIMEMessage+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994B51E220EC400A5679A /* SMIMEMessage+Encryption.m */; };
+		949994C01E220EC500A5679A /* SMIMEPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994B71E220EC400A5679A /* SMIMEPrivateKey.m */; };
+		949994C11E220EC500A5679A /* SMIMEPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994B91E220EC400A5679A /* SMIMEPublicKey.m */; };
+		949994C21E220EC500A5679A /* SMIMEPublicKey+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994BB1E220EC400A5679A /* SMIMEPublicKey+Category.m */; };
+		949994C31E220EC500A5679A /* SMIMEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994BD1E220EC500A5679A /* SMIMEWrapper.m */; };
+		949994C41E2210A900A5679A /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8002D38E1A45F59000C6A682 /* libMailCore-ios.a */; };
 		A947CD041A448FF700819CA6 /* Temporary_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A947CD031A448FF600819CA6 /* Temporary_Tests.m */; };
 		A9A4D44719F8FE270068ABA1 /* TableViewCellWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4D44619F8FE270068ABA1 /* TableViewCellWithButton.m */; };
 		A9A4D44819F8FE270068ABA1 /* TableViewCellWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4D44619F8FE270068ABA1 /* TableViewCellWithButton.m */; };
@@ -2381,9 +2372,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				5EBDD7951AB30CE2002D0901 /* HTMLPurifier.framework in CopyFiles */,
-				1E61AE061A34C25300DBBCC4 /* Sparkle.framework in CopyFiles */,
 				1E61AE051A34C24900DBBCC4 /* CrashReporter.framework in CopyFiles */,
-				1E61AE041A34C24000DBBCC4 /* MailCore.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2395,7 +2384,6 @@
 			files = (
 				5EBDD7961AB30CEE002D0901 /* HTMLPurifier.framework in Copy Files */,
 				1E61AE031A34C22D00DBBCC4 /* CrashReporter.framework in Copy Files */,
-				1E61AE021A34C21F00DBBCC4 /* MailCore.framework in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2856,7 +2844,6 @@
 		1E2D776619619D7C006C3C36 /* SetupMasterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupMasterController.h; sourceTree = "<group>"; };
 		1E2D776719619D7C006C3C36 /* SetupMasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupMasterController.m; sourceTree = "<group>"; };
 		1E2D776B1962B4BA006C3C36 /* customer_EXCL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = customer_EXCL.plist; sourceTree = "<group>"; };
-		1E2D776E1962CA01006C3C36 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		1E2E606818FBF7FF00D76ACD /* Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.pem"; sourceTree = "<group>"; };
 		1E2E606A18FBF91600D76ACD /* Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mynigma encryption key wilhelm.schuettelspeer@gmail.com|1374071660.432515.p12"; sourceTree = "<group>"; };
 		1E2E606C18FBFC7400D76ACD /* Apple ID r.priebe.04@cantab.net key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple ID r.priebe.04@cantab.net key.p12"; sourceTree = "<group>"; };
@@ -3028,7 +3015,6 @@
 		1E61ADF61A3499FF00DBBCC4 /* EncryptedMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptedMessage.m; sourceTree = "<group>"; };
 		1E61ADFA1A34A7D700DBBCC4 /* PGPMessage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PGPMessage+Category.h"; sourceTree = "<group>"; };
 		1E61ADFB1A34A7D700DBBCC4 /* PGPMessage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PGPMessage+Category.m"; sourceTree = "<group>"; };
-		1E61ADFF1A34C20F00DBBCC4 /* MailCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MailCore.framework; sourceTree = "<group>"; };
 		1E61AE071A34C28C00DBBCC4 /* OpenPGPWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenPGPWrapper.h; sourceTree = "<group>"; };
 		1E61AE081A34C28C00DBBCC4 /* OpenPGPWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenPGPWrapper.m; sourceTree = "<group>"; };
 		1E61AE0C1A34C29B00DBBCC4 /* SMIMEWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMIMEWrapper.h; sourceTree = "<group>"; };
@@ -3179,7 +3165,6 @@
 		1E7C8EA71909688E00F7822B /* Key-Backup-WrappedOpenSSL-Password.myn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key-Backup-WrappedOpenSSL-Password.myn"; sourceTree = "<group>"; };
 		1E7C8EAC19096B6300F7822B /* Key-Backup-PKCS12-Password.myn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key-Backup-PKCS12-Password.myn"; sourceTree = "<group>"; };
 		1E7C8EAF19096C8400F7822B /* Key-Backup-PKCS12-Password-Armour.myn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key-Backup-PKCS12-Password-Armour.myn"; sourceTree = "<group>"; };
-		1E7C8EB21909888B00F7822B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		1E7C8EB4190988B700F7822B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		1E7C8EB61909902100F7822B /* Key-File-PKCS12-Password-Armour.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key-File-PKCS12-Password-Armour.txt"; sourceTree = "<group>"; };
 		1E7C8EB71909902100F7822B /* Key-File-PKCS12-Password.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Key-File-PKCS12-Password.txt"; sourceTree = "<group>"; };
@@ -3352,53 +3337,6 @@
 		1E92F6F318EF334C0048362E /* FooterSelectionCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterSelectionCellView.h; sourceTree = "<group>"; };
 		1E92F6F418EF334C0048362E /* FooterSelectionCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterSelectionCellView.m; sourceTree = "<group>"; };
 		1E92F88118EF6B7C0048362E /* Mynigma 15.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Mynigma 15.xcdatamodel"; sourceTree = "<group>"; };
-		1E93543D1A42349200F192AC /* UNNetPGP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNNetPGP.h; sourceTree = "<group>"; };
-		1E93543E1A42349200F192AC /* UNNetPGP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNNetPGP.m; sourceTree = "<group>"; };
-		1E9354431A4234C800F192AC /* mj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mj.c; sourceTree = "<group>"; };
-		1E9354441A4234C800F192AC /* mj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mj.h; sourceTree = "<group>"; };
-		1E9354451A4234C800F192AC /* bufgap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bufgap.c; sourceTree = "<group>"; };
-		1E9354461A4234C800F192AC /* bufgap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufgap.h; sourceTree = "<group>"; };
-		1E9354471A4234C800F192AC /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
-		1E9354481A4234C800F192AC /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		1E9354491A4234C800F192AC /* create.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = create.c; sourceTree = "<group>"; };
-		1E93544A1A4234C800F192AC /* create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = create.h; sourceTree = "<group>"; };
-		1E93544B1A4234C800F192AC /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
-		1E93544C1A4234C800F192AC /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
-		1E93544D1A4234C800F192AC /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
-		1E93544E1A4234C800F192AC /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
-		1E93544F1A4234C800F192AC /* fastctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fastctype.c; sourceTree = "<group>"; };
-		1E9354501A4234C800F192AC /* fastctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastctype.h; sourceTree = "<group>"; };
-		1E9354511A4234C800F192AC /* keyring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keyring.c; sourceTree = "<group>"; };
-		1E9354521A4234C800F192AC /* keyring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyring.h; sourceTree = "<group>"; };
-		1E9354531A4234C800F192AC /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
-		1E9354541A4234C800F192AC /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
-		1E9354551A4234C800F192AC /* netpgp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netpgp.c; sourceTree = "<group>"; };
-		1E9354561A4234C800F192AC /* netpgp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgp.h; sourceTree = "<group>"; };
-		1E9354571A4234C800F192AC /* netpgpdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgpdefs.h; sourceTree = "<group>"; };
-		1E9354581A4234C800F192AC /* netpgpdigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgpdigest.h; sourceTree = "<group>"; };
-		1E9354591A4234C800F192AC /* netpgpsdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgpsdk.h; sourceTree = "<group>"; };
-		1E93545A1A4234C800F192AC /* openssl_crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = openssl_crypto.c; sourceTree = "<group>"; };
-		1E93545B1A4234C800F192AC /* ops-ssh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ops-ssh.h"; sourceTree = "<group>"; };
-		1E93545C1A4234C800F192AC /* packet-parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "packet-parse.c"; sourceTree = "<group>"; };
-		1E93545D1A4234C800F192AC /* packet-parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "packet-parse.h"; sourceTree = "<group>"; };
-		1E93545E1A4234C800F192AC /* packet-print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "packet-print.c"; sourceTree = "<group>"; };
-		1E93545F1A4234C800F192AC /* packet-show.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "packet-show.c"; sourceTree = "<group>"; };
-		1E9354601A4234C800F192AC /* packet-show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "packet-show.h"; sourceTree = "<group>"; };
-		1E9354611A4234C800F192AC /* packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packet.h; sourceTree = "<group>"; };
-		1E9354621A4234C800F192AC /* reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
-		1E9354631A4234C800F192AC /* readerwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readerwriter.h; sourceTree = "<group>"; };
-		1E9354641A4234C800F192AC /* signature.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = signature.c; sourceTree = "<group>"; };
-		1E9354651A4234C800F192AC /* signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
-		1E9354661A4234C800F192AC /* ssh2pgp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssh2pgp.c; sourceTree = "<group>"; };
-		1E9354671A4234C800F192AC /* symmetric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symmetric.c; sourceTree = "<group>"; };
-		1E9354681A4234C800F192AC /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		1E9354691A4234C800F192AC /* validate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = validate.c; sourceTree = "<group>"; };
-		1E93546A1A4234C800F192AC /* validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validate.h; sourceTree = "<group>"; };
-		1E93546B1A4234C800F192AC /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		1E93546C1A4234C800F192AC /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
-		1E93546D1A4234C800F192AC /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
-		1E9354A71A4234D000F192AC /* fmemopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fmemopen.c; sourceTree = "<group>"; };
-		1E9354A81A4234D000F192AC /* fmemopen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmemopen.h; sourceTree = "<group>"; };
 		1E9354C01A423C6600F192AC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		1E9354C51A42405000F192AC /* PGPPublicKey+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PGPPublicKey+Category.h"; sourceTree = "<group>"; };
 		1E9354C61A42405000F192AC /* PGPPublicKey+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PGPPublicKey+Category.m"; sourceTree = "<group>"; };
@@ -4276,7 +4214,6 @@
 		5EFD05351A4333E80063F196 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
 		5EFD05361A4333E80063F196 /* error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
 		8002D38E1A45F59000C6A682 /* libMailCore-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMailCore-ios.a"; sourceTree = "<group>"; };
-		8002D3911A45F59E00C6A682 /* libetpan-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libetpan-ios.a"; sourceTree = "<group>"; };
 		800D7F9C197D6603004BC62E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/DeviceMessage.html; sourceTree = "<group>"; };
 		800D7F9D197D6606004BC62E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = de.lproj/DeviceMessage.html; sourceTree = "<group>"; };
 		800D7F9E197D6609004BC62E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/DeviceMessage.html; sourceTree = "<group>"; };
@@ -4512,6 +4449,326 @@
 		80EF52E21A1A004900B2DEA8 /* rightArrowHead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrowHead@2x.png"; sourceTree = "<group>"; };
 		80EF52E31A1A004900B2DEA8 /* rightArrowHead@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrowHead@3x.png"; sourceTree = "<group>"; };
 		80F052371A1F960C002E56DD /* ConnectionItem_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionItem_Tests.m; path = "../Unit Tests/ConnectionItem_Tests.m"; sourceTree = "<group>"; };
+		946C286D1E22156000E4CB00 /* M.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = M.entitlements; sourceTree = "<group>"; };
+		949994041E2204E300A5679A /* bufgap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bufgap.c; sourceTree = "<group>"; };
+		949994051E2204E300A5679A /* bufgap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufgap.h; sourceTree = "<group>"; };
+		949994061E2204E300A5679A /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		949994071E2204E300A5679A /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		949994081E2204E300A5679A /* create.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = create.c; sourceTree = "<group>"; };
+		949994091E2204E300A5679A /* create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = create.h; sourceTree = "<group>"; };
+		9499940A1E2204E300A5679A /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
+		9499940B1E2204E300A5679A /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		9499940C1E2204E300A5679A /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		9499940D1E2204E300A5679A /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		9499940E1E2204E300A5679A /* fastctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fastctype.c; sourceTree = "<group>"; };
+		9499940F1E2204E300A5679A /* fastctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastctype.h; sourceTree = "<group>"; };
+		949994101E2204E300A5679A /* fmemopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fmemopen.c; sourceTree = "<group>"; };
+		949994111E2204E300A5679A /* fmemopen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmemopen.h; sourceTree = "<group>"; };
+		949994121E2204E300A5679A /* keyring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keyring.c; sourceTree = "<group>"; };
+		949994131E2204E300A5679A /* keyring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyring.h; sourceTree = "<group>"; };
+		949994141E2204E300A5679A /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
+		949994151E2204E300A5679A /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		949994161E2204E300A5679A /* mj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mj.c; sourceTree = "<group>"; };
+		949994171E2204E300A5679A /* mj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mj.h; sourceTree = "<group>"; };
+		949994181E2204E300A5679A /* netpgp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netpgp.c; sourceTree = "<group>"; };
+		949994191E2204E300A5679A /* netpgp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgp.h; sourceTree = "<group>"; };
+		9499941A1E2204E300A5679A /* netpgpdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgpdefs.h; sourceTree = "<group>"; };
+		9499941B1E2204E300A5679A /* netpgpdigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgpdigest.h; sourceTree = "<group>"; };
+		9499941C1E2204E300A5679A /* netpgpsdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netpgpsdk.h; sourceTree = "<group>"; };
+		9499941D1E2204E300A5679A /* openssl_crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = openssl_crypto.c; sourceTree = "<group>"; };
+		9499941E1E2204E300A5679A /* ops-ssh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ops-ssh.h"; sourceTree = "<group>"; };
+		9499941F1E2204E300A5679A /* packet-parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "packet-parse.c"; sourceTree = "<group>"; };
+		949994201E2204E300A5679A /* packet-parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "packet-parse.h"; sourceTree = "<group>"; };
+		949994211E2204E300A5679A /* packet-print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "packet-print.c"; sourceTree = "<group>"; };
+		949994221E2204E300A5679A /* packet-show.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "packet-show.c"; sourceTree = "<group>"; };
+		949994231E2204E300A5679A /* packet-show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "packet-show.h"; sourceTree = "<group>"; };
+		949994241E2204E300A5679A /* packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packet.h; sourceTree = "<group>"; };
+		949994251E2204E300A5679A /* reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
+		949994261E2204E300A5679A /* readerwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readerwriter.h; sourceTree = "<group>"; };
+		949994271E2204E300A5679A /* signature.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = signature.c; sourceTree = "<group>"; };
+		949994281E2204E300A5679A /* signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
+		949994291E2204E300A5679A /* ssh2pgp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssh2pgp.c; sourceTree = "<group>"; };
+		9499942A1E2204E300A5679A /* symmetric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symmetric.c; sourceTree = "<group>"; };
+		9499942B1E2204E300A5679A /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		9499942C1E2204E300A5679A /* UNNetPGP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNNetPGP.h; sourceTree = "<group>"; };
+		9499942D1E2204E300A5679A /* UNNetPGP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNNetPGP.m; sourceTree = "<group>"; };
+		9499942E1E2204E300A5679A /* validate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = validate.c; sourceTree = "<group>"; };
+		9499942F1E2204E300A5679A /* validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validate.h; sourceTree = "<group>"; };
+		949994301E2204E300A5679A /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		949994311E2204E300A5679A /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
+		949994321E2204E300A5679A /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		9499945D1E22056900A5679A /* GenericPublicKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenericPublicKey.h; path = Mynigma/GenericPublicKey.h; sourceTree = "<group>"; };
+		9499945E1E22056900A5679A /* GenericPublicKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GenericPublicKey.m; path = Mynigma/GenericPublicKey.m; sourceTree = "<group>"; };
+		9499945F1E22056900A5679A /* GenericPublicKey+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GenericPublicKey+Category.h"; path = "Mynigma/GenericPublicKey+Category.h"; sourceTree = "<group>"; };
+		949994601E22056900A5679A /* GenericPublicKey+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GenericPublicKey+Category.m"; path = "Mynigma/GenericPublicKey+Category.m"; sourceTree = "<group>"; };
+		949994611E22056900A5679A /* KeychainHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeychainHelper.h; path = Mynigma/KeychainHelper.h; sourceTree = "<group>"; };
+		949994621E22056900A5679A /* KeychainHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeychainHelper.m; path = Mynigma/KeychainHelper.m; sourceTree = "<group>"; };
+		949994631E22056A00A5679A /* KeyExpectation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyExpectation.h; path = Mynigma/KeyExpectation.h; sourceTree = "<group>"; };
+		949994641E22056A00A5679A /* KeyExpectation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeyExpectation.m; path = Mynigma/KeyExpectation.m; sourceTree = "<group>"; };
+		949994651E22056A00A5679A /* KeyExpectation+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KeyExpectation+Category.h"; path = "Mynigma/KeyExpectation+Category.h"; sourceTree = "<group>"; };
+		949994661E22056A00A5679A /* KeyExpectation+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "KeyExpectation+Category.m"; path = "Mynigma/KeyExpectation+Category.m"; sourceTree = "<group>"; };
+		949994671E22056A00A5679A /* KeyListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyListController.h; path = Mynigma/KeyListController.h; sourceTree = "<group>"; };
+		949994681E22056A00A5679A /* KeyListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeyListController.m; path = Mynigma/KeyListController.m; sourceTree = "<group>"; };
+		949994691E22056A00A5679A /* KeyListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeyListTableViewCell.h; path = Mynigma/KeyListTableViewCell.h; sourceTree = "<group>"; };
+		9499946A1E22056A00A5679A /* KeyListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KeyListTableViewCell.m; path = Mynigma/KeyListTableViewCell.m; sourceTree = "<group>"; };
+		9499946B1E22056A00A5679A /* Mynigma encryption key info@mynigma.org|1377619023.914025.pem */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Mynigma encryption key info@mynigma.org|1377619023.914025.pem"; path = "Mynigma/Mynigma encryption key info@mynigma.org|1377619023.914025.pem"; sourceTree = "<group>"; };
+		9499946C1E22056A00A5679A /* Mynigma signature key info@mynigma.org|1377619023.914025.pem */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Mynigma signature key info@mynigma.org|1377619023.914025.pem"; path = "Mynigma/Mynigma signature key info@mynigma.org|1377619023.914025.pem"; sourceTree = "<group>"; };
+		9499946D1E22056A00A5679A /* MynigmaPrivateKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MynigmaPrivateKey.h; path = Mynigma/MynigmaPrivateKey.h; sourceTree = "<group>"; };
+		9499946E1E22056B00A5679A /* MynigmaPrivateKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MynigmaPrivateKey.m; path = Mynigma/MynigmaPrivateKey.m; sourceTree = "<group>"; };
+		9499946F1E22056B00A5679A /* MynigmaPrivateKey+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MynigmaPrivateKey+Category.h"; path = "Mynigma/MynigmaPrivateKey+Category.h"; sourceTree = "<group>"; };
+		949994701E22056B00A5679A /* MynigmaPrivateKey+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MynigmaPrivateKey+Category.m"; path = "Mynigma/MynigmaPrivateKey+Category.m"; sourceTree = "<group>"; };
+		949994711E22056B00A5679A /* MynigmaPublicKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MynigmaPublicKey.h; path = Mynigma/MynigmaPublicKey.h; sourceTree = "<group>"; };
+		949994721E22056B00A5679A /* MynigmaPublicKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MynigmaPublicKey.m; path = Mynigma/MynigmaPublicKey.m; sourceTree = "<group>"; };
+		949994731E22056B00A5679A /* MynigmaPublicKey+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MynigmaPublicKey+Category.h"; path = "Mynigma/MynigmaPublicKey+Category.h"; sourceTree = "<group>"; };
+		949994741E22056B00A5679A /* MynigmaPublicKey+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MynigmaPublicKey+Category.m"; path = "Mynigma/MynigmaPublicKey+Category.m"; sourceTree = "<group>"; };
+		949994751E22056B00A5679A /* PGPPrivateKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PGPPrivateKey.h; path = Mynigma/PGPPrivateKey.h; sourceTree = "<group>"; };
+		949994761E22056B00A5679A /* PGPPrivateKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PGPPrivateKey.m; path = Mynigma/PGPPrivateKey.m; sourceTree = "<group>"; };
+		949994771E22056B00A5679A /* PGPPublicKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PGPPublicKey.h; path = Mynigma/PGPPublicKey.h; sourceTree = "<group>"; };
+		949994781E22056B00A5679A /* PGPPublicKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PGPPublicKey.m; path = Mynigma/PGPPublicKey.m; sourceTree = "<group>"; };
+		949994791E22056B00A5679A /* PGPPublicKey+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PGPPublicKey+Category.h"; path = "Mynigma/PGPPublicKey+Category.h"; sourceTree = "<group>"; };
+		9499947A1E22056C00A5679A /* PGPPublicKey+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PGPPublicKey+Category.m"; path = "Mynigma/PGPPublicKey+Category.m"; sourceTree = "<group>"; };
+		9499947B1E22056C00A5679A /* PrivateKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrivateKeychain.h; path = Mynigma/PrivateKeychain.h; sourceTree = "<group>"; };
+		9499947C1E22056C00A5679A /* PrivateKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PrivateKeychain.m; path = Mynigma/PrivateKeychain.m; sourceTree = "<group>"; };
+		9499947D1E22056C00A5679A /* PublicKeyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PublicKeyManager.h; path = Mynigma/PublicKeyManager.h; sourceTree = "<group>"; };
+		9499947E1E22056C00A5679A /* PublicKeyManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = PublicKeyManager.mm; path = Mynigma/PublicKeyManager.mm; sourceTree = "<group>"; };
+		9499947F1E22056C00A5679A /* SessionKeyEntryDataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionKeyEntryDataStructure.h; path = Mynigma/SessionKeyEntryDataStructure.h; sourceTree = "<group>"; };
+		949994801E22056C00A5679A /* SessionKeyEntryDataStructure.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SessionKeyEntryDataStructure.mm; path = Mynigma/SessionKeyEntryDataStructure.mm; sourceTree = "<group>"; };
+		949994811E22056C00A5679A /* SessionKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionKeys.h; path = Mynigma/SessionKeys.h; sourceTree = "<group>"; };
+		949994821E22056C00A5679A /* SessionKeys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SessionKeys.m; path = Mynigma/SessionKeys.m; sourceTree = "<group>"; };
+		949994AA1E22082400A5679A /* MynigmaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MynigmaMessage.h; path = Mynigma/MynigmaMessage.h; sourceTree = "<group>"; };
+		949994AB1E22084500A5679A /* MynigmaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MynigmaMessage.m; path = Mynigma/MynigmaMessage.m; sourceTree = "<group>"; };
+		949994AD1E2208EF00A5679A /* MynigmaMessage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MynigmaMessage+Category.h"; path = "Mynigma/MynigmaMessage+Category.h"; sourceTree = "<group>"; };
+		949994AE1E220AB300A5679A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		949994B01E220B2A00A5679A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = include/Sparkle.framework; sourceTree = "<group>"; };
+		949994B21E220EC300A5679A /* SMIMEMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMIMEMessage.h; path = Mynigma/SMIMEMessage.h; sourceTree = "<group>"; };
+		949994B31E220EC400A5679A /* SMIMEMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMIMEMessage.m; path = Mynigma/SMIMEMessage.m; sourceTree = "<group>"; };
+		949994B41E220EC400A5679A /* SMIMEMessage+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SMIMEMessage+Encryption.h"; path = "Mynigma/SMIMEMessage+Encryption.h"; sourceTree = "<group>"; };
+		949994B51E220EC400A5679A /* SMIMEMessage+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SMIMEMessage+Encryption.m"; path = "Mynigma/SMIMEMessage+Encryption.m"; sourceTree = "<group>"; };
+		949994B61E220EC400A5679A /* SMIMEPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMIMEPrivateKey.h; path = Mynigma/SMIMEPrivateKey.h; sourceTree = "<group>"; };
+		949994B71E220EC400A5679A /* SMIMEPrivateKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMIMEPrivateKey.m; path = Mynigma/SMIMEPrivateKey.m; sourceTree = "<group>"; };
+		949994B81E220EC400A5679A /* SMIMEPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMIMEPublicKey.h; path = Mynigma/SMIMEPublicKey.h; sourceTree = "<group>"; };
+		949994B91E220EC400A5679A /* SMIMEPublicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMIMEPublicKey.m; path = Mynigma/SMIMEPublicKey.m; sourceTree = "<group>"; };
+		949994BA1E220EC400A5679A /* SMIMEPublicKey+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SMIMEPublicKey+Category.h"; path = "Mynigma/SMIMEPublicKey+Category.h"; sourceTree = "<group>"; };
+		949994BB1E220EC400A5679A /* SMIMEPublicKey+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SMIMEPublicKey+Category.m"; path = "Mynigma/SMIMEPublicKey+Category.m"; sourceTree = "<group>"; };
+		949994BC1E220EC400A5679A /* SMIMEWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMIMEWrapper.h; path = Mynigma/SMIMEWrapper.h; sourceTree = "<group>"; };
+		949994BD1E220EC500A5679A /* SMIMEWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMIMEWrapper.m; path = Mynigma/SMIMEWrapper.m; sourceTree = "<group>"; };
+		949994C61E2210CA00A5679A /* MailCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailCore.h; sourceTree = "<group>"; };
+		949994C71E2210CA00A5679A /* MCAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstract.h; sourceTree = "<group>"; };
+		949994C81E2210CA00A5679A /* MCAbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractMessage.h; sourceTree = "<group>"; };
+		949994C91E2210CA00A5679A /* MCAbstractMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractMessagePart.h; sourceTree = "<group>"; };
+		949994CA1E2210CA00A5679A /* MCAbstractMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractMultipart.h; sourceTree = "<group>"; };
+		949994CB1E2210CA00A5679A /* MCAbstractPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractPart.h; sourceTree = "<group>"; };
+		949994CC1E2210CA00A5679A /* MCAccountValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAccountValidator.h; sourceTree = "<group>"; };
+		949994CD1E2210CA00A5679A /* MCAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddress.h; sourceTree = "<group>"; };
+		949994CE1E2210CA00A5679A /* MCAddressDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddressDisplay.h; sourceTree = "<group>"; };
+		949994CF1E2210CA00A5679A /* MCArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCArray.h; sourceTree = "<group>"; };
+		949994D01E2210CA00A5679A /* MCAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAssert.h; sourceTree = "<group>"; };
+		949994D11E2210CA00A5679A /* MCAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsync.h; sourceTree = "<group>"; };
+		949994D21E2210CA00A5679A /* MCAsyncIMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncIMAP.h; sourceTree = "<group>"; };
+		949994D31E2210CA00A5679A /* MCAsyncNNTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncNNTP.h; sourceTree = "<group>"; };
+		949994D41E2210CA00A5679A /* MCAsyncPOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncPOP.h; sourceTree = "<group>"; };
+		949994D51E2210CA00A5679A /* MCAsyncSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncSMTP.h; sourceTree = "<group>"; };
+		949994D61E2210CA00A5679A /* MCAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAttachment.h; sourceTree = "<group>"; };
+		949994D71E2210CA00A5679A /* MCAutoreleasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAutoreleasePool.h; sourceTree = "<group>"; };
+		949994D81E2210CA00A5679A /* MCBaseTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBaseTypes.h; sourceTree = "<group>"; };
+		949994D91E2210CA00A5679A /* MCConnectionLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCConnectionLogger.h; sourceTree = "<group>"; };
+		949994DA1E2210CA00A5679A /* MCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCore.h; sourceTree = "<group>"; };
+		949994DB1E2210CA00A5679A /* MCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCData.h; sourceTree = "<group>"; };
+		949994DC1E2210CA00A5679A /* MCDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDateFormatter.h; sourceTree = "<group>"; };
+		949994DD1E2210CA00A5679A /* MCHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHash.h; sourceTree = "<group>"; };
+		949994DE1E2210CA00A5679A /* MCHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHashMap.h; sourceTree = "<group>"; };
+		949994DF1E2210CA00A5679A /* MCHTMLCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHTMLCleaner.h; sourceTree = "<group>"; };
+		949994E01E2210CA00A5679A /* MCHTMLRendererCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHTMLRendererCallback.h; sourceTree = "<group>"; };
+		949994E11E2210CA00A5679A /* MCICUTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCICUTypes.h; sourceTree = "<group>"; };
+		949994E21E2210CA00A5679A /* MCIMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAP.h; sourceTree = "<group>"; };
+		949994E31E2210CA00A5679A /* MCIMAPAppendMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPAppendMessageOperation.h; sourceTree = "<group>"; };
+		949994E41E2210CA00A5679A /* MCIMAPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPAsyncSession.h; sourceTree = "<group>"; };
+		949994E51E2210CA00A5679A /* MCIMAPCapabilityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPCapabilityOperation.h; sourceTree = "<group>"; };
+		949994E61E2210CA00A5679A /* MCIMAPConnectOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPConnectOperation.h; sourceTree = "<group>"; };
+		949994E71E2210CA00A5679A /* MCIMAPCopyMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPCopyMessagesOperation.h; sourceTree = "<group>"; };
+		949994E81E2210CA00A5679A /* MCIMAPCustomCommandOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPCustomCommandOperation.h; sourceTree = "<group>"; };
+		949994E91E2210CA00A5679A /* MCIMAPFetchContentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchContentOperation.h; sourceTree = "<group>"; };
+		949994EA1E2210CA00A5679A /* MCIMAPFetchFoldersOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchFoldersOperation.h; sourceTree = "<group>"; };
+		949994EB1E2210CA00A5679A /* MCIMAPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		949994EC1E2210CA00A5679A /* MCIMAPFetchNamespaceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchNamespaceOperation.h; sourceTree = "<group>"; };
+		949994ED1E2210CA00A5679A /* MCIMAPFetchParsedContentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchParsedContentOperation.h; sourceTree = "<group>"; };
+		949994EE1E2210CA00A5679A /* MCIMAPFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolder.h; sourceTree = "<group>"; };
+		949994EF1E2210CA00A5679A /* MCIMAPFolderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolderInfo.h; sourceTree = "<group>"; };
+		949994F01E2210CA00A5679A /* MCIMAPFolderInfoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolderInfoOperation.h; sourceTree = "<group>"; };
+		949994F11E2210CA00A5679A /* MCIMAPFolderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolderStatus.h; sourceTree = "<group>"; };
+		949994F21E2210CA00A5679A /* MCIMAPFolderStatusOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolderStatusOperation.h; sourceTree = "<group>"; };
+		949994F31E2210CA00A5679A /* MCIMAPIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPIdentity.h; sourceTree = "<group>"; };
+		949994F41E2210CA00A5679A /* MCIMAPIdentityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPIdentityOperation.h; sourceTree = "<group>"; };
+		949994F51E2210CA00A5679A /* MCIMAPIdleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPIdleOperation.h; sourceTree = "<group>"; };
+		949994F61E2210CA00A5679A /* MCIMAPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMessage.h; sourceTree = "<group>"; };
+		949994F71E2210CA00A5679A /* MCIMAPMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMessagePart.h; sourceTree = "<group>"; };
+		949994F81E2210CA00A5679A /* MCIMAPMessageRenderingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMessageRenderingOperation.h; sourceTree = "<group>"; };
+		949994F91E2210CA00A5679A /* MCIMAPMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMultipart.h; sourceTree = "<group>"; };
+		949994FA1E2210CA00A5679A /* MCIMAPNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPNamespace.h; sourceTree = "<group>"; };
+		949994FB1E2210CA00A5679A /* MCIMAPNamespaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPNamespaceItem.h; sourceTree = "<group>"; };
+		949994FC1E2210CA00A5679A /* MCIMAPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPNoopOperation.h; sourceTree = "<group>"; };
+		949994FD1E2210CA00A5679A /* MCIMAPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPOperation.h; sourceTree = "<group>"; };
+		949994FE1E2210CA00A5679A /* MCIMAPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPOperationCallback.h; sourceTree = "<group>"; };
+		949994FF1E2210CA00A5679A /* MCIMAPPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPPart.h; sourceTree = "<group>"; };
+		949995001E2210CA00A5679A /* MCIMAPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPProgressCallback.h; sourceTree = "<group>"; };
+		949995011E2210CA00A5679A /* MCIMAPQuotaOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPQuotaOperation.h; sourceTree = "<group>"; };
+		949995021E2210CA00A5679A /* MCIMAPSearchExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSearchExpression.h; sourceTree = "<group>"; };
+		949995031E2210CA00A5679A /* MCIMAPSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSearchOperation.h; sourceTree = "<group>"; };
+		949995041E2210CA00A5679A /* MCIMAPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSession.h; sourceTree = "<group>"; };
+		949995051E2210CA00A5679A /* MCIMAPSyncResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSyncResult.h; sourceTree = "<group>"; };
+		949995061E2210CA00A5679A /* MCIndexSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIndexSet.h; sourceTree = "<group>"; };
+		949995071E2210CA00A5679A /* MCIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIterator.h; sourceTree = "<group>"; };
+		949995081E2210CA00A5679A /* MCJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSON.h; sourceTree = "<group>"; };
+		949995091E2210CA00A5679A /* MCLibetpanTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLibetpanTypes.h; sourceTree = "<group>"; };
+		9499950A1E2210CA00A5679A /* MCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLog.h; sourceTree = "<group>"; };
+		9499950B1E2210CA00A5679A /* MCMailProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailProvider.h; sourceTree = "<group>"; };
+		9499950C1E2210CA00A5679A /* MCMailProvidersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailProvidersManager.h; sourceTree = "<group>"; };
+		9499950D1E2210CA00A5679A /* MCMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainThread.h; sourceTree = "<group>"; };
+		9499950E1E2210CA00A5679A /* MCMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMD5.h; sourceTree = "<group>"; };
+		9499950F1E2210CA00A5679A /* MCMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageBuilder.h; sourceTree = "<group>"; };
+		949995101E2210CA00A5679A /* MCMessageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageConstants.h; sourceTree = "<group>"; };
+		949995111E2210CA00A5679A /* MCMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageHeader.h; sourceTree = "<group>"; };
+		949995121E2210CA00A5679A /* MCMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageParser.h; sourceTree = "<group>"; };
+		949995131E2210CA00A5679A /* MCMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessagePart.h; sourceTree = "<group>"; };
+		949995141E2210CA00A5679A /* MCMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMultipart.h; sourceTree = "<group>"; };
+		949995151E2210CA00A5679A /* MCMXRecordResolverOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMXRecordResolverOperation.h; sourceTree = "<group>"; };
+		949995161E2210CA00A5679A /* MCNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNetService.h; sourceTree = "<group>"; };
+		949995171E2210CA00A5679A /* MCNNTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTP.h; sourceTree = "<group>"; };
+		949995181E2210CA00A5679A /* MCNNTPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPAsyncSession.h; sourceTree = "<group>"; };
+		949995191E2210CA00A5679A /* MCNNTPCheckAccountOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPCheckAccountOperation.h; sourceTree = "<group>"; };
+		9499951A1E2210CA00A5679A /* MCNNTPFetchAllArticlesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchAllArticlesOperation.h; sourceTree = "<group>"; };
+		9499951B1E2210CA00A5679A /* MCNNTPFetchArticleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchArticleOperation.h; sourceTree = "<group>"; };
+		9499951C1E2210CA00A5679A /* MCNNTPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		9499951D1E2210CA00A5679A /* MCNNTPFetchOverviewOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchOverviewOperation.h; sourceTree = "<group>"; };
+		9499951E1E2210CA00A5679A /* MCNNTPFetchServerTimeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchServerTimeOperation.h; sourceTree = "<group>"; };
+		9499951F1E2210CA00A5679A /* MCNNTPGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPGroupInfo.h; sourceTree = "<group>"; };
+		949995201E2210CA00A5679A /* MCNNTPListNewsgroupsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPListNewsgroupsOperation.h; sourceTree = "<group>"; };
+		949995211E2210CA00A5679A /* MCNNTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPOperation.h; sourceTree = "<group>"; };
+		949995221E2210CA00A5679A /* MCNNTPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPOperationCallback.h; sourceTree = "<group>"; };
+		949995231E2210CA00A5679A /* MCNNTPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPProgressCallback.h; sourceTree = "<group>"; };
+		949995241E2210CA00A5679A /* MCNNTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPSession.h; sourceTree = "<group>"; };
+		949995251E2210CA00A5679A /* MCNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNull.h; sourceTree = "<group>"; };
+		949995261E2210CA00A5679A /* MCOAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstract.h; sourceTree = "<group>"; };
+		949995271E2210CA00A5679A /* MCOAbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractMessage.h; sourceTree = "<group>"; };
+		949995281E2210CA00A5679A /* MCOAbstractMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractMessagePart.h; sourceTree = "<group>"; };
+		949995291E2210CA00A5679A /* MCOAbstractMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractMultipart.h; sourceTree = "<group>"; };
+		9499952A1E2210CA00A5679A /* MCOAbstractPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractPart.h; sourceTree = "<group>"; };
+		9499952B1E2210CA00A5679A /* MCOAccountValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAccountValidator.h; sourceTree = "<group>"; };
+		9499952C1E2210CA00A5679A /* MCOAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAddress.h; sourceTree = "<group>"; };
+		9499952D1E2210CA00A5679A /* MCOAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAttachment.h; sourceTree = "<group>"; };
+		9499952E1E2210CA00A5679A /* MCObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCObjC.h; sourceTree = "<group>"; };
+		9499952F1E2210CA00A5679A /* MCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCObject.h; sourceTree = "<group>"; };
+		949995301E2210CA00A5679A /* MCOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOConstants.h; sourceTree = "<group>"; };
+		949995311E2210CA00A5679A /* MCOHTMLRendererDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOHTMLRendererDelegate.h; sourceTree = "<group>"; };
+		949995321E2210CA00A5679A /* MCOHTMLRendererIMAPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOHTMLRendererIMAPDelegate.h; sourceTree = "<group>"; };
+		949995331E2210CA00A5679A /* MCOIMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAP.h; sourceTree = "<group>"; };
+		949995341E2210CA00A5679A /* MCOIMAPAppendMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPAppendMessageOperation.h; sourceTree = "<group>"; };
+		949995351E2210CA00A5679A /* MCOIMAPBaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPBaseOperation.h; sourceTree = "<group>"; };
+		949995361E2210CA00A5679A /* MCOIMAPCapabilityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPCapabilityOperation.h; sourceTree = "<group>"; };
+		949995371E2210CA00A5679A /* MCOIMAPCopyMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPCopyMessagesOperation.h; sourceTree = "<group>"; };
+		949995381E2210CA00A5679A /* MCOIMAPCustomCommandOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPCustomCommandOperation.h; sourceTree = "<group>"; };
+		949995391E2210CA00A5679A /* MCOIMAPFetchContentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchContentOperation.h; sourceTree = "<group>"; };
+		9499953A1E2210CA00A5679A /* MCOIMAPFetchFoldersOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchFoldersOperation.h; sourceTree = "<group>"; };
+		9499953B1E2210CA00A5679A /* MCOIMAPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		9499953C1E2210CA00A5679A /* MCOIMAPFetchNamespaceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchNamespaceOperation.h; sourceTree = "<group>"; };
+		9499953D1E2210CA00A5679A /* MCOIMAPFetchParsedContentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchParsedContentOperation.h; sourceTree = "<group>"; };
+		9499953E1E2210CA00A5679A /* MCOIMAPFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolder.h; sourceTree = "<group>"; };
+		9499953F1E2210CA00A5679A /* MCOIMAPFolderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderInfo.h; sourceTree = "<group>"; };
+		949995401E2210CA00A5679A /* MCOIMAPFolderInfoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderInfoOperation.h; sourceTree = "<group>"; };
+		949995411E2210CA00A5679A /* MCOIMAPFolderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderStatus.h; sourceTree = "<group>"; };
+		949995421E2210CA00A5679A /* MCOIMAPFolderStatusOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderStatusOperation.h; sourceTree = "<group>"; };
+		949995431E2210CA00A5679A /* MCOIMAPIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPIdentity.h; sourceTree = "<group>"; };
+		949995441E2210CA00A5679A /* MCOIMAPIdentityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPIdentityOperation.h; sourceTree = "<group>"; };
+		949995451E2210CA00A5679A /* MCOIMAPIdleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPIdleOperation.h; sourceTree = "<group>"; };
+		949995461E2210CA00A5679A /* MCOIMAPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMessage.h; sourceTree = "<group>"; };
+		949995471E2210CA00A5679A /* MCOIMAPMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMessagePart.h; sourceTree = "<group>"; };
+		949995481E2210CA00A5679A /* MCOIMAPMessageRenderingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMessageRenderingOperation.h; sourceTree = "<group>"; };
+		949995491E2210CA00A5679A /* MCOIMAPMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMultipart.h; sourceTree = "<group>"; };
+		9499954A1E2210CA00A5679A /* MCOIMAPNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPNamespace.h; sourceTree = "<group>"; };
+		9499954B1E2210CA00A5679A /* MCOIMAPNamespaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPNamespaceItem.h; sourceTree = "<group>"; };
+		9499954C1E2210CA00A5679A /* MCOIMAPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPOperation.h; sourceTree = "<group>"; };
+		9499954D1E2210CA00A5679A /* MCOIMAPPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPPart.h; sourceTree = "<group>"; };
+		9499954E1E2210CA00A5679A /* MCOIMAPQuotaOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPQuotaOperation.h; sourceTree = "<group>"; };
+		9499954F1E2210CA00A5679A /* MCOIMAPSearchExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPSearchExpression.h; sourceTree = "<group>"; };
+		949995501E2210CA00A5679A /* MCOIMAPSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPSearchOperation.h; sourceTree = "<group>"; };
+		949995511E2210CA00A5679A /* MCOIMAPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPSession.h; sourceTree = "<group>"; };
+		949995521E2210CA00A5679A /* MCOIndexSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIndexSet.h; sourceTree = "<group>"; };
+		949995531E2210CA00A5679A /* MCOMailProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMailProvider.h; sourceTree = "<group>"; };
+		949995541E2210CA00A5679A /* MCOMailProvidersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMailProvidersManager.h; sourceTree = "<group>"; };
+		949995551E2210CA00A5679A /* MCOMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageBuilder.h; sourceTree = "<group>"; };
+		949995561E2210CA00A5679A /* MCOMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageHeader.h; sourceTree = "<group>"; };
+		949995571E2210CA00A5679A /* MCOMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageParser.h; sourceTree = "<group>"; };
+		949995581E2210CA00A5679A /* MCOMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessagePart.h; sourceTree = "<group>"; };
+		949995591E2210CA00A5679A /* MCOMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMultipart.h; sourceTree = "<group>"; };
+		9499955A1E2210CA00A5679A /* MCONetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONetService.h; sourceTree = "<group>"; };
+		9499955B1E2210CA00A5679A /* MCONNTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTP.h; sourceTree = "<group>"; };
+		9499955C1E2210CA00A5679A /* MCONNTPDisconnectOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPDisconnectOperation.h; sourceTree = "<group>"; };
+		9499955D1E2210CA00A5679A /* MCONNTPFetchAllArticlesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchAllArticlesOperation.h; sourceTree = "<group>"; };
+		9499955E1E2210CA00A5679A /* MCONNTPFetchArticleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchArticleOperation.h; sourceTree = "<group>"; };
+		9499955F1E2210CA00A5679A /* MCONNTPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		949995601E2210CA00A5679A /* MCONNTPFetchOverviewOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchOverviewOperation.h; sourceTree = "<group>"; };
+		949995611E2210CA00A5679A /* MCONNTPFetchServerTimeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchServerTimeOperation.h; sourceTree = "<group>"; };
+		949995621E2210CA00A5679A /* MCONNTPGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPGroupInfo.h; sourceTree = "<group>"; };
+		949995631E2210CA00A5679A /* MCONNTPListNewsgroupsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPListNewsgroupsOperation.h; sourceTree = "<group>"; };
+		949995641E2210CA00A5679A /* MCONNTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPOperation.h; sourceTree = "<group>"; };
+		949995651E2210CA00A5679A /* MCONNTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPSession.h; sourceTree = "<group>"; };
+		949995661E2210CA00A5679A /* MCOObjectWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOObjectWrapper.h; sourceTree = "<group>"; };
+		949995671E2210CA00A5679A /* MCOOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOOperation.h; sourceTree = "<group>"; };
+		949995681E2210CA00A5679A /* MCOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOperation.h; sourceTree = "<group>"; };
+		949995691E2210CA00A5679A /* MCOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOperationCallback.h; sourceTree = "<group>"; };
+		9499956A1E2210CA00A5679A /* MCOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOperationQueue.h; sourceTree = "<group>"; };
+		9499956B1E2210CA00A5679A /* MCOPOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOP.h; sourceTree = "<group>"; };
+		9499956C1E2210CA00A5679A /* MCOPOPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		9499956D1E2210CA00A5679A /* MCOPOPFetchMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPFetchMessageOperation.h; sourceTree = "<group>"; };
+		9499956E1E2210CA00A5679A /* MCOPOPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		9499956F1E2210CA00A5679A /* MCOPOPMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPMessageInfo.h; sourceTree = "<group>"; };
+		949995701E2210CA00A5679A /* MCOPOPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPNoopOperation.h; sourceTree = "<group>"; };
+		949995711E2210CA00A5679A /* MCOPOPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPOperation.h; sourceTree = "<group>"; };
+		949995721E2210CA00A5679A /* MCOPOPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPSession.h; sourceTree = "<group>"; };
+		949995731E2210CA00A5679A /* MCOProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOProvider.h; sourceTree = "<group>"; };
+		949995741E2210CA00A5679A /* MCORange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCORange.h; sourceTree = "<group>"; };
+		949995751E2210CA00A5679A /* MCORFC822.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCORFC822.h; sourceTree = "<group>"; };
+		949995761E2210CA00A5679A /* MCOSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTP.h; sourceTree = "<group>"; };
+		949995771E2210CA00A5679A /* MCOSMTPLoginOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTPLoginOperation.h; sourceTree = "<group>"; };
+		949995781E2210CA00A5679A /* MCOSMTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTPOperation.h; sourceTree = "<group>"; };
+		949995791E2210CA00A5679A /* MCOSMTPSendOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTPSendOperation.h; sourceTree = "<group>"; };
+		9499957A1E2210CA00A5679A /* MCOSMTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTPSession.h; sourceTree = "<group>"; };
+		9499957B1E2210CA00A5679A /* MCOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOUtils.h; sourceTree = "<group>"; };
+		9499957C1E2210CA00A5679A /* MCPOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOP.h; sourceTree = "<group>"; };
+		9499957D1E2210CA00A5679A /* MCPOPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPAsyncSession.h; sourceTree = "<group>"; };
+		9499957E1E2210CA00A5679A /* MCPOPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		9499957F1E2210CA00A5679A /* MCPOPFetchMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPFetchMessageOperation.h; sourceTree = "<group>"; };
+		949995801E2210CA00A5679A /* MCPOPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		949995811E2210CA00A5679A /* MCPOPMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPMessageInfo.h; sourceTree = "<group>"; };
+		949995821E2210CA00A5679A /* MCPOPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPNoopOperation.h; sourceTree = "<group>"; };
+		949995831E2210CA00A5679A /* MCPOPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPOperation.h; sourceTree = "<group>"; };
+		949995841E2210CA00A5679A /* MCPOPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPOperationCallback.h; sourceTree = "<group>"; };
+		949995851E2210CA00A5679A /* MCPOPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPProgressCallback.h; sourceTree = "<group>"; };
+		949995861E2210CA00A5679A /* MCPOPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPSession.h; sourceTree = "<group>"; };
+		949995871E2210CA00A5679A /* MCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProvider.h; sourceTree = "<group>"; };
+		949995881E2210CA00A5679A /* MCRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRange.h; sourceTree = "<group>"; };
+		949995891E2210CA00A5679A /* MCRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRenderer.h; sourceTree = "<group>"; };
+		9499958A1E2210CA00A5679A /* MCRFC822.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRFC822.h; sourceTree = "<group>"; };
+		9499958B1E2210CA00A5679A /* MCSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSet.h; sourceTree = "<group>"; };
+		9499958C1E2210CA00A5679A /* MCSizeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSizeFormatter.h; sourceTree = "<group>"; };
+		9499958D1E2210CA00A5679A /* MCSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTP.h; sourceTree = "<group>"; };
+		9499958E1E2210CA00A5679A /* MCSMTPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPAsyncSession.h; sourceTree = "<group>"; };
+		9499958F1E2210CA00A5679A /* MCSMTPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPNoopOperation.h; sourceTree = "<group>"; };
+		949995901E2210CA00A5679A /* MCSMTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPOperation.h; sourceTree = "<group>"; };
+		949995911E2210CA00A5679A /* MCSMTPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPOperationCallback.h; sourceTree = "<group>"; };
+		949995921E2210CA00A5679A /* MCSMTPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPProgressCallback.h; sourceTree = "<group>"; };
+		949995931E2210CA00A5679A /* MCSMTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPSession.h; sourceTree = "<group>"; };
+		949995941E2210CA00A5679A /* MCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCString.h; sourceTree = "<group>"; };
+		949995951E2210CA00A5679A /* MCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtils.h; sourceTree = "<group>"; };
+		949995961E2210CA00A5679A /* MCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCValue.h; sourceTree = "<group>"; };
+		949995971E2210CA00A5679A /* NSArray+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MCO.h"; sourceTree = "<group>"; };
+		949995981E2210CA00A5679A /* NSData+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MCO.h"; sourceTree = "<group>"; };
+		949995991E2210CA00A5679A /* NSDictionary+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MCO.h"; sourceTree = "<group>"; };
+		9499959A1E2210CA00A5679A /* NSError+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+MCO.h"; sourceTree = "<group>"; };
+		9499959B1E2210CA00A5679A /* NSIndexSet+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+MCO.h"; sourceTree = "<group>"; };
+		9499959C1E2210CA00A5679A /* NSObject+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MCO.h"; sourceTree = "<group>"; };
+		9499959D1E2210CA00A5679A /* NSString+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MCO.h"; sourceTree = "<group>"; };
+		9499959E1E2210CA00A5679A /* NSValue+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+MCO.h"; sourceTree = "<group>"; };
 		A947CD031A448FF600819CA6 /* Temporary_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temporary_Tests.m; sourceTree = "<group>"; };
 		A9A4D44519F8FE270068ABA1 /* TableViewCellWithButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellWithButton.h; sourceTree = "<group>"; };
 		A9A4D44619F8FE270068ABA1 /* TableViewCellWithButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellWithButton.m; sourceTree = "<group>"; };
@@ -4530,10 +4787,8 @@
 				1EB7860E193530550007AF99 /* libsasl2.a in Frameworks */,
 				1EB78603193530410007AF99 /* libssl.a in Frameworks */,
 				1E288E4B18F3F87B0068D1B2 /* WebKit.framework in Frameworks */,
-				1E2D77701962CA01006C3C36 /* Sparkle.framework in Frameworks */,
 				1E288E4C18F3F87B0068D1B2 /* AddressBook.framework in Frameworks */,
 				5E7BA2901AA0754400E65B59 /* libxml2.dylib in Frameworks */,
-				1E61AE011A34C21000DBBCC4 /* MailCore.framework in Frameworks */,
 				1E288E4D18F3F87B0068D1B2 /* Security.framework in Frameworks */,
 				1E288E4E18F3F87B0068D1B2 /* Cocoa.framework in Frameworks */,
 				5EBDD7941AB30CD1002D0901 /* HTMLPurifier.framework in Frameworks */,
@@ -4552,7 +4807,6 @@
 				1EB7860F193530560007AF99 /* libsasl2.a in Frameworks */,
 				1EB78602193530400007AF99 /* libssl.a in Frameworks */,
 				1EB785FE193530380007AF99 /* libcrypto.a in Frameworks */,
-				1E61AE001A34C21000DBBCC4 /* MailCore.framework in Frameworks */,
 				1EAD59F817B678A300E8516C /* QuartzCore.framework in Frameworks */,
 				1EAD59F417B6789200E8516C /* WebKit.framework in Frameworks */,
 				1EAD59F217B6788D00E8516C /* AddressBook.framework in Frameworks */,
@@ -4577,9 +4831,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949994AF1E220AB300A5679A /* Security.framework in Frameworks */,
 				1E9355201A44F62900F192AC /* libresolv.dylib in Frameworks */,
 				1EE6A14919F2F4EF00EB8988 /* libz.dylib in Frameworks */,
 				1EE6A14F19F2F81400EB8988 /* libicudata.a in Frameworks */,
+				949994C41E2210A900A5679A /* libMailCore-ios.a in Frameworks */,
 				1EF49D8619F2B4DC00326101 /* libc++.dylib in Frameworks */,
 				1E224A3619D316BA0005F129 /* libHTMLPurifieriOS.a in Frameworks */,
 				1EE6A15519F2F93300EB8988 /* libtidy.a in Frameworks */,
@@ -4588,12 +4844,10 @@
 				1EC94AB0190870FC0055524C /* libsasl2.a in Frameworks */,
 				1EF92DE217EC673100FC4F6A /* CoreGraphics.framework in Frameworks */,
 				1EE6A15119F2F88E00EB8988 /* libicui18n.a in Frameworks */,
-				8002D38F1A45F59000C6A682 /* libMailCore-ios.a in Frameworks */,
 				1EF92DE017EC673100FC4F6A /* Foundation.framework in Frameworks */,
 				1EE6A15319F2F8A800EB8988 /* libicuuc.a in Frameworks */,
 				1EF8F5B619092074002F6264 /* libssl.a in Frameworks */,
 				1EDF30A8190E87BA00B12A9C /* libcrypto.a in Frameworks */,
-				8002D3921A45F59E00C6A682 /* libetpan-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4603,7 +4857,6 @@
 			files = (
 				1EF92E0A17EC673100FC4F6A /* XCTest.framework in Frameworks */,
 				1EF92E0B17EC673100FC4F6A /* Foundation.framework in Frameworks */,
-				8002D3931A45F59E00C6A682 /* libetpan-ios.a in Frameworks */,
 				8002D3901A45F59000C6A682 /* libMailCore-ios.a in Frameworks */,
 				1E6459C61A26A2F70070EB3D /* OCHamcrestIOS.framework in Frameworks */,
 				1E6459C71A26A2F70070EB3D /* OCMockitoIOS.framework in Frameworks */,
@@ -4872,7 +5125,6 @@
 				1EE6A15419F2F93300EB8988 /* libtidy.a */,
 				1EE6A15219F2F8A800EB8988 /* libicuuc.a */,
 				1EE6A15019F2F88E00EB8988 /* libicui18n.a */,
-				8002D3911A45F59E00C6A682 /* libetpan-ios.a */,
 				8002D38E1A45F59000C6A682 /* libMailCore-ios.a */,
 				1EE6A14E19F2F81400EB8988 /* libicudata.a */,
 				1EE6A13E19F2F2F700EB8988 /* libctemplate-ios.a */,
@@ -5136,6 +5388,60 @@
 		1E4B5B2617B6747000F2A19C = {
 			isa = PBXGroup;
 			children = (
+				946C286D1E22156000E4CB00 /* M.entitlements */,
+				949994B21E220EC300A5679A /* SMIMEMessage.h */,
+				949994B31E220EC400A5679A /* SMIMEMessage.m */,
+				949994B41E220EC400A5679A /* SMIMEMessage+Encryption.h */,
+				949994B51E220EC400A5679A /* SMIMEMessage+Encryption.m */,
+				949994B61E220EC400A5679A /* SMIMEPrivateKey.h */,
+				949994B71E220EC400A5679A /* SMIMEPrivateKey.m */,
+				949994B81E220EC400A5679A /* SMIMEPublicKey.h */,
+				949994B91E220EC400A5679A /* SMIMEPublicKey.m */,
+				949994BA1E220EC400A5679A /* SMIMEPublicKey+Category.h */,
+				949994BB1E220EC400A5679A /* SMIMEPublicKey+Category.m */,
+				949994BC1E220EC400A5679A /* SMIMEWrapper.h */,
+				949994BD1E220EC500A5679A /* SMIMEWrapper.m */,
+				9499945D1E22056900A5679A /* GenericPublicKey.h */,
+				9499945E1E22056900A5679A /* GenericPublicKey.m */,
+				949994AD1E2208EF00A5679A /* MynigmaMessage+Category.h */,
+				9499945F1E22056900A5679A /* GenericPublicKey+Category.h */,
+				949994AA1E22082400A5679A /* MynigmaMessage.h */,
+				949994AB1E22084500A5679A /* MynigmaMessage.m */,
+				949994601E22056900A5679A /* GenericPublicKey+Category.m */,
+				949994611E22056900A5679A /* KeychainHelper.h */,
+				949994621E22056900A5679A /* KeychainHelper.m */,
+				949994631E22056A00A5679A /* KeyExpectation.h */,
+				949994641E22056A00A5679A /* KeyExpectation.m */,
+				949994651E22056A00A5679A /* KeyExpectation+Category.h */,
+				949994661E22056A00A5679A /* KeyExpectation+Category.m */,
+				949994671E22056A00A5679A /* KeyListController.h */,
+				949994681E22056A00A5679A /* KeyListController.m */,
+				949994691E22056A00A5679A /* KeyListTableViewCell.h */,
+				9499946A1E22056A00A5679A /* KeyListTableViewCell.m */,
+				9499946B1E22056A00A5679A /* Mynigma encryption key info@mynigma.org|1377619023.914025.pem */,
+				9499946C1E22056A00A5679A /* Mynigma signature key info@mynigma.org|1377619023.914025.pem */,
+				9499946D1E22056A00A5679A /* MynigmaPrivateKey.h */,
+				9499946E1E22056B00A5679A /* MynigmaPrivateKey.m */,
+				9499946F1E22056B00A5679A /* MynigmaPrivateKey+Category.h */,
+				949994701E22056B00A5679A /* MynigmaPrivateKey+Category.m */,
+				949994711E22056B00A5679A /* MynigmaPublicKey.h */,
+				949994721E22056B00A5679A /* MynigmaPublicKey.m */,
+				949994731E22056B00A5679A /* MynigmaPublicKey+Category.h */,
+				949994741E22056B00A5679A /* MynigmaPublicKey+Category.m */,
+				949994751E22056B00A5679A /* PGPPrivateKey.h */,
+				949994761E22056B00A5679A /* PGPPrivateKey.m */,
+				949994771E22056B00A5679A /* PGPPublicKey.h */,
+				949994781E22056B00A5679A /* PGPPublicKey.m */,
+				949994791E22056B00A5679A /* PGPPublicKey+Category.h */,
+				9499947A1E22056C00A5679A /* PGPPublicKey+Category.m */,
+				9499947B1E22056C00A5679A /* PrivateKeychain.h */,
+				9499947C1E22056C00A5679A /* PrivateKeychain.m */,
+				9499947D1E22056C00A5679A /* PublicKeyManager.h */,
+				9499947E1E22056C00A5679A /* PublicKeyManager.mm */,
+				9499947F1E22056C00A5679A /* SessionKeyEntryDataStructure.h */,
+				949994801E22056C00A5679A /* SessionKeyEntryDataStructure.mm */,
+				949994811E22056C00A5679A /* SessionKeys.h */,
+				949994821E22056C00A5679A /* SessionKeys.m */,
 				1E169E1F198658C60022A744 /* Mynigma_iOS.entitlements */,
 				1E4B5B3817B6747000F2A19C /* Main Project */,
 				1EF92E1017EC673100FC4F6A /* Unit Tests */,
@@ -5174,18 +5480,17 @@
 			children = (
 				5EBDD7921AB30CD1002D0901 /* HTMLPurifier.framework */,
 				80CA0DA71A2CABB600041A1B /* AudioToolbox.framework */,
+				949994AE1E220AB300A5679A /* Security.framework */,
 				1E3559EF19D8682800E04D7F /* CloudKit.framework */,
-				1E61ADFF1A34C20F00DBBCC4 /* MailCore.framework */,
 				1E6459C81A26A3030070EB3D /* OCHamcrest.framework */,
 				1E6459C91A26A3030070EB3D /* OCMockito.framework */,
 				1E6459C41A26A2F70070EB3D /* OCHamcrestIOS.framework */,
 				1E6459C51A26A2F70070EB3D /* OCMockitoIOS.framework */,
-				1E2D776E1962CA01006C3C36 /* Sparkle.framework */,
 				1E7C8EB4190988B700F7822B /* CoreFoundation.framework */,
-				1E7C8EB21909888B00F7822B /* Security.framework */,
 				1EC94ABE190873920055524C /* SystemConfiguration.framework */,
 				1EC94AB21908732D0055524C /* CrashReporter.framework */,
 				1EEEC28818ED7381008F1E67 /* SystemConfiguration.framework */,
+				949994B01E220B2A00A5679A /* Sparkle.framework */,
 				1EAD59F717B678A300E8516C /* QuartzCore.framework */,
 				1EAD59F317B6789200E8516C /* WebKit.framework */,
 				1EAD59F117B6788D00E8516C /* AddressBook.framework */,
@@ -6197,60 +6502,6 @@
 				1E91753B19A4BB59009113B0 /* repliedWhite16@2x.png */,
 			);
 			name = Replied;
-			sourceTree = "<group>";
-		};
-		1E9354421A4234A000F192AC /* NetPGP */ = {
-			isa = PBXGroup;
-			children = (
-				1E9354A71A4234D000F192AC /* fmemopen.c */,
-				1E9354A81A4234D000F192AC /* fmemopen.h */,
-				1E9354431A4234C800F192AC /* mj.c */,
-				1E9354441A4234C800F192AC /* mj.h */,
-				1E9354451A4234C800F192AC /* bufgap.c */,
-				1E9354461A4234C800F192AC /* bufgap.h */,
-				1E9354471A4234C800F192AC /* compress.c */,
-				1E9354481A4234C800F192AC /* config.h */,
-				1E9354491A4234C800F192AC /* create.c */,
-				1E93544A1A4234C800F192AC /* create.h */,
-				1E93544B1A4234C800F192AC /* crypto.c */,
-				1E93544C1A4234C800F192AC /* crypto.h */,
-				1E93544D1A4234C800F192AC /* defs.h */,
-				1E93544E1A4234C800F192AC /* errors.h */,
-				1E93544F1A4234C800F192AC /* fastctype.c */,
-				1E9354501A4234C800F192AC /* fastctype.h */,
-				1E9354511A4234C800F192AC /* keyring.c */,
-				1E9354521A4234C800F192AC /* keyring.h */,
-				1E9354531A4234C800F192AC /* memory.h */,
-				1E9354541A4234C800F192AC /* misc.c */,
-				1E9354551A4234C800F192AC /* netpgp.c */,
-				1E9354561A4234C800F192AC /* netpgp.h */,
-				1E9354571A4234C800F192AC /* netpgpdefs.h */,
-				1E9354581A4234C800F192AC /* netpgpdigest.h */,
-				1E9354591A4234C800F192AC /* netpgpsdk.h */,
-				1E93545A1A4234C800F192AC /* openssl_crypto.c */,
-				1E93545B1A4234C800F192AC /* ops-ssh.h */,
-				1E93545C1A4234C800F192AC /* packet-parse.c */,
-				1E93545D1A4234C800F192AC /* packet-parse.h */,
-				1E93545E1A4234C800F192AC /* packet-print.c */,
-				1E93545F1A4234C800F192AC /* packet-show.c */,
-				1E9354601A4234C800F192AC /* packet-show.h */,
-				1E9354611A4234C800F192AC /* packet.h */,
-				1E9354621A4234C800F192AC /* reader.c */,
-				1E9354631A4234C800F192AC /* readerwriter.h */,
-				1E9354641A4234C800F192AC /* signature.c */,
-				1E9354651A4234C800F192AC /* signature.h */,
-				1E9354661A4234C800F192AC /* ssh2pgp.c */,
-				1E9354671A4234C800F192AC /* symmetric.c */,
-				1E9354681A4234C800F192AC /* types.h */,
-				1E9354691A4234C800F192AC /* validate.c */,
-				1E93546A1A4234C800F192AC /* validate.h */,
-				1E93546B1A4234C800F192AC /* version.h */,
-				1E93546C1A4234C800F192AC /* writer.c */,
-				1E93546D1A4234C800F192AC /* writer.h */,
-				1E93543D1A42349200F192AC /* UNNetPGP.h */,
-				1E93543E1A42349200F192AC /* UNNetPGP.m */,
-			);
-			name = NetPGP;
 			sourceTree = "<group>";
 		};
 		1E9354CA1A42472900F192AC /* PGP test vectors */ = {
@@ -7561,9 +7812,10 @@
 		1EE80643190E466D00297E4C /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				949994C51E2210CA00A5679A /* MailCore */,
+				949994031E2204E300A5679A /* UNNetPGP */,
 				5ECBE7071A8B58F600B2CD74 /* openssl */,
 				802D6C101A5BEB1800A4DC3D /* GTMOAuth */,
-				1E9354421A4234A000F192AC /* NetPGP */,
 				1E2D670018DCB19300E40E6A /* HTMLPurifieriOS */,
 			);
 			name = Headers;
@@ -8081,6 +8333,285 @@
 			name = "Drag Icon";
 			sourceTree = "<group>";
 		};
+		949994031E2204E300A5679A /* UNNetPGP */ = {
+			isa = PBXGroup;
+			children = (
+				949994041E2204E300A5679A /* bufgap.c */,
+				949994051E2204E300A5679A /* bufgap.h */,
+				949994061E2204E300A5679A /* compress.c */,
+				949994071E2204E300A5679A /* config.h */,
+				949994081E2204E300A5679A /* create.c */,
+				949994091E2204E300A5679A /* create.h */,
+				9499940A1E2204E300A5679A /* crypto.c */,
+				9499940B1E2204E300A5679A /* crypto.h */,
+				9499940C1E2204E300A5679A /* defs.h */,
+				9499940D1E2204E300A5679A /* errors.h */,
+				9499940E1E2204E300A5679A /* fastctype.c */,
+				9499940F1E2204E300A5679A /* fastctype.h */,
+				949994101E2204E300A5679A /* fmemopen.c */,
+				949994111E2204E300A5679A /* fmemopen.h */,
+				949994121E2204E300A5679A /* keyring.c */,
+				949994131E2204E300A5679A /* keyring.h */,
+				949994141E2204E300A5679A /* memory.h */,
+				949994151E2204E300A5679A /* misc.c */,
+				949994161E2204E300A5679A /* mj.c */,
+				949994171E2204E300A5679A /* mj.h */,
+				949994181E2204E300A5679A /* netpgp.c */,
+				949994191E2204E300A5679A /* netpgp.h */,
+				9499941A1E2204E300A5679A /* netpgpdefs.h */,
+				9499941B1E2204E300A5679A /* netpgpdigest.h */,
+				9499941C1E2204E300A5679A /* netpgpsdk.h */,
+				9499941D1E2204E300A5679A /* openssl_crypto.c */,
+				9499941E1E2204E300A5679A /* ops-ssh.h */,
+				9499941F1E2204E300A5679A /* packet-parse.c */,
+				949994201E2204E300A5679A /* packet-parse.h */,
+				949994211E2204E300A5679A /* packet-print.c */,
+				949994221E2204E300A5679A /* packet-show.c */,
+				949994231E2204E300A5679A /* packet-show.h */,
+				949994241E2204E300A5679A /* packet.h */,
+				949994251E2204E300A5679A /* reader.c */,
+				949994261E2204E300A5679A /* readerwriter.h */,
+				949994271E2204E300A5679A /* signature.c */,
+				949994281E2204E300A5679A /* signature.h */,
+				949994291E2204E300A5679A /* ssh2pgp.c */,
+				9499942A1E2204E300A5679A /* symmetric.c */,
+				9499942B1E2204E300A5679A /* types.h */,
+				9499942C1E2204E300A5679A /* UNNetPGP.h */,
+				9499942D1E2204E300A5679A /* UNNetPGP.m */,
+				9499942E1E2204E300A5679A /* validate.c */,
+				9499942F1E2204E300A5679A /* validate.h */,
+				949994301E2204E300A5679A /* version.h */,
+				949994311E2204E300A5679A /* writer.c */,
+				949994321E2204E300A5679A /* writer.h */,
+			);
+			path = UNNetPGP;
+			sourceTree = SOURCE_ROOT;
+		};
+		949994C51E2210CA00A5679A /* MailCore */ = {
+			isa = PBXGroup;
+			children = (
+				949994C61E2210CA00A5679A /* MailCore.h */,
+				949994C71E2210CA00A5679A /* MCAbstract.h */,
+				949994C81E2210CA00A5679A /* MCAbstractMessage.h */,
+				949994C91E2210CA00A5679A /* MCAbstractMessagePart.h */,
+				949994CA1E2210CA00A5679A /* MCAbstractMultipart.h */,
+				949994CB1E2210CA00A5679A /* MCAbstractPart.h */,
+				949994CC1E2210CA00A5679A /* MCAccountValidator.h */,
+				949994CD1E2210CA00A5679A /* MCAddress.h */,
+				949994CE1E2210CA00A5679A /* MCAddressDisplay.h */,
+				949994CF1E2210CA00A5679A /* MCArray.h */,
+				949994D01E2210CA00A5679A /* MCAssert.h */,
+				949994D11E2210CA00A5679A /* MCAsync.h */,
+				949994D21E2210CA00A5679A /* MCAsyncIMAP.h */,
+				949994D31E2210CA00A5679A /* MCAsyncNNTP.h */,
+				949994D41E2210CA00A5679A /* MCAsyncPOP.h */,
+				949994D51E2210CA00A5679A /* MCAsyncSMTP.h */,
+				949994D61E2210CA00A5679A /* MCAttachment.h */,
+				949994D71E2210CA00A5679A /* MCAutoreleasePool.h */,
+				949994D81E2210CA00A5679A /* MCBaseTypes.h */,
+				949994D91E2210CA00A5679A /* MCConnectionLogger.h */,
+				949994DA1E2210CA00A5679A /* MCCore.h */,
+				949994DB1E2210CA00A5679A /* MCData.h */,
+				949994DC1E2210CA00A5679A /* MCDateFormatter.h */,
+				949994DD1E2210CA00A5679A /* MCHash.h */,
+				949994DE1E2210CA00A5679A /* MCHashMap.h */,
+				949994DF1E2210CA00A5679A /* MCHTMLCleaner.h */,
+				949994E01E2210CA00A5679A /* MCHTMLRendererCallback.h */,
+				949994E11E2210CA00A5679A /* MCICUTypes.h */,
+				949994E21E2210CA00A5679A /* MCIMAP.h */,
+				949994E31E2210CA00A5679A /* MCIMAPAppendMessageOperation.h */,
+				949994E41E2210CA00A5679A /* MCIMAPAsyncSession.h */,
+				949994E51E2210CA00A5679A /* MCIMAPCapabilityOperation.h */,
+				949994E61E2210CA00A5679A /* MCIMAPConnectOperation.h */,
+				949994E71E2210CA00A5679A /* MCIMAPCopyMessagesOperation.h */,
+				949994E81E2210CA00A5679A /* MCIMAPCustomCommandOperation.h */,
+				949994E91E2210CA00A5679A /* MCIMAPFetchContentOperation.h */,
+				949994EA1E2210CA00A5679A /* MCIMAPFetchFoldersOperation.h */,
+				949994EB1E2210CA00A5679A /* MCIMAPFetchMessagesOperation.h */,
+				949994EC1E2210CA00A5679A /* MCIMAPFetchNamespaceOperation.h */,
+				949994ED1E2210CA00A5679A /* MCIMAPFetchParsedContentOperation.h */,
+				949994EE1E2210CA00A5679A /* MCIMAPFolder.h */,
+				949994EF1E2210CA00A5679A /* MCIMAPFolderInfo.h */,
+				949994F01E2210CA00A5679A /* MCIMAPFolderInfoOperation.h */,
+				949994F11E2210CA00A5679A /* MCIMAPFolderStatus.h */,
+				949994F21E2210CA00A5679A /* MCIMAPFolderStatusOperation.h */,
+				949994F31E2210CA00A5679A /* MCIMAPIdentity.h */,
+				949994F41E2210CA00A5679A /* MCIMAPIdentityOperation.h */,
+				949994F51E2210CA00A5679A /* MCIMAPIdleOperation.h */,
+				949994F61E2210CA00A5679A /* MCIMAPMessage.h */,
+				949994F71E2210CA00A5679A /* MCIMAPMessagePart.h */,
+				949994F81E2210CA00A5679A /* MCIMAPMessageRenderingOperation.h */,
+				949994F91E2210CA00A5679A /* MCIMAPMultipart.h */,
+				949994FA1E2210CA00A5679A /* MCIMAPNamespace.h */,
+				949994FB1E2210CA00A5679A /* MCIMAPNamespaceItem.h */,
+				949994FC1E2210CA00A5679A /* MCIMAPNoopOperation.h */,
+				949994FD1E2210CA00A5679A /* MCIMAPOperation.h */,
+				949994FE1E2210CA00A5679A /* MCIMAPOperationCallback.h */,
+				949994FF1E2210CA00A5679A /* MCIMAPPart.h */,
+				949995001E2210CA00A5679A /* MCIMAPProgressCallback.h */,
+				949995011E2210CA00A5679A /* MCIMAPQuotaOperation.h */,
+				949995021E2210CA00A5679A /* MCIMAPSearchExpression.h */,
+				949995031E2210CA00A5679A /* MCIMAPSearchOperation.h */,
+				949995041E2210CA00A5679A /* MCIMAPSession.h */,
+				949995051E2210CA00A5679A /* MCIMAPSyncResult.h */,
+				949995061E2210CA00A5679A /* MCIndexSet.h */,
+				949995071E2210CA00A5679A /* MCIterator.h */,
+				949995081E2210CA00A5679A /* MCJSON.h */,
+				949995091E2210CA00A5679A /* MCLibetpanTypes.h */,
+				9499950A1E2210CA00A5679A /* MCLog.h */,
+				9499950B1E2210CA00A5679A /* MCMailProvider.h */,
+				9499950C1E2210CA00A5679A /* MCMailProvidersManager.h */,
+				9499950D1E2210CA00A5679A /* MCMainThread.h */,
+				9499950E1E2210CA00A5679A /* MCMD5.h */,
+				9499950F1E2210CA00A5679A /* MCMessageBuilder.h */,
+				949995101E2210CA00A5679A /* MCMessageConstants.h */,
+				949995111E2210CA00A5679A /* MCMessageHeader.h */,
+				949995121E2210CA00A5679A /* MCMessageParser.h */,
+				949995131E2210CA00A5679A /* MCMessagePart.h */,
+				949995141E2210CA00A5679A /* MCMultipart.h */,
+				949995151E2210CA00A5679A /* MCMXRecordResolverOperation.h */,
+				949995161E2210CA00A5679A /* MCNetService.h */,
+				949995171E2210CA00A5679A /* MCNNTP.h */,
+				949995181E2210CA00A5679A /* MCNNTPAsyncSession.h */,
+				949995191E2210CA00A5679A /* MCNNTPCheckAccountOperation.h */,
+				9499951A1E2210CA00A5679A /* MCNNTPFetchAllArticlesOperation.h */,
+				9499951B1E2210CA00A5679A /* MCNNTPFetchArticleOperation.h */,
+				9499951C1E2210CA00A5679A /* MCNNTPFetchHeaderOperation.h */,
+				9499951D1E2210CA00A5679A /* MCNNTPFetchOverviewOperation.h */,
+				9499951E1E2210CA00A5679A /* MCNNTPFetchServerTimeOperation.h */,
+				9499951F1E2210CA00A5679A /* MCNNTPGroupInfo.h */,
+				949995201E2210CA00A5679A /* MCNNTPListNewsgroupsOperation.h */,
+				949995211E2210CA00A5679A /* MCNNTPOperation.h */,
+				949995221E2210CA00A5679A /* MCNNTPOperationCallback.h */,
+				949995231E2210CA00A5679A /* MCNNTPProgressCallback.h */,
+				949995241E2210CA00A5679A /* MCNNTPSession.h */,
+				949995251E2210CA00A5679A /* MCNull.h */,
+				949995261E2210CA00A5679A /* MCOAbstract.h */,
+				949995271E2210CA00A5679A /* MCOAbstractMessage.h */,
+				949995281E2210CA00A5679A /* MCOAbstractMessagePart.h */,
+				949995291E2210CA00A5679A /* MCOAbstractMultipart.h */,
+				9499952A1E2210CA00A5679A /* MCOAbstractPart.h */,
+				9499952B1E2210CA00A5679A /* MCOAccountValidator.h */,
+				9499952C1E2210CA00A5679A /* MCOAddress.h */,
+				9499952D1E2210CA00A5679A /* MCOAttachment.h */,
+				9499952E1E2210CA00A5679A /* MCObjC.h */,
+				9499952F1E2210CA00A5679A /* MCObject.h */,
+				949995301E2210CA00A5679A /* MCOConstants.h */,
+				949995311E2210CA00A5679A /* MCOHTMLRendererDelegate.h */,
+				949995321E2210CA00A5679A /* MCOHTMLRendererIMAPDelegate.h */,
+				949995331E2210CA00A5679A /* MCOIMAP.h */,
+				949995341E2210CA00A5679A /* MCOIMAPAppendMessageOperation.h */,
+				949995351E2210CA00A5679A /* MCOIMAPBaseOperation.h */,
+				949995361E2210CA00A5679A /* MCOIMAPCapabilityOperation.h */,
+				949995371E2210CA00A5679A /* MCOIMAPCopyMessagesOperation.h */,
+				949995381E2210CA00A5679A /* MCOIMAPCustomCommandOperation.h */,
+				949995391E2210CA00A5679A /* MCOIMAPFetchContentOperation.h */,
+				9499953A1E2210CA00A5679A /* MCOIMAPFetchFoldersOperation.h */,
+				9499953B1E2210CA00A5679A /* MCOIMAPFetchMessagesOperation.h */,
+				9499953C1E2210CA00A5679A /* MCOIMAPFetchNamespaceOperation.h */,
+				9499953D1E2210CA00A5679A /* MCOIMAPFetchParsedContentOperation.h */,
+				9499953E1E2210CA00A5679A /* MCOIMAPFolder.h */,
+				9499953F1E2210CA00A5679A /* MCOIMAPFolderInfo.h */,
+				949995401E2210CA00A5679A /* MCOIMAPFolderInfoOperation.h */,
+				949995411E2210CA00A5679A /* MCOIMAPFolderStatus.h */,
+				949995421E2210CA00A5679A /* MCOIMAPFolderStatusOperation.h */,
+				949995431E2210CA00A5679A /* MCOIMAPIdentity.h */,
+				949995441E2210CA00A5679A /* MCOIMAPIdentityOperation.h */,
+				949995451E2210CA00A5679A /* MCOIMAPIdleOperation.h */,
+				949995461E2210CA00A5679A /* MCOIMAPMessage.h */,
+				949995471E2210CA00A5679A /* MCOIMAPMessagePart.h */,
+				949995481E2210CA00A5679A /* MCOIMAPMessageRenderingOperation.h */,
+				949995491E2210CA00A5679A /* MCOIMAPMultipart.h */,
+				9499954A1E2210CA00A5679A /* MCOIMAPNamespace.h */,
+				9499954B1E2210CA00A5679A /* MCOIMAPNamespaceItem.h */,
+				9499954C1E2210CA00A5679A /* MCOIMAPOperation.h */,
+				9499954D1E2210CA00A5679A /* MCOIMAPPart.h */,
+				9499954E1E2210CA00A5679A /* MCOIMAPQuotaOperation.h */,
+				9499954F1E2210CA00A5679A /* MCOIMAPSearchExpression.h */,
+				949995501E2210CA00A5679A /* MCOIMAPSearchOperation.h */,
+				949995511E2210CA00A5679A /* MCOIMAPSession.h */,
+				949995521E2210CA00A5679A /* MCOIndexSet.h */,
+				949995531E2210CA00A5679A /* MCOMailProvider.h */,
+				949995541E2210CA00A5679A /* MCOMailProvidersManager.h */,
+				949995551E2210CA00A5679A /* MCOMessageBuilder.h */,
+				949995561E2210CA00A5679A /* MCOMessageHeader.h */,
+				949995571E2210CA00A5679A /* MCOMessageParser.h */,
+				949995581E2210CA00A5679A /* MCOMessagePart.h */,
+				949995591E2210CA00A5679A /* MCOMultipart.h */,
+				9499955A1E2210CA00A5679A /* MCONetService.h */,
+				9499955B1E2210CA00A5679A /* MCONNTP.h */,
+				9499955C1E2210CA00A5679A /* MCONNTPDisconnectOperation.h */,
+				9499955D1E2210CA00A5679A /* MCONNTPFetchAllArticlesOperation.h */,
+				9499955E1E2210CA00A5679A /* MCONNTPFetchArticleOperation.h */,
+				9499955F1E2210CA00A5679A /* MCONNTPFetchHeaderOperation.h */,
+				949995601E2210CA00A5679A /* MCONNTPFetchOverviewOperation.h */,
+				949995611E2210CA00A5679A /* MCONNTPFetchServerTimeOperation.h */,
+				949995621E2210CA00A5679A /* MCONNTPGroupInfo.h */,
+				949995631E2210CA00A5679A /* MCONNTPListNewsgroupsOperation.h */,
+				949995641E2210CA00A5679A /* MCONNTPOperation.h */,
+				949995651E2210CA00A5679A /* MCONNTPSession.h */,
+				949995661E2210CA00A5679A /* MCOObjectWrapper.h */,
+				949995671E2210CA00A5679A /* MCOOperation.h */,
+				949995681E2210CA00A5679A /* MCOperation.h */,
+				949995691E2210CA00A5679A /* MCOperationCallback.h */,
+				9499956A1E2210CA00A5679A /* MCOperationQueue.h */,
+				9499956B1E2210CA00A5679A /* MCOPOP.h */,
+				9499956C1E2210CA00A5679A /* MCOPOPFetchHeaderOperation.h */,
+				9499956D1E2210CA00A5679A /* MCOPOPFetchMessageOperation.h */,
+				9499956E1E2210CA00A5679A /* MCOPOPFetchMessagesOperation.h */,
+				9499956F1E2210CA00A5679A /* MCOPOPMessageInfo.h */,
+				949995701E2210CA00A5679A /* MCOPOPNoopOperation.h */,
+				949995711E2210CA00A5679A /* MCOPOPOperation.h */,
+				949995721E2210CA00A5679A /* MCOPOPSession.h */,
+				949995731E2210CA00A5679A /* MCOProvider.h */,
+				949995741E2210CA00A5679A /* MCORange.h */,
+				949995751E2210CA00A5679A /* MCORFC822.h */,
+				949995761E2210CA00A5679A /* MCOSMTP.h */,
+				949995771E2210CA00A5679A /* MCOSMTPLoginOperation.h */,
+				949995781E2210CA00A5679A /* MCOSMTPOperation.h */,
+				949995791E2210CA00A5679A /* MCOSMTPSendOperation.h */,
+				9499957A1E2210CA00A5679A /* MCOSMTPSession.h */,
+				9499957B1E2210CA00A5679A /* MCOUtils.h */,
+				9499957C1E2210CA00A5679A /* MCPOP.h */,
+				9499957D1E2210CA00A5679A /* MCPOPAsyncSession.h */,
+				9499957E1E2210CA00A5679A /* MCPOPFetchHeaderOperation.h */,
+				9499957F1E2210CA00A5679A /* MCPOPFetchMessageOperation.h */,
+				949995801E2210CA00A5679A /* MCPOPFetchMessagesOperation.h */,
+				949995811E2210CA00A5679A /* MCPOPMessageInfo.h */,
+				949995821E2210CA00A5679A /* MCPOPNoopOperation.h */,
+				949995831E2210CA00A5679A /* MCPOPOperation.h */,
+				949995841E2210CA00A5679A /* MCPOPOperationCallback.h */,
+				949995851E2210CA00A5679A /* MCPOPProgressCallback.h */,
+				949995861E2210CA00A5679A /* MCPOPSession.h */,
+				949995871E2210CA00A5679A /* MCProvider.h */,
+				949995881E2210CA00A5679A /* MCRange.h */,
+				949995891E2210CA00A5679A /* MCRenderer.h */,
+				9499958A1E2210CA00A5679A /* MCRFC822.h */,
+				9499958B1E2210CA00A5679A /* MCSet.h */,
+				9499958C1E2210CA00A5679A /* MCSizeFormatter.h */,
+				9499958D1E2210CA00A5679A /* MCSMTP.h */,
+				9499958E1E2210CA00A5679A /* MCSMTPAsyncSession.h */,
+				9499958F1E2210CA00A5679A /* MCSMTPNoopOperation.h */,
+				949995901E2210CA00A5679A /* MCSMTPOperation.h */,
+				949995911E2210CA00A5679A /* MCSMTPOperationCallback.h */,
+				949995921E2210CA00A5679A /* MCSMTPProgressCallback.h */,
+				949995931E2210CA00A5679A /* MCSMTPSession.h */,
+				949995941E2210CA00A5679A /* MCString.h */,
+				949995951E2210CA00A5679A /* MCUtils.h */,
+				949995961E2210CA00A5679A /* MCValue.h */,
+				949995971E2210CA00A5679A /* NSArray+MCO.h */,
+				949995981E2210CA00A5679A /* NSData+MCO.h */,
+				949995991E2210CA00A5679A /* NSDictionary+MCO.h */,
+				9499959A1E2210CA00A5679A /* NSError+MCO.h */,
+				9499959B1E2210CA00A5679A /* NSIndexSet+MCO.h */,
+				9499959C1E2210CA00A5679A /* NSObject+MCO.h */,
+				9499959D1E2210CA00A5679A /* NSString+MCO.h */,
+				9499959E1E2210CA00A5679A /* NSValue+MCO.h */,
+			);
+			name = MailCore;
+			path = include/MailCore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -8216,7 +8747,7 @@
 						TestTargetID = 1E288DAA18F3F87B0068D1B2;
 					};
 					1EF92DDD17EC673100FC4F6A = {
-						DevelopmentTeam = C645Z8QGL2;
+						DevelopmentTeam = RAA3Q4LSV6;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -9104,6 +9635,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946C286E1E2215A400E4CB00 /* M.entitlements in Resources */,
 				802D6C301A5BEBC900A4DC3D /* GTMOAuth2ViewTouch.xib in Resources */,
 				1ECAF00E195210760082FA08 /* envelopeMarginRed.png in Resources */,
 				1EE838311A06CC26000CB107 /* doorSheetFlipped.png in Resources */,
@@ -9223,7 +9755,6 @@
 				1E2546F0186A0962002F24D4 /* flagWithCross44.png in Resources */,
 				1E9221B81A13A9B20099F4CB /* attachment16.png in Resources */,
 				1E4D66A218AF5C500078F548 /* flagWhite64.png in Resources */,
-				802D6C331A5BEBC900A4DC3D /* GTMOAuth2Window.xib in Resources */,
 				80E109E11A1266D900F3B1B5 /* replyallB22@3x.png in Resources */,
 				80E108E81A110B8900F3B1B5 /* settings29@2x.png in Resources */,
 				1ECAF0221952188D0082FA08 /* envelopeMarginRed2.png in Resources */,
@@ -9321,7 +9852,6 @@
 				1ECAF00B195210760082FA08 /* envelopeMarginGreen.png in Resources */,
 				1E26F3BB199A08400077ADA7 /* numbersBackground@2x.png in Resources */,
 				809B3A251A667B31004F14CC /* read48@2x.png in Resources */,
-				1EAB4E8719E83E8000173B1A /* Mynigma_iOS.entitlements in Resources */,
 				80E109B01A12106800F3B1B5 /* unreadB22Template@2x.png in Resources */,
 				5E27C6191A7FBC81000B711C /* BirdClosedEyes64.png in Resources */,
 				1E6587EA1948921A00456395 /* DeviceMessage.html in Resources */,
@@ -9626,7 +10156,6 @@
 				1E6022A1194C30FD00D22DF1 /* TrustEstablishmentThread.m in Sources */,
 				5E6E94E91A80CE5400296DEF /* MovingPlaceholderTextField_Mac.m in Sources */,
 				1EEC9D2118F70D79005B076E /* RegistrationHelper.m in Sources */,
-				1E9354901A4234C800F192AC /* packet-print.c in Sources */,
 				1EEC9D2218F70D79005B076E /* ServerHelper.m in Sources */,
 				5E926DF61A9B808F0031C133 /* HMACDataStructure.mm in Sources */,
 				1E7C7A8E19C4912F001BF880 /* IMAPAccountSetting.m in Sources */,
@@ -9636,8 +10165,6 @@
 				1ED865461A278227006B72C3 /* ContactCompletionHelper.m in Sources */,
 				1EDCF49D1A9BCA9A00395B37 /* DecryptionResult.m in Sources */,
 				1EDE6E161921561000AE0765 /* PullToReloadViewController.m in Sources */,
-				1E93547B1A4234C800F192AC /* crypto.c in Sources */,
-				1E9354A51A4234C800F192AC /* writer.c in Sources */,
 				1E83D15A190528A60052DFF4 /* MynigmaMessage+Category.m in Sources */,
 				1EF55A9619D4695A0089ADC7 /* RoundedCornerBox.m in Sources */,
 				5E926E161A9B9A860031C133 /* FileAttachment.m in Sources */,
@@ -9648,15 +10175,12 @@
 				1E40810D19C6F5B800A565A4 /* AttachmentOverlayStringTransformer.m in Sources */,
 				1ED865341A2766D9006B72C3 /* MainSplitViewDelegate.m in Sources */,
 				1E3559EA19D6EC4400E04D7F /* FetchMessageOperation.m in Sources */,
-				1E9354AA1A4234D000F192AC /* fmemopen.c in Sources */,
-				1E9354751A4234C800F192AC /* compress.c in Sources */,
 				1E288DB718F3F87B0068D1B2 /* descriptor.cc in Sources */,
 				1E288DB818F3F87B0068D1B2 /* descriptor.pb.cc in Sources */,
 				1E288DB918F3F87B0068D1B2 /* descriptor_database.cc in Sources */,
 				1E288DBA18F3F87B0068D1B2 /* dynamic_message.cc in Sources */,
 				1E0F93EF196AD73700C604D0 /* EmailContactDetail.m in Sources */,
 				1E288DBB18F3F87B0068D1B2 /* extension_set.cc in Sources */,
-				1E93548D1A4234C800F192AC /* packet-parse.c in Sources */,
 				1E288DBC18F3F87B0068D1B2 /* extension_set_heavy.cc in Sources */,
 				1ECAF02619522CFA0082FA08 /* PopoverViewController.m in Sources */,
 				1E308D6219D5FF4700404A58 /* SyncMessagesOperation.m in Sources */,
@@ -9672,7 +10196,6 @@
 				1E9354C81A42405000F192AC /* PGPPublicKey+Category.m in Sources */,
 				1E288DC018F3F87B0068D1B2 /* gzip_stream.cc in Sources */,
 				1E61AE141A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m in Sources */,
-				1E93548A1A4234C800F192AC /* openssl_crypto.c in Sources */,
 				1E7F64D819868A180019E33B /* ZipArchive.m in Sources */,
 				1E256A9D19B9EB89002C1E97 /* UIDHelper.m in Sources */,
 				1E6459C21A269C760070EB3D /* AccountsListCellView.m in Sources */,
@@ -9712,7 +10235,6 @@
 				1E7F64D2198688450019E33B /* zip.c in Sources */,
 				1E40811619C6F73E00A565A4 /* AttachmentStrictDownloadValueTransformer.m in Sources */,
 				1EB785FA19352F7E0007AF99 /* DeviceView.m in Sources */,
-				1E9354A21A4234C800F192AC /* validate.c in Sources */,
 				1E288DCD18F3F87B0068D1B2 /* common.cc in Sources */,
 				802D6C2C1A5BEBC900A4DC3D /* GTMOAuth2ViewControllerTouch.m in Sources */,
 				1E9EAE0519BCF2BA009D656C /* WhiteButton.m in Sources */,
@@ -9751,7 +10273,6 @@
 				1E288DE618F3F87B0068D1B2 /* AttachmentAdditionController.m in Sources */,
 				1E76191E19B6FDEC00D6E065 /* MergeLocalChangesHelper.m in Sources */,
 				1E288DE718F3F87B0068D1B2 /* AttachmentListController.m in Sources */,
-				1E9354961A4234C800F192AC /* reader.c in Sources */,
 				1E288DE818F3F87B0068D1B2 /* BugReporterController.m in Sources */,
 				1E26C0751A3318E800DB5B64 /* CoreDataHelper.m in Sources */,
 				802D6C291A5BEBC900A4DC3D /* GTMOAuth2SignIn.m in Sources */,
@@ -9759,7 +10280,6 @@
 				1E288DEA18F3F87B0068D1B2 /* SeparateViewerWindowController.m in Sources */,
 				1E61ADCB1A34995600DBBCC4 /* PGPPrivateKey.m in Sources */,
 				1E288DEB18F3F87B0068D1B2 /* SettingsController.m in Sources */,
-				1E93549C1A4234C800F192AC /* ssh2pgp.c in Sources */,
 				1EF468DA1A2BAEDC008CA9B2 /* SyncDataMessage.m in Sources */,
 				1E288DEC18F3F87B0068D1B2 /* NSAlert+AlertWithBlocks.m in Sources */,
 				1EDCF4981A9BC85C00395B37 /* mynigma.pb.cc in Sources */,
@@ -9767,7 +10287,6 @@
 				1E2E607118FC309900D76ACD /* PrivateKeychain.m in Sources */,
 				1E887A6419D16356004A9975 /* EmailAddress.m in Sources */,
 				1E61ADD01A34995600DBBCC4 /* PGPPublicKey.m in Sources */,
-				1E9354841A4234C800F192AC /* misc.c in Sources */,
 				1E7022901916A5AA00569C19 /* ReloadingView.m in Sources */,
 				1E93552A1A45700F00F192AC /* MynigmaPublicKey.m in Sources */,
 				1E308D5419D5BAA200404A58 /* DisconnectOperation.m in Sources */,
@@ -9784,7 +10303,6 @@
 				1E9EB08D18F551CB001EDA01 /* MigrationHelper.m in Sources */,
 				1E288DF618F3F87B0068D1B2 /* MessageListController.m in Sources */,
 				1E61ADD51A34995700DBBCC4 /* MynigmaMessage.m in Sources */,
-				1E93546F1A4234C800F192AC /* mj.c in Sources */,
 				5E926E001A9B81070031C133 /* ProtocolBuffersDataStructure.mm in Sources */,
 				1E288DF718F3F87B0068D1B2 /* DisplayMessageView.m in Sources */,
 				1E288DF818F3F87B0068D1B2 /* SendingManager.m in Sources */,
@@ -9794,7 +10312,6 @@
 				1E288DFA18F3F87B0068D1B2 /* FormattingHelper.m in Sources */,
 				1ECAEFE619508DAA0082FA08 /* MacTokenFieldClipView.m in Sources */,
 				1E288DFB18F3F87B0068D1B2 /* EmailAccount.m in Sources */,
-				1E9354781A4234C800F192AC /* create.c in Sources */,
 				1E9EAE4019BDD4CB009D656C /* SetupAccountsTableView.m in Sources */,
 				1E169E01198260430022A744 /* UnclickableButton.m in Sources */,
 				1E9355251A45700E00F192AC /* GenericPublicKey.m in Sources */,
@@ -9807,7 +10324,6 @@
 				1E169DC2197E95590022A744 /* InvitationContactView.m in Sources */,
 				3AD273D01993783A00BCAB35 /* NSData+Base64.m in Sources */,
 				1E288E0018F3F87B0068D1B2 /* MessageSieve.m in Sources */,
-				1E9354931A4234C800F192AC /* packet-show.c in Sources */,
 				1E3559E419D6E5E000E04D7F /* CheckCapabilitiesOperation.m in Sources */,
 				1E6022B9194EE05600D22DF1 /* MessageTemplate+Category.m in Sources */,
 				1E288E0118F3F87B0068D1B2 /* MessageSyncHelper.m in Sources */,
@@ -9817,7 +10333,6 @@
 				1ED865571A2791BB006B72C3 /* SelectionAndFilterHelper.m in Sources */,
 				1EF55A9C19D469780089ADC7 /* FeedbackView.m in Sources */,
 				1E288E0218F3F87B0068D1B2 /* AddressDataHelper.m in Sources */,
-				1E9354401A42349200F192AC /* UNNetPGP.m in Sources */,
 				1E83D15F190529120052DFF4 /* MynigmaPrivateKey+Category.m in Sources */,
 				1E288E0318F3F87B0068D1B2 /* MCODelegate.m in Sources */,
 				A9A4D44819F8FE270068ABA1 /* TableViewCellWithButton.m in Sources */,
@@ -9866,11 +10381,9 @@
 				5EB1C4421A86115F00717184 /* VisualEffectFrameView.m in Sources */,
 				1E288E1618F3F87B0068D1B2 /* MessageCellView.m in Sources */,
 				1E61ADE41A34995900DBBCC4 /* SMIMEMessage.m in Sources */,
-				1E9354721A4234C800F192AC /* bufgap.c in Sources */,
 				1ED865521A2790BC006B72C3 /* AppDelegate-Mac.m in Sources */,
 				1EA8BE0B195D7FF2003DDC12 /* CustomerManager.m in Sources */,
 				1ECF38971A9A05F100C214A5 /* IMAPFolderSetting.m in Sources */,
-				1E93547E1A4234C800F192AC /* fastctype.c in Sources */,
 				1E288E1718F3F87B0068D1B2 /* ProgressCell.m in Sources */,
 				1E91750819A39AF5009113B0 /* MessageListIconView.m in Sources */,
 				1E288E1818F3F87B0068D1B2 /* ReplyCellView.m in Sources */,
@@ -9892,7 +10405,6 @@
 				1E288E2318F3F87B0068D1B2 /* FooterSelectionCellView.m in Sources */,
 				1E7F64CE198688450019E33B /* unzip.c in Sources */,
 				1E288E2518F3F87B0068D1B2 /* GmailAccountSetting.m in Sources */,
-				1E9354871A4234C800F192AC /* netpgp.c in Sources */,
 				1E288E2618F3F87B0068D1B2 /* GmailLabelSetting.m in Sources */,
 				1E93553A1A45CB9F00F192AC /* PGPMessage.m in Sources */,
 				1EDE6E2119218C9300AE0765 /* ReloadingDelegate.m in Sources */,
@@ -9915,13 +10427,10 @@
 				1E288E3818F3F87B0068D1B2 /* AttachmentItem.m in Sources */,
 				802D6C231A5BEBC900A4DC3D /* GTMHTTPFetchHistory.m in Sources */,
 				1E288E3918F3F87B0068D1B2 /* AttachmentsManager.m in Sources */,
-				1E93549F1A4234C800F192AC /* symmetric.c in Sources */,
 				1ECAEFDB194FA4F60082FA08 /* MacTokenField.m in Sources */,
 				1E288E3A18F3F87B0068D1B2 /* IconListAndColourHelper.m in Sources */,
-				1E9354811A4234C800F192AC /* keyring.c in Sources */,
 				1E288E3D18F3F87B0068D1B2 /* AccountRowView.m in Sources */,
 				1E7A4ADC1A152E23005A36A2 /* AlertHelper.m in Sources */,
-				1E9354991A4234C800F192AC /* signature.c in Sources */,
 				1E288E3E18F3F87B0068D1B2 /* MessageRowView.m in Sources */,
 				1EF468DF1A2BAF9D008CA9B2 /* ConfirmConnectionMessage.m in Sources */,
 				1E288E3F18F3F87B0068D1B2 /* AccountView.m in Sources */,
@@ -9946,11 +10455,10 @@
 				5E6E94E81A80CE5400296DEF /* MovingPlaceholderTextField_Mac.m in Sources */,
 				1E61AE0E1A34C29B00DBBCC4 /* SMIMEWrapper.m in Sources */,
 				1E61ADF71A3499FF00DBBCC4 /* EncryptedMessage.m in Sources */,
-				1E9354A11A4234C800F192AC /* validate.c in Sources */,
 				1E308D6119D5FF4700404A58 /* SyncMessagesOperation.m in Sources */,
-				1E93546E1A4234C800F192AC /* mj.c in Sources */,
 				1EF55A9819D4695C0089ADC7 /* RoundedCornerBox.m in Sources */,
 				1E92F87C18EF6AF90048362E /* Reachability.m in Sources */,
+				9499943F1E2204E300A5679A /* keyring.c in Sources */,
 				1E61ADD41A34995700DBBCC4 /* MynigmaMessage.m in Sources */,
 				1E534E6E1A164D02008103A2 /* TintedImageButton.m in Sources */,
 				1E40811119C6F67200A565A4 /* AttachmentIconTextColourTransformer.m in Sources */,
@@ -9958,10 +10466,10 @@
 				5E926E151A9B9A860031C133 /* FileAttachment.m in Sources */,
 				1E169E00198260430022A744 /* UnclickableButton.m in Sources */,
 				1E26C03E1A32466300DB5B64 /* DownloadHelper.m in Sources */,
-				1E9354A91A4234D000F192AC /* fmemopen.c in Sources */,
 				1E92F85818EF6AB90048362E /* descriptor.cc in Sources */,
 				1E308D6719D603CB00404A58 /* ExpungeOperation.m in Sources */,
 				1E92F85918EF6AB90048362E /* descriptor.pb.cc in Sources */,
+				949994511E2204E300A5679A /* signature.c in Sources */,
 				1E308D6D19D6053500404A58 /* SearchOperation.m in Sources */,
 				1E92F85A18EF6AB90048362E /* descriptor_database.cc in Sources */,
 				1E6022A0194C30FD00D22DF1 /* TrustEstablishmentThread.m in Sources */,
@@ -9977,6 +10485,7 @@
 				1E92F86018EF6AB90048362E /* coded_stream.cc in Sources */,
 				1E92F86118EF6AB90048362E /* gzip_stream.cc in Sources */,
 				1E169DBC197E932A0022A744 /* InvitationStyleView.m in Sources */,
+				949994551E2204E300A5679A /* symmetric.c in Sources */,
 				1E92F86218EF6AB90048362E /* printer.cc in Sources */,
 				1E40810719C5CCA300A565A4 /* AttachmentsIconViewDelegate.m in Sources */,
 				A9A4D44719F8FE270068ABA1 /* TableViewCellWithButton.m in Sources */,
@@ -9994,8 +10503,8 @@
 				1E7F64CD198688450019E33B /* unzip.c in Sources */,
 				1E70228F1916A5AA00569C19 /* ReloadingView.m in Sources */,
 				1E92F86818EF6AB90048362E /* message_lite.cc in Sources */,
+				949994451E2204E300A5679A /* netpgp.c in Sources */,
 				1E92F86918EF6AB90048362E /* reflection_ops.cc in Sources */,
-				1E93547D1A4234C800F192AC /* fastctype.c in Sources */,
 				1EB785E519352F7E0007AF99 /* DeviceConnectionController.m in Sources */,
 				1E92F86A18EF6AB90048362E /* repeated_field.cc in Sources */,
 				1E92F86B18EF6AB90048362E /* service.cc in Sources */,
@@ -10004,6 +10513,7 @@
 				1E92F86D18EF6AB90048362E /* atomicops_internals_x86_msvc.cc in Sources */,
 				1E6022C4194EF69800D22DF1 /* AddressLabelView.m in Sources */,
 				1E92F86E18EF6AB90048362E /* common.cc in Sources */,
+				949994391E2204E300A5679A /* crypto.c in Sources */,
 				1EF468CF1A2BAE2F008CA9B2 /* AnnounceInfoDeviceMessage.m in Sources */,
 				1E92F86F18EF6AB90048362E /* once.cc in Sources */,
 				1EAE129718FD387C00820117 /* FolderListController.m in Sources */,
@@ -10014,6 +10524,7 @@
 				5EB1C4411A86115F00717184 /* VisualEffectFrameView.m in Sources */,
 				1E3559E319D6E5E000E04D7F /* CheckCapabilitiesOperation.m in Sources */,
 				1E92F87118EF6AB90048362E /* structurally_valid.cc in Sources */,
+				949994471E2204E300A5679A /* openssl_crypto.c in Sources */,
 				1E6022BE194EE29300D22DF1 /* TemplateNameController.m in Sources */,
 				1EFCFC6E19C24FFB0060DF4D /* ContentViewer.m in Sources */,
 				1E92F87218EF6AB90048362E /* strutil.cc in Sources */,
@@ -10023,6 +10534,7 @@
 				1E92F87518EF6AB90048362E /* googletest.cc in Sources */,
 				1EF55AA019D569540089ADC7 /* BlueTextButton.m in Sources */,
 				1E83D14A190527770052DFF4 /* FileAttachment+Category.m in Sources */,
+				949994491E2204E300A5679A /* packet-parse.c in Sources */,
 				1E70223B19165D1500569C19 /* PullToRefreshScrollView.m in Sources */,
 				1E61ADED1A34995A00DBBCC4 /* SMIMEPrivateKey.m in Sources */,
 				1E92F87618EF6AB90048362E /* zcgunzip.cc in Sources */,
@@ -10035,6 +10547,7 @@
 				1E7F64C5198688450019E33B /* ioapi.c in Sources */,
 				1E92F87918EF6AB90048362E /* unknown_field_set.cc in Sources */,
 				1E73CE0B19C2F77C00DD6BF9 /* ErrorLinkButton.m in Sources */,
+				949994371E2204E300A5679A /* create.c in Sources */,
 				1E92F87A18EF6AB90048362E /* wire_format.cc in Sources */,
 				1E92F87B18EF6AB90048362E /* wire_format_lite.cc in Sources */,
 				1EF468DE1A2BAF9D008CA9B2 /* ConfirmConnectionMessage.m in Sources */,
@@ -10051,23 +10564,25 @@
 				1E65883D194B4BC600456395 /* SharedSecretConfirmationController.m in Sources */,
 				5E926DFF1A9B81070031C133 /* ProtocolBuffersDataStructure.mm in Sources */,
 				1ECAEFE919509B9D0082FA08 /* MacScrollView.m in Sources */,
+				949994431E2204E300A5679A /* mj.c in Sources */,
 				1E40810C19C6F5B800A565A4 /* AttachmentOverlayStringTransformer.m in Sources */,
 				1EB785FB19352F920007AF99 /* OpenSSLWrapper.m in Sources */,
 				1E83D1631905297D0052DFF4 /* MynigmaPublicKey+Category.m in Sources */,
 				1E9EAE3519BD94B5009D656C /* SetupScreensView.m in Sources */,
 				1EDA3B501917CDB500F8E96E /* EmailMessageController.m in Sources */,
+				9499944B1E2204E300A5679A /* packet-print.c in Sources */,
 				1E823DC819EECD320074D345 /* UserSettings+Category.m in Sources */,
 				1E81B28419CB2D0400D9AB68 /* EmailAddress+Category.m in Sources */,
 				1E6022B8194EE05600D22DF1 /* MessageTemplate+Category.m in Sources */,
 				1ED8654B1A279034006B72C3 /* PrintingHelper.m in Sources */,
 				1E6F15A819CC4C6B007A51BD /* KeyExpectation+Category.m in Sources */,
+				949994351E2204E300A5679A /* compress.c in Sources */,
 				1E92F84F18EF6AAE0048362E /* AttachmentAdditionController.m in Sources */,
+				949994591E2204E300A5679A /* validate.c in Sources */,
 				1E7F64C9198688450019E33B /* mztools.c in Sources */,
 				1E61ADCA1A34995600DBBCC4 /* PGPPrivateKey.m in Sources */,
-				1E9354891A4234C800F192AC /* openssl_crypto.c in Sources */,
 				1E92F85018EF6AAE0048362E /* AttachmentListController.m in Sources */,
 				1E9EAE3019BD0770009D656C /* SetupView.m in Sources */,
-				1E9354831A4234C800F192AC /* misc.c in Sources */,
 				1ED865381A277317006B72C3 /* WindowManager.m in Sources */,
 				1E256A9C19B9EB89002C1E97 /* UIDHelper.m in Sources */,
 				1ECAEFE519508DAA0082FA08 /* MacTokenFieldClipView.m in Sources */,
@@ -10077,7 +10592,6 @@
 				1E92F85318EF6AAE0048362E /* SeparateViewerWindowController.m in Sources */,
 				806FCA081A6FB4DB00C9A009 /* FetchContentOperation.m in Sources */,
 				1ED865511A2790BC006B72C3 /* AppDelegate-Mac.m in Sources */,
-				1E9354771A4234C800F192AC /* create.c in Sources */,
 				1E92F85418EF6AAE0048362E /* SettingsController.m in Sources */,
 				1E83D14F190527F00052DFF4 /* IMAPAccountSetting+Category.m in Sources */,
 				1E92F85518EF6AAE0048362E /* NSAlert+AlertWithBlocks.m in Sources */,
@@ -10096,27 +10610,28 @@
 				1EBE9E4719E0566F000F0977 /* MynigmaDevice.m in Sources */,
 				1E26C0791A331A1600DB5B64 /* StartUpHelper.m in Sources */,
 				1ECAF04E1954AB9C0082FA08 /* AttachmentDownloadValueTransformer.m in Sources */,
-				1E9354741A4234C800F192AC /* compress.c in Sources */,
 				1E92F84118EF6A9C0048362E /* main.m in Sources */,
+				9499944D1E2204E300A5679A /* packet-show.c in Sources */,
 				1E92F84318EF6A9C0048362E /* MessageListController.m in Sources */,
 				1EBE9E3D19E0563C000F0977 /* DeviceMessage+Category.m in Sources */,
 				1E92F84418EF6A9C0048362E /* DisplayMessageView.m in Sources */,
 				1E92F82518EF6A740048362E /* SendingManager.m in Sources */,
 				1E92F82618EF6A740048362E /* IdleHelper.m in Sources */,
+				9499945B1E2204E300A5679A /* writer.c in Sources */,
 				1E02C68D1A59CC4F00FD718B /* SafeDoorsView_Mac.m in Sources */,
 				1E76191D19B6FDEC00D6E065 /* MergeLocalChangesHelper.m in Sources */,
 				1E99BA6918F352F80056309F /* FormattingHelper.m in Sources */,
+				949994411E2204E300A5679A /* misc.c in Sources */,
 				1E92F82718EF6A740048362E /* EmailAccount.m in Sources */,
 				802D6C1F1A5BEBC900A4DC3D /* GTMHTTPFetcher.m in Sources */,
 				1EA816B419DBF1F400D48930 /* ReloadButton.m in Sources */,
-				1E93543F1A42349200F192AC /* UNNetPGP.m in Sources */,
 				1E92F82818EF6A740048362E /* IMAPAccount.m in Sources */,
 				1E92F82918EF6A740048362E /* POP3Account.m in Sources */,
 				1E91750719A39AF5009113B0 /* MessageListIconView.m in Sources */,
 				1E92F82A18EF6A740048362E /* IMAPFolderManager.m in Sources */,
-				1E9354801A4234C800F192AC /* keyring.c in Sources */,
 				1E92F82B18EF6A740048362E /* AccountCreationManager.m in Sources */,
 				1E6459C11A269C760070EB3D /* AccountsListCellView.m in Sources */,
+				949994531E2204E300A5679A /* ssh2pgp.c in Sources */,
 				1E61AE091A34C28C00DBBCC4 /* OpenPGPWrapper.m in Sources */,
 				1E92F82C18EF6A740048362E /* MessageSieve.m in Sources */,
 				5E926DFA1A9B80F30031C133 /* VersionDataStructure.mm in Sources */,
@@ -10124,6 +10639,7 @@
 				1E92F82D18EF6A740048362E /* MessageSyncHelper.m in Sources */,
 				5E926E0A1A9B85880031C133 /* SessionKeyEntryDataStructure.mm in Sources */,
 				1E92F82E18EF6A740048362E /* AddressDataHelper.m in Sources */,
+				949994571E2204E300A5679A /* UNNetPGP.m in Sources */,
 				1E92F82F18EF6A740048362E /* MCODelegate.m in Sources */,
 				1E83D140190525540052DFF4 /* EmailMessage+Category.m in Sources */,
 				1E61ADDE1A34995800DBBCC4 /* SMIMEPublicKey.m in Sources */,
@@ -10148,20 +10664,18 @@
 				1E92F83718EF6A740048362E /* CopyMessageOperation.m in Sources */,
 				1E6F4C7D1A28B6AB001D0165 /* LinkButton.m in Sources */,
 				1E92F83818EF6A740048362E /* EncryptionHelper.mm in Sources */,
-				1E93548F1A4234C800F192AC /* packet-print.c in Sources */,
 				1E7F64D719868A180019E33B /* ZipArchive.m in Sources */,
 				1E92F83918EF6A740048362E /* KeychainHelper.m in Sources */,
 				1E92F83A18EF6A740048362E /* ConnectionItem.m in Sources */,
 				802D6C341A5BEBC900A4DC3D /* GTMOAuth2WindowController.m in Sources */,
+				9499943B1E2204E300A5679A /* fastctype.c in Sources */,
 				1E92F80218EF6A540048362E /* ContactCellView.m in Sources */,
 				1E658831194A563500456395 /* SelectionNotNil.m in Sources */,
 				1E9355241A45700E00F192AC /* GenericPublicKey.m in Sources */,
 				1E3559DD19D6DA5800E04D7F /* FetchAllFoldersOperation.m in Sources */,
-				1E93547A1A4234C800F192AC /* crypto.c in Sources */,
-				1E9354981A4234C800F192AC /* signature.c in Sources */,
 				1E92F80318EF6A540048362E /* ContentView.m in Sources */,
-				1E9354861A4234C800F192AC /* netpgp.c in Sources */,
 				1E92F80418EF6A540048362E /* ContentViewerCellView.m in Sources */,
+				949994331E2204E300A5679A /* bufgap.c in Sources */,
 				1EBB42C718F2F8640020E57D /* EncryptionValueTransformer.m in Sources */,
 				1E92F80618EF6A540048362E /* MessageCellView.m in Sources */,
 				1E92F80718EF6A540048362E /* ProgressCell.m in Sources */,
@@ -10175,9 +10689,9 @@
 				1E26C0741A3318E800DB5B64 /* CoreDataHelper.m in Sources */,
 				1E9355391A45CB9F00F192AC /* PGPMessage.m in Sources */,
 				1E83D15E190529120052DFF4 /* MynigmaPrivateKey+Category.m in Sources */,
+				9499944F1E2204E300A5679A /* reader.c in Sources */,
 				1E92F80B18EF6A540048362E /* TokenFieldCell.m in Sources */,
 				5E926DF51A9B808F0031C133 /* HMACDataStructure.mm in Sources */,
-				1E9354921A4234C800F192AC /* packet-show.c in Sources */,
 				1E61AE131A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m in Sources */,
 				1EBE9E4D19E05670000F0977 /* DeviceMessage.m in Sources */,
 				1ECAEFED1950FF000082FA08 /* MacTokenFieldTextContainer.m in Sources */,
@@ -10188,7 +10702,6 @@
 				1E3559E919D6EC4400E04D7F /* FetchMessageOperation.m in Sources */,
 				1E92F80C18EF6A540048362E /* MessagesTable.m in Sources */,
 				1E92F80D18EF6A540048362E /* AttachmentView.m in Sources */,
-				1E93548C1A4234C800F192AC /* packet-parse.c in Sources */,
 				1E92F80E18EF6A540048362E /* RecipientTokenField.m in Sources */,
 				1ECAF02519522CFA0082FA08 /* PopoverViewController.m in Sources */,
 				1EF55A9A19D4696B0089ADC7 /* ProfilePicView.m in Sources */,
@@ -10205,18 +10718,16 @@
 				5E926E0F1A9B8EFF0031C133 /* SessionKeys.m in Sources */,
 				1E2E607018FC309900D76ACD /* PrivateKeychain.m in Sources */,
 				1E92F81A18EF6A540048362E /* EmailMessageInstance.m in Sources */,
+				9499943D1E2204E300A5679A /* fmemopen.c in Sources */,
 				1E2B43A8196694F80010DED6 /* AccountCheckManager.m in Sources */,
 				1E83D1541905283B0052DFF4 /* IMAPFolderSetting+Category.m in Sources */,
 				1E169DC1197E95590022A744 /* InvitationContactView.m in Sources */,
 				1E92F81D18EF6A540048362E /* MynigmaDeclaration.m in Sources */,
 				1E3559D719D6D45D00E04D7F /* FetchAttachmentOperation.m in Sources */,
 				1ED865451A278227006B72C3 /* ContactCompletionHelper.m in Sources */,
-				1E93549E1A4234C800F192AC /* symmetric.c in Sources */,
 				1E887A6319D16356004A9975 /* EmailAddress.m in Sources */,
 				1E92F82118EF6A540048362E /* IMAPSenderAddress.m in Sources */,
-				1E9354951A4234C800F192AC /* reader.c in Sources */,
 				1EEEE0DF19C0B94600A583A0 /* AuthenticationChoiceTransformer.m in Sources */,
-				1E93549B1A4234C800F192AC /* ssh2pgp.c in Sources */,
 				1E169DDE197EA98F0022A744 /* MultipleSelectionTableView.m in Sources */,
 				1E92F82318EF6A540048362E /* ABContactDetail.m in Sources */,
 				1EF55A9B19D469780089ADC7 /* FeedbackView.m in Sources */,
@@ -10227,12 +10738,10 @@
 				1E82B529195B007800959CEF /* FolderListView.m in Sources */,
 				1E224A3E19D32D710005F129 /* syncData.pb.cc in Sources */,
 				1E92F7F418EF6A3F0048362E /* AppDelegate.m in Sources */,
-				1E9354711A4234C800F192AC /* bufgap.c in Sources */,
 				1E92F7F618EF6A3F0048362E /* OutlineObject.m in Sources */,
 				1EB785E919352F7E0007AF99 /* DeviceConnectionHelper.m in Sources */,
 				802D6C251A5BEBC900A4DC3D /* GTMOAuth2Authentication.m in Sources */,
 				1E92F7F718EF6A3F0048362E /* AttachmentItem.m in Sources */,
-				1E9354A41A4234C800F192AC /* writer.c in Sources */,
 				1E92F7F818EF6A3F0048362E /* AttachmentsManager.m in Sources */,
 				1E92F7F918EF6A3F0048362E /* IconListAndColourHelper.m in Sources */,
 				1E83D145190526340052DFF4 /* EmailMessageInstance+Category.m in Sources */,
@@ -10287,17 +10796,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E9355261A45700E00F192AC /* GenericPublicKey.m in Sources */,
 				1E26C0761A3318E800DB5B64 /* CoreDataHelper.m in Sources */,
 				1ED865481A278227006B72C3 /* ContactCompletionHelper.m in Sources */,
 				1EB98ED418F0B10E00424866 /* AppDelegate.m in Sources */,
 				5E926E061A9B83DD0031C133 /* EncryptedDataStructure.mm in Sources */,
 				5E05DAF31A6FF4E700D42579 /* EmailMessageData.m in Sources */,
 				1EF468E01A2BAF9D008CA9B2 /* ConfirmConnectionMessage.m in Sources */,
+				949994401E2204E300A5679A /* keyring.c in Sources */,
+				949994891E22056D00A5679A /* GenericPublicKey.h in Sources */,
+				1E9355261A45700E00F192AC /* GenericPublicKey.m in Sources */,
+				9499948A1E22056D00A5679A /* GenericPublicKey+Category.h in Sources */,
+				1E93551E1A44F43300F192AC /* GenericPublicKey+Category.m in Sources */,
+				9499948B1E22056D00A5679A /* KeychainHelper.h in Sources */,
+				1ECD541F18EC1A2C00C308C3 /* KeychainHelper.m in Sources */,
+				9499948C1E22056D00A5679A /* KeyExpectation.h in Sources */,
+				1E6F15A519CC4BB0007A51BD /* KeyExpectation.m in Sources */,
+				9499948D1E22056D00A5679A /* KeyExpectation+Category.h in Sources */,
+				1E6F15AB19CC4C6B007A51BD /* KeyExpectation+Category.m in Sources */,
+				9499948E1E22056D00A5679A /* KeyListController.h in Sources */,
+				1E93551B1A44F37400F192AC /* KeyListController.m in Sources */,
+				9499948F1E22056D00A5679A /* KeyListTableViewCell.h in Sources */,
+				1E93552E1A4574C800F192AC /* KeyListTableViewCell.m in Sources */,
+				949994C31E220EC500A5679A /* SMIMEWrapper.m in Sources */,
+				949994901E22056D00A5679A /* Mynigma encryption key info@mynigma.org|1377619023.914025.pem in Sources */,
+				949994911E22056D00A5679A /* Mynigma signature key info@mynigma.org|1377619023.914025.pem in Sources */,
+				949994921E22056D00A5679A /* MynigmaPrivateKey.h in Sources */,
+				949994931E22056D00A5679A /* MynigmaPrivateKey.m in Sources */,
+				949994941E22056D00A5679A /* MynigmaPrivateKey+Category.h in Sources */,
+				1E83D160190529120052DFF4 /* MynigmaPrivateKey+Category.m in Sources */,
+				949994951E22056D00A5679A /* MynigmaPublicKey.h in Sources */,
+				1E93552B1A45700F00F192AC /* MynigmaPublicKey.m in Sources */,
+				949994961E22056D00A5679A /* MynigmaPublicKey+Category.h in Sources */,
+				1E83D1651905297D0052DFF4 /* MynigmaPublicKey+Category.m in Sources */,
+				949994971E22056D00A5679A /* PGPPrivateKey.h in Sources */,
+				949994981E22056D00A5679A /* PGPPrivateKey.m in Sources */,
+				949994991E22056D00A5679A /* PGPPublicKey.h in Sources */,
+				9499949A1E22056D00A5679A /* PGPPublicKey.m in Sources */,
+				9499949B1E22056D00A5679A /* PGPPublicKey+Category.h in Sources */,
+				1E9354C91A42405000F192AC /* PGPPublicKey+Category.m in Sources */,
+				9499949C1E22056D00A5679A /* PrivateKeychain.h in Sources */,
+				1E2E607218FC309900D76ACD /* PrivateKeychain.m in Sources */,
+				9499949D1E22056D00A5679A /* PublicKeyManager.h in Sources */,
+				1EE6A2C617EC716300EF9621 /* PublicKeyManager.mm in Sources */,
+				9499949E1E22056D00A5679A /* SessionKeyEntryDataStructure.h in Sources */,
+				5E926E0C1A9B85880031C133 /* SessionKeyEntryDataStructure.mm in Sources */,
+				9499949F1E22056D00A5679A /* SessionKeys.h in Sources */,
+				5E926E111A9B8EFF0031C133 /* SessionKeys.m in Sources */,
 				1E26C0401A32466300DB5B64 /* DownloadHelper.m in Sources */,
 				5E926DF71A9B808F0031C133 /* HMACDataStructure.mm in Sources */,
-				1ECD541F18EC1A2C00C308C3 /* KeychainHelper.m in Sources */,
-				1E83D1651905297D0052DFF4 /* MynigmaPublicKey+Category.m in Sources */,
 				1EE63655198FB26300703DE8 /* MessageTemplate.m in Sources */,
 				1E3559E019D6DA5800E04D7F /* FetchAllFoldersOperation.m in Sources */,
 				1E612F98185CEC100092A0DF /* DisplayMessageController.m in Sources */,
@@ -10308,21 +10854,17 @@
 				1E26F412199B5AF50077ADA7 /* AttachmentsListCell.m in Sources */,
 				1ECD542018EC1D4100C308C3 /* ConnectionItem.m in Sources */,
 				1EE6A2E717ECBC6C00EF9621 /* atomicops_internals_x86_gcc.cc in Sources */,
-				1E9354971A4234C800F192AC /* reader.c in Sources */,
 				1ED8653D1A277345006B72C3 /* ViewControllersManager.m in Sources */,
 				1EF468D11A2BAE2F008CA9B2 /* AnnounceInfoDeviceMessage.m in Sources */,
 				5E4B6CD61A5AF5CC0090F715 /* SetupFlowPageControllerLogin.m in Sources */,
 				1EE6A2E817ECBC6C00EF9621 /* atomicops_internals_x86_msvc.cc in Sources */,
-				1E6F15AB19CC4C6B007A51BD /* KeyExpectation+Category.m in Sources */,
 				1E3559E619D6E5E000E04D7F /* CheckCapabilitiesOperation.m in Sources */,
 				1EE6A2E917ECBC6C00EF9621 /* common.cc in Sources */,
 				1E7BF86B19BC84A2006DA816 /* UserNotificationHelper.m in Sources */,
 				1EE6A2EA17ECBC6C00EF9621 /* once.cc in Sources */,
 				802D6C211A5BEBC900A4DC3D /* GTMHTTPFetcher.m in Sources */,
 				1EF63D60184A40C2008E6112 /* ComposeNewController.m in Sources */,
-				1E61ADEF1A34995A00DBBCC4 /* SMIMEPrivateKey.m in Sources */,
 				802638AA1A039039009E0690 /* MCOIMAPSession+Category.m in Sources */,
-				1E9354791A4234C800F192AC /* create.c in Sources */,
 				1EE6A2EB17ECBC6C00EF9621 /* stringprintf.cc in Sources */,
 				1E755A10186B65C6007F4FFE /* LicenceViewController.m in Sources */,
 				1E6022BA194EE05600D22DF1 /* MessageTemplate+Category.m in Sources */,
@@ -10338,7 +10880,6 @@
 				5E926DFC1A9B80F30031C133 /* VersionDataStructure.mm in Sources */,
 				5E5F39E31A531D7100E567E9 /* SetupFlowPageLogin.m in Sources */,
 				1EE6A2EE17ECBC6C00EF9621 /* file.cc in Sources */,
-				1E61AE151A34CB5100DBBCC4 /* SMIMEMessage+Encryption.m in Sources */,
 				1EBE9E4A19E0566F000F0977 /* MynigmaDevice.m in Sources */,
 				1EE6A2EF17ECBC6C00EF9621 /* googletest.cc in Sources */,
 				1E3527AF1A4C391B00A11ED9 /* SetupFlowViewController.m in Sources */,
@@ -10347,25 +10888,20 @@
 				5E926E011A9B81070031C133 /* ProtocolBuffersDataStructure.mm in Sources */,
 				1E224A4D19D40D4A0005F129 /* EmailFooter.m in Sources */,
 				5ED9B7EB1A5193E600417EA8 /* SetupFlowPage.m in Sources */,
-				1E9354A01A4234C800F192AC /* symmetric.c in Sources */,
-				1E61ADCC1A34995600DBBCC4 /* PGPPrivateKey.m in Sources */,
 				1EE6A2F017ECBC6C00EF9621 /* zcgunzip.cc in Sources */,
 				1E9EB08E18F551CB001EDA01 /* MigrationHelper.m in Sources */,
 				1EC2F12717F497510063A5BF /* TITokenField.m in Sources */,
 				5E5A97FE1A66F9CE0053EBDD /* SafeDoorsViewController.m in Sources */,
 				1E6022AD194CF43400D22DF1 /* DeviceConnectionHelper.m in Sources */,
-				1E93547F1A4234C800F192AC /* fastctype.c in Sources */,
+				949994561E2204E300A5679A /* symmetric.c in Sources */,
 				1E206B5719B385BC00D9DDA4 /* DeviceListController.m in Sources */,
 				1EDE284319C88ED7003CDAFD /* NSString+EmailAddresses.m in Sources */,
 				1ECC95CB1A0CC650007CEB5B /* BodyInputView.m in Sources */,
-				1E9354C91A42405000F192AC /* PGPPublicKey+Category.m in Sources */,
 				1EDF30CD191101CC00B12A9C /* LittleLogoView.m in Sources */,
 				1EE6A2F117ECBC6C00EF9621 /* zcgzip.cc in Sources */,
 				1EC2F11A17F46FF10063A5BF /* HeadingCell.m in Sources */,
 				1E206B5A19B3874D00D9DDA4 /* DeviceListCell.m in Sources */,
-				1E93547C1A4234C800F192AC /* crypto.c in Sources */,
 				1EE6A2F217ECBC6C00EF9621 /* text_format.cc in Sources */,
-				1E9354911A4234C800F192AC /* packet-print.c in Sources */,
 				1EE6A2F317ECBC6C00EF9621 /* unknown_field_set.cc in Sources */,
 				5EC7AEAE1A485DAA0083D5F8 /* MoveMessageIconView.m in Sources */,
 				1EE6A2F417ECBC6C00EF9621 /* wire_format.cc in Sources */,
@@ -10373,7 +10909,6 @@
 				1EE6A2E117ECBAFA00EF9621 /* message.cc in Sources */,
 				5E5F39E61A531EF400E567E9 /* SetupFlowPageCredentials.m in Sources */,
 				1E81B28719CB2D0400D9AB68 /* EmailAddress+Category.m in Sources */,
-				1E9354851A4234C800F192AC /* misc.c in Sources */,
 				1EE6A2E217ECBAFA00EF9621 /* message_lite.cc in Sources */,
 				1EE6A2E317ECBAFA00EF9621 /* reflection_ops.cc in Sources */,
 				1EE6A2E417ECBAFA00EF9621 /* repeated_field.cc in Sources */,
@@ -10381,10 +10916,8 @@
 				5E428FF91A60137F006EB7D8 /* LoadingHelper.m in Sources */,
 				1EE6A2E517ECBAFA00EF9621 /* service.cc in Sources */,
 				1EC2F11D17F470600063A5BF /* SearchCell.m in Sources */,
-				5E926E0C1A9B85880031C133 /* SessionKeyEntryDataStructure.mm in Sources */,
-				1E93549A1A4234C800F192AC /* signature.c in Sources */,
 				1EE6A2D217ECBAE400EF9621 /* descriptor.cc in Sources */,
-				1E61ADE01A34995800DBBCC4 /* SMIMEPublicKey.m in Sources */,
+				9499944C1E2204E300A5679A /* packet-print.c in Sources */,
 				1EE6A2D317ECBAE400EF9621 /* descriptor.pb.cc in Sources */,
 				1E7C7A9019C4912F001BF880 /* IMAPAccountSetting.m in Sources */,
 				1E3527B21A4C392D00A11ED9 /* SetupFlowPageController.m in Sources */,
@@ -10398,15 +10931,13 @@
 				1E308D6A19D603CB00404A58 /* ExpungeOperation.m in Sources */,
 				1EE6A2D817ECBAE400EF9621 /* generated_message_reflection.cc in Sources */,
 				802D6C0F1A4ED11A00A4DC3D /* OAuthHelper.m in Sources */,
-				1E93552E1A4574C800F192AC /* KeyListTableViewCell.m in Sources */,
 				1E3559EC19D6EC4400E04D7F /* FetchMessageOperation.m in Sources */,
 				1EE6A2D917ECBAE400EF9621 /* generated_message_util.cc in Sources */,
+				9499944A1E2204E300A5679A /* packet-parse.c in Sources */,
 				802D6C2A1A5BEBC900A4DC3D /* GTMOAuth2SignIn.m in Sources */,
 				5E5F39E91A5327B300E567E9 /* SetupFlowPageFirstInfo.m in Sources */,
 				1EE6A2DA17ECBAE400EF9621 /* coded_stream.cc in Sources */,
-				5E8ED4F81A41FB30005E2CA3 /* SMIMEPublicKey+Category.m in Sources */,
 				1EB12E9B19FE8DBC00A5E799 /* CreditsController.m in Sources */,
-				1E9354761A4234C800F192AC /* compress.c in Sources */,
 				1EE6A2DB17ECBAE400EF9621 /* gzip_stream.cc in Sources */,
 				1EDE838E18C72725003B38A6 /* GmailAccountSetting.m in Sources */,
 				1EE636581990D5A300703DE8 /* SettingsAccountListController.m in Sources */,
@@ -10419,15 +10950,10 @@
 				1EE6A2E017ECBAE400EF9621 /* zero_copy_stream_impl_lite.cc in Sources */,
 				1EE6A2D017ECBAA900EF9621 /* Recipient.m in Sources */,
 				1E7A4ADE1A152E23005A36A2 /* AlertHelper.m in Sources */,
-				1E61ADDB1A34995700DBBCC4 /* MynigmaPrivateKey.m in Sources */,
 				1E4D669C18AE50660078F548 /* AttachmentsManager.m in Sources */,
 				1EE883D118662C9700F607F4 /* JASidePanelController.m in Sources */,
 				1E42A2B619CEF9EA0063A37B /* MynigmaFeedback.m in Sources */,
 				5EC7AEB91A4868D20083D5F8 /* MoveMessageContentViewController.m in Sources */,
-				1E9354941A4234C800F192AC /* packet-show.c in Sources */,
-				1E83D160190529120052DFF4 /* MynigmaPrivateKey+Category.m in Sources */,
-				1E9354701A4234C800F192AC /* mj.c in Sources */,
-				1E93551B1A44F37400F192AC /* KeyListController.m in Sources */,
 				1ECC95D71A0D1B76007CEB5B /* SplitViewDelegate.m in Sources */,
 				1E61ADF41A34999700DBBCC4 /* EmailMessage.m in Sources */,
 				1E308D7619D6082200404A58 /* CreateFolderOperation.m in Sources */,
@@ -10435,20 +10961,22 @@
 				1EE6A2BD17EC716300EF9621 /* IMAPAccount.m in Sources */,
 				1ECAF03B195259BF0082FA08 /* ThreadHelper.m in Sources */,
 				1EE6A2BE17EC716300EF9621 /* IdleHelper.m in Sources */,
+				949994581E2204E300A5679A /* UNNetPGP.m in Sources */,
+				9499945C1E2204E300A5679A /* writer.c in Sources */,
 				1E7F64CC198688450019E33B /* mztools.c in Sources */,
 				1E7F64D4198688450019E33B /* zip.c in Sources */,
-				1E9354411A42349200F192AC /* UNNetPGP.m in Sources */,
 				1EE6A2BF17EC716300EF9621 /* MessageSieve.m in Sources */,
 				1EDCF49E1A9BCA9A00395B37 /* DecryptionResult.m in Sources */,
 				802D6C2D1A5BEBC900A4DC3D /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				949994C01E220EC500A5679A /* SMIMEPrivateKey.m in Sources */,
 				1EE6A2C417EC716300EF9621 /* XMLReader.m in Sources */,
 				1E61ADFE1A34A7D700DBBCC4 /* PGPMessage+Category.m in Sources */,
-				1E9354A61A4234C800F192AC /* writer.c in Sources */,
 				1EDE837A18C62347003B38A6 /* StoreLabelsOperation.m in Sources */,
+				9499944E1E2204E300A5679A /* packet-show.c in Sources */,
 				1E3527AC1A4C2AE200A11ED9 /* MovingPlaceholderTextField.m in Sources */,
 				806FCA0A1A6FB4DB00C9A009 /* FetchContentOperation.m in Sources */,
 				5E5F39E01A530F7C00E567E9 /* SetupFlowPageServerSettings.m in Sources */,
-				1E9354731A4234C800F192AC /* bufgap.c in Sources */,
+				9499943C1E2204E300A5679A /* fastctype.c in Sources */,
 				1EC94ACE19087B260055524C /* IMAPSenderAddress.m in Sources */,
 				1EC3DBD418A562A200AF41A1 /* IMAPFolderManager.m in Sources */,
 				1E91754619A4C210009113B0 /* MynigmaURLCache.m in Sources */,
@@ -10460,44 +10988,42 @@
 				1EC7D73C18F6886800FA59BE /* Mapping15to16.xcmappingmodel in Sources */,
 				1EC2906418C7BD8F00426877 /* EmailMessageInstance.m in Sources */,
 				1EFA625118A6296C0094F2C5 /* MCODelegate.m in Sources */,
-				1E93551E1A44F43300F192AC /* GenericPublicKey+Category.m in Sources */,
 				1EE0A413185E0F5C00324B6B /* EmailMessageController.m in Sources */,
 				1E93553B1A45CB9F00F192AC /* PGPMessage.m in Sources */,
+				949994541E2204E300A5679A /* ssh2pgp.c in Sources */,
 				1E2D7762196194E1006C3C36 /* WelcomeScreenController.m in Sources */,
 				1EDF30AF190FE94C00B12A9C /* OpenSSLWrapper.m in Sources */,
 				1E85D1481903D3AD00E01F84 /* MynTokenIBField.m in Sources */,
+				949994461E2204E300A5679A /* netpgp.c in Sources */,
+				949994C21E220EC500A5679A /* SMIMEPublicKey+Category.m in Sources */,
 				1EB785CA193521EC0007AF99 /* AppleEncryptionWrapper.m in Sources */,
-				1EE6A2C617EC716300EF9621 /* PublicKeyManager.mm in Sources */,
+				949994421E2204E300A5679A /* misc.c in Sources */,
 				5E4B6CE31A5AFEC60090F715 /* SetupFlowPageControllerFinalPage.m in Sources */,
 				1E256A9F19B9EB89002C1E97 /* UIDHelper.m in Sources */,
 				1E7D093E199D01D80056F5D9 /* LoginButton.m in Sources */,
-				1E61ADD61A34995700DBBCC4 /* MynigmaMessage.m in Sources */,
+				949994381E2204E300A5679A /* create.c in Sources */,
+				949994BE1E220EC500A5679A /* SMIMEMessage.m in Sources */,
 				1E3559DA19D6D45D00E04D7F /* FetchAttachmentOperation.m in Sources */,
 				1EE4E9E41A24D9D3005D5AAB /* MCOSMTPSession+Category.m in Sources */,
 				5E4B6CDD1A5AF65E0090F715 /* SetupFlowPageControllerServerSettings.m in Sources */,
-				5E926E111A9B8EFF0031C133 /* SessionKeys.m in Sources */,
 				1EC2907918C7C3D900426877 /* CopyMessageOperation.m in Sources */,
 				1EE6A2BA17EC70D900EF9621 /* ABContactDetail.m in Sources */,
-				1E2E607218FC309900D76ACD /* PrivateKeychain.m in Sources */,
 				1EDE838A18C72725003B38A6 /* GmailLabelSetting.m in Sources */,
 				1EC6968118DD84B0008FEAA4 /* EmailAccount.m in Sources */,
-				1E9354821A4234C800F192AC /* keyring.c in Sources */,
 				3AD273D21993783A00BCAB35 /* NSData+Base64.m in Sources */,
 				802D6C241A5BEBC900A4DC3D /* GTMHTTPFetchHistory.m in Sources */,
 				1ECF38981A9A05F100C214A5 /* IMAPFolderSetting.m in Sources */,
 				1E61AE0B1A34C28C00DBBCC4 /* OpenPGPWrapper.m in Sources */,
 				1E60A4AC17FC99670012F9CB /* LoadingCell.m in Sources */,
 				1E83D147190526340052DFF4 /* EmailMessageInstance+Category.m in Sources */,
-				1E93552B1A45700F00F192AC /* MynigmaPublicKey.m in Sources */,
 				1EE63638198EB6E900703DE8 /* AttachmentsListPopoverController.m in Sources */,
-				1E9354A31A4234C800F192AC /* validate.c in Sources */,
+				9499943E1E2204E300A5679A /* fmemopen.c in Sources */,
 				1EE883D818662D1800F607F4 /* SidePanelController.m in Sources */,
 				1E308D6419D5FF4700404A58 /* SyncMessagesOperation.m in Sources */,
 				1EFB900E17F32B260060B02C /* SeparatorCell.m in Sources */,
 				1EF2006A1878C33B00AF49E8 /* AccountsListController.m in Sources */,
 				802D6C271A5BEBC900A4DC3D /* GTMOAuth2Authentication.m in Sources */,
 				1EC2F12017F47A3C0063A5BF /* TopBarCell.m in Sources */,
-				1E9354881A4234C800F192AC /* netpgp.c in Sources */,
 				1EBE9E4419E0563C000F0977 /* MynigmaDevice+Category.m in Sources */,
 				1EB12E9819FE79EE00A5E799 /* TintedImageView.m in Sources */,
 				1EE6A2AF17EC70A800EF9621 /* Contact.m in Sources */,
@@ -10518,7 +11044,7 @@
 				1EF92EA717EC6B1200FC4F6A /* TextEntryCell.m in Sources */,
 				1EF92EAF17EC6B3D00FC4F6A /* ShowMessageCell.m in Sources */,
 				1E26F40F199B58630077ADA7 /* AttachmentsListController.m in Sources */,
-				1E6F15A519CC4BB0007A51BD /* KeyExpectation.m in Sources */,
+				949994C11E220EC500A5679A /* SMIMEPublicKey.m in Sources */,
 				5E6407111A56F26600E382F9 /* SendAnimation.m in Sources */,
 				1E173F6819A79BBD00A27DED /* UserSettings.m in Sources */,
 				1E7F64D0198688450019E33B /* unzip.c in Sources */,
@@ -10531,6 +11057,7 @@
 				1E887A6619D16356004A9975 /* EmailAddress.m in Sources */,
 				1EF92E9B17EC6AAF00FC4F6A /* RecipientCell.m in Sources */,
 				1E823DCB19EECD320074D345 /* UserSettings+Category.m in Sources */,
+				9499945A1E2204E300A5679A /* validate.c in Sources */,
 				1EF468DB1A2BAEDC008CA9B2 /* SyncDataMessage.m in Sources */,
 				1E83D171190564E60052DFF4 /* FolderInfoOperation.m in Sources */,
 				1EE4E9EA1A25034C005D5AAB /* DisablingLabel.m in Sources */,
@@ -10540,20 +11067,21 @@
 				1E61ADF91A3499FF00DBBCC4 /* EncryptedMessage.m in Sources */,
 				1EDE837618C62337003B38A6 /* StoreFlagsOperation.m in Sources */,
 				1EDE836718C50C6E003B38A6 /* AddressDataHelper.m in Sources */,
-				1E61ADD11A34995600DBBCC4 /* PGPPublicKey.m in Sources */,
 				1E206B6D19B3B3B000D9DDA4 /* SharedSecretTrustController.m in Sources */,
 				1ED865591A2791BB006B72C3 /* SelectionAndFilterHelper.m in Sources */,
 				1E83D1561905283B0052DFF4 /* IMAPFolderSetting+Category.m in Sources */,
-				1E93549D1A4234C800F192AC /* ssh2pgp.c in Sources */,
 				1EF92EA317EC6AF800FC4F6A /* ContactSuggestions.m in Sources */,
 				1EF92E7417EC69E400FC4F6A /* MessageViewController.m in Sources */,
 				1E206B6A19B3A7C000D9DDA4 /* deviceMessage.pb.cc in Sources */,
 				1EBCCD6517F0379C00BAF3B1 /* Mynigma.xcdatamodeld in Sources */,
+				949994AC1E22084500A5679A /* MynigmaMessage.m in Sources */,
 				802D6C361A5BEBC900A4DC3D /* GTMOAuth2WindowController.m in Sources */,
+				949994BF1E220EC500A5679A /* SMIMEMessage+Encryption.m in Sources */,
 				1EF92E9F17EC6AD400FC4F6A /* ShowAllRecipientsCell.m in Sources */,
 				1E76192019B6FDEC00D6E065 /* MergeLocalChangesHelper.m in Sources */,
 				5E4B6CD91A5AF5DF0090F715 /* SetupFlowPageControllerFirstInfo.m in Sources */,
 				1E99BA6A18F352F80056309F /* FormattingHelper.m in Sources */,
+				949994521E2204E300A5679A /* signature.c in Sources */,
 				1E2D775D19615DF0006C3C36 /* RoundedCornerView.m in Sources */,
 				1EF92E6817EC69E400FC4F6A /* AddAccountController.m in Sources */,
 				1EF92E8F17EC6A3300FC4F6A /* AccountCell.m in Sources */,
@@ -10564,28 +11092,29 @@
 				1E6022A2194C30FD00D22DF1 /* TrustEstablishmentThread.m in Sources */,
 				1E308D7019D6053500404A58 /* SearchOperation.m in Sources */,
 				1EDCF4991A9BC85C00395B37 /* mynigma.pb.cc in Sources */,
-				1E61ADE51A34995900DBBCC4 /* SMIMEMessage.m in Sources */,
+				949994341E2204E300A5679A /* bufgap.c in Sources */,
 				1EF92DEE17EC673100FC4F6A /* main.m in Sources */,
 				1EF92EAB17EC6B3300FC4F6A /* MessageCell.m in Sources */,
 				5EBF46681A4705A300E4D65D /* FeedbackOverlayView.m in Sources */,
 				1ECC95D41A0D15D7007CEB5B /* TextInputView.m in Sources */,
 				1E83D15B190528A60052DFF4 /* MynigmaMessage+Category.m in Sources */,
 				5E926E171A9B9A860031C133 /* FileAttachment.m in Sources */,
-				1E9354AB1A4234D000F192AC /* fmemopen.c in Sources */,
 				1EF200701879723100AF49E8 /* AccountSetupEntryCell.m in Sources */,
 				5EC7AEB61A4864CC0083D5F8 /* MoveMessageImageView.m in Sources */,
-				1E93548B1A4234C800F192AC /* openssl_crypto.c in Sources */,
-				1E61AE101A34C29B00DBBCC4 /* SMIMEWrapper.m in Sources */,
-				1E93548E1A4234C800F192AC /* packet-parse.c in Sources */,
 				1ED8654F1A27909D006B72C3 /* AppDelegate-iOS.m in Sources */,
 				1ECD542318EC4AB700C308C3 /* Reachability.m in Sources */,
 				1E83D142190525540052DFF4 /* EmailMessage+Category.m in Sources */,
+				949994501E2204E300A5679A /* reader.c in Sources */,
 				1EB039D119893043004B309B /* IndividualAccountSettingsController.m in Sources */,
 				1E2E606218FBEF7D00D76ACD /* EncryptionHelper.mm in Sources */,
 				1E26C07B1A331A1600DB5B64 /* StartUpHelper.m in Sources */,
 				1EF92E7017EC69E400FC4F6A /* MessagesController.m in Sources */,
 				1E85D1371903B8D700E01F84 /* MynTokenField.m in Sources */,
 				1E7F64C8198688450019E33B /* ioapi.c in Sources */,
+				949994441E2204E300A5679A /* mj.c in Sources */,
+				949994481E2204E300A5679A /* openssl_crypto.c in Sources */,
+				9499943A1E2204E300A5679A /* crypto.c in Sources */,
+				949994361E2204E300A5679A /* compress.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11136,6 +11665,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "--deep --force";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.authenticatedreality.mailauth-Ultimate";
 				PRODUCT_NAME = "M Infinity";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -11187,6 +11717,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CODE_SIGN_FLAGS = "--deep --force";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.authenticatedreality.mailauth-Ultimate";
 				PRODUCT_NAME = "M Infinity";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -11274,6 +11805,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CODE_SIGN_FLAGS = "--force --deep";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = org.authenticatedreality.mailauth;
 				PRODUCT_NAME = M;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -11369,6 +11901,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "--force --deep";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = org.authenticatedreality.mailauth;
 				PRODUCT_NAME = M;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -11463,6 +11996,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "--force --deep";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = org.authenticatedreality.mailauth;
 				PRODUCT_NAME = M;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -11515,6 +12049,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "--deep --force";
 				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.authenticatedreality.mailauth-Ultimate";
 				PRODUCT_NAME = "M Infinity";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -11538,16 +12073,19 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = M.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = RAA3Q4LSV6;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/include",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -11568,7 +12106,7 @@
 					$SRCROOT/include,
 				);
 				INFOPLIST_FILE = "Mynigma iOS/Mynigma iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11579,7 +12117,6 @@
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = (
 					"-lctemplate-ios",
-					"-letpan-ios",
 					"-licudata",
 					"-licui18n",
 					"-licuuc",
@@ -11592,6 +12129,7 @@
 					"-lstdc++",
 					"/usr/lib/libstdc++.dylib",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.authenticatedreality.mailauth-ios";
 				PRODUCT_NAME = M;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -11796,16 +12334,19 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = M.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = RAA3Q4LSV6;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/include",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -11827,7 +12368,7 @@
 					$SRCROOT/include,
 				);
 				INFOPLIST_FILE = "Mynigma iOS/Mynigma iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11838,7 +12379,6 @@
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = (
 					"-lctemplate-ios",
-					"-letpan-ios",
 					"-licudata",
 					"-licui18n",
 					"-licuuc",
@@ -11851,6 +12391,7 @@
 					"-lstdc++",
 					"/usr/lib/libstdc++.dylib",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.authenticatedreality.mailauth-ios";
 				PRODUCT_NAME = M;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -11875,15 +12416,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = M.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = RAA3Q4LSV6;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/include",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -11903,7 +12447,7 @@
 					$SRCROOT/include,
 				);
 				INFOPLIST_FILE = "Mynigma iOS/Mynigma iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11914,7 +12458,6 @@
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = (
 					"-lctemplate-ios",
-					"-letpan-ios",
 					"-licudata",
 					"-licui18n",
 					"-licuuc",
@@ -11927,6 +12470,7 @@
 					"-lstdc++",
 					"/usr/lib/libstdc++.dylib",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.authenticatedreality.mailauth-ios";
 				PRODUCT_NAME = M;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;

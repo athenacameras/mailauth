@@ -46,7 +46,8 @@
 #define SAFE_BAR_COLOUR [COLOUR colorWithRed:38/255. green:164/255. blue:99/255. alpha:1]
 
 
-#define UNREAD_COLOUR [COLOUR colorWithRed:210/255. green:227/255. blue:239/255. alpha:1]
+//rm by ddo #define UNREAD_COLOUR [COLOUR colorWithRed:210/255. green:227/255. blue:239/255. alpha:1]
+#define UNREAD_COLOUR [COLOUR colorWithRed:237/255. green:21/255. blue:102/255. alpha:1]
 
 #define ATTACHMENT_COLOUR [COLOUR colorWithRed:242/255. green:242/255. blue:218/255. alpha:1]
 #define DOWNLOAD_COLOUR [COLOUR colorWithRed:242/255. green:242/255. blue:242/255. alpha:1]
@@ -74,16 +75,17 @@
 
 #define ACCOUNTS_LIST_COLOUR [COLOUR colorWithRed:54/255. green:69/255. blue:105/255. alpha:1]
 
-#define DARK_BLUE_COLOUR [COLOUR colorWithRed:41/255. green:52/255. blue:86/255. alpha:1]
+//rm by ddo #define DARK_BLUE_COLOUR [COLOUR colorWithRed:41/255. green:52/255. blue:86/255. alpha:1]
+#define DARK_BLUE_COLOUR [COLOUR colorWithRed:237/255. green:21/255. blue:102/255. alpha:1]
 #define DARKISH_BLUE_COLOUR [COLOUR colorWithRed:0/255. green:61/255. blue:118/255. alpha:1]
-#define SELECTION_BLUE_COLOUR [COLOUR colorWithRed:51/255. green:82/255. blue:126/255. alpha:1]
-#define NAVBAR_COLOUR [COLOUR colorWithRed:51/255. green:82/255. blue:126/255. alpha:1]
+#define SELECTION_BLUE_COLOUR [COLOUR colorWithRed:71/255. green:171/255. blue:226/255. alpha:1]
+#define NAVBAR_COLOUR [COLOUR colorWithRed:71/255. green:171/255. blue:226/255. alpha:1]
 
 
 #define SAFE_BG_COLOUR [COLOUR colorWithRed:215/255. green:242/255. blue:212/255. alpha:1]
 
 
-#define ACCOUNT_SELECTION_COLOUR [COLOUR colorWithRed:51/255. green:82/255. blue:126/255. alpha:1]
+#define ACCOUNT_SELECTION_COLOUR [COLOUR colorWithRed:71/255. green:171/255. blue:226/255. alpha:1]
 
 
 #else
@@ -136,7 +138,9 @@
 
 
 #define MYNIGMA_COLOUR [COLOUR colorWithDeviceRed:38/255. green:88/255. blue:147/255. alpha:1]
-#define DARK_BLUE_COLOUR [COLOUR colorWithDeviceRed:41/255. green:52/255. blue:86/255. alpha:1]
+//rm by ddo #define DARK_BLUE_COLOUR [COLOUR colorWithDeviceRed:41/255. green:52/255. blue:86/255. alpha:1]
+#define DARK_BLUE_COLOUR [COLOUR colorWithDeviceRed:237/255. green:21/255. blue:102/255. alpha:1]
+
 #define DARKISH_BLUE_COLOUR [COLOUR colorWithDeviceRed:0/255. green:61/255. blue:118/255. alpha:1]
 //#define SELECTION_BLUE_COLOUR [COLOUR colorWithDeviceRed:51/255. green:82/255. blue:126/255. alpha:1]
 #define NAVBAR_COLOUR [COLOUR colorWithDeviceRed:51/255. green:82/255. blue:126/255. alpha:1]

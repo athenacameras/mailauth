@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoveMessageContentViewController">
@@ -24,8 +28,8 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ba-h7-aZT" customClass="MoveMessageImageView">
                     <rect key="frame" x="202" y="205" width="100" height="100"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="FpR-8M-Prr"/>
@@ -35,7 +39,7 @@
                         <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="starred48.png"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="Mark starred"/>
                         <userDefinedRuntimeAttribute type="color" keyPath="disabledTintColour">
-                            <color key="value" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -44,8 +48,8 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ih-fu-CwD" customClass="MoveMessageImageView">
                     <rect key="frame" x="101" y="205" width="100" height="100"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="CBr-5J-43w"/>
@@ -55,7 +59,7 @@
                         <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="unread48.png"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="Mark unread"/>
                         <userDefinedRuntimeAttribute type="color" keyPath="disabledTintColour">
-                            <color key="value" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -64,8 +68,8 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zcI-hq-8W9" customClass="MoveMessageImageView">
                     <rect key="frame" x="101" y="105" width="100" height="100"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="VhH-OR-7My"/>
@@ -75,7 +79,7 @@
                         <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="trash48.png"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="Move to trash"/>
                         <userDefinedRuntimeAttribute type="color" keyPath="disabledTintColour">
-                            <color key="value" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -84,7 +88,7 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BAC-99-K7Q">
                     <rect key="frame" x="201" y="105" width="1" height="200"/>
-                    <color key="backgroundColor" white="1" alpha="0.25" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="UXi-bx-hd4"/>
                         <constraint firstAttribute="width" constant="1" id="rLr-ze-w3E"/>
@@ -92,7 +96,7 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vf0-3L-eMh">
                     <rect key="frame" x="102" y="204" width="300" height="1"/>
-                    <color key="backgroundColor" white="1" alpha="0.25" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="U2T-yZ-D1u"/>
                         <constraint firstAttribute="width" constant="300" id="iGE-aw-vaU"/>
@@ -100,7 +104,7 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDc-5b-eUO">
                     <rect key="frame" x="302" y="105" width="1" height="200"/>
-                    <color key="backgroundColor" white="1" alpha="0.25" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="6iG-lx-0RK"/>
                         <constraint firstAttribute="width" constant="1" id="gXu-Sn-P2K"/>
@@ -108,8 +112,8 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qvi-Ia-h7g" customClass="MoveMessageImageView">
                     <rect key="frame" x="302" y="104" width="100" height="100"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="1HL-n3-NNK"/>
@@ -119,7 +123,7 @@
                         <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="folderPlus48.png"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="Move to..."/>
                         <userDefinedRuntimeAttribute type="color" keyPath="disabledTintColour">
-                            <color key="value" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -128,8 +132,8 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1VI-KY-U7U" customClass="MoveMessageImageView">
                     <rect key="frame" x="202" y="105" width="100" height="100"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="Pjf-en-kVX"/>
@@ -139,7 +143,7 @@
                         <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="spam48.png"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="Move to spam"/>
                         <userDefinedRuntimeAttribute type="color" keyPath="disabledTintColour">
-                            <color key="value" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -151,8 +155,8 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPe-cO-PGz" customClass="MoveMessageImageView">
                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <gestureRecognizers/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="4Rx-hQ-POv"/>
@@ -160,7 +164,7 @@
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="color" keyPath="disabledTintColour">
-                                    <color key="value" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                                    <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="plus48.png"/>
                                 <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="Select more..."/>
@@ -170,8 +174,8 @@
                             </connections>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstItem="SPe-cO-PGz" firstAttribute="top" secondItem="FZ7-4T-eVc" secondAttribute="top" id="Wc9-jx-TiE"/>
@@ -181,12 +185,12 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="disabledTintColour">
-                            <color key="value" white="0.0" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
             <gestureRecognizers/>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="8Ba-h7-aZT" secondAttribute="centerY" constant="-50" id="4V1-WA-EME"/>
@@ -262,6 +266,6 @@
         <image name="spam48.png" width="39" height="48"/>
         <image name="starred48.png" width="50" height="48"/>
         <image name="trash48.png" width="39" height="48"/>
-        <image name="unread48.png" width="43" height="48"/>
+        <image name="unread48.png" width="42" height="48"/>
     </resources>
 </document>

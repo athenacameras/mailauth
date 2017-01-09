@@ -198,7 +198,7 @@ int passwordCallback(char *buf, int size, int rwflag, void *u)
 {
     BIO* pemBIO = BIO_new_mem_buf((void*)pemData.bytes, (int)pemData.length);
     
-    pem_password_cb* pwCallback = objc_unretainedPointer(passwordCallback);
+    pem_password_cb* pwCallback =(__bridge void *)(passwordCallback);
     
     
 //    X509* cert = 
