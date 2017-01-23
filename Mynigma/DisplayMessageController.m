@@ -307,7 +307,7 @@
         [self.coverView setHidden:NO];
         [self.doorsView closeDoorsAnimated:NO];
         
-        [self.navigationItem setTitle:NSLocalizedString(@"M - Safe email made simple", @"Navigation bar default title")];
+        [self.navigationItem setTitle:NSLocalizedString(@"MailAuth - Safe email made simple", @"Navigation bar default title")];
         
         [self.lockView setBackgroundColor:OPEN_DARK_COLOUR];
         

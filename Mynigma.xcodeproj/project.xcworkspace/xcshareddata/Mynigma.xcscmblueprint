@@ -1,15 +1,17 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5F64760B60CD2F2A9FA67056F9370024CE6F2AEB",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E0E7691226235FFA70F1991FF76E8320FCF6B257",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "689AA82008E9C4782CA556E961D7755D54DEF5F6" : 0,
+    "E0E7691226235FFA70F1991FF76E8320FCF6B257" : 9223372036854775807,
     "5F64760B60CD2F2A9FA67056F9370024CE6F2AEB" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4934D91E-B724-4315-8322-7F639D0A6C3C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "689AA82008E9C4782CA556E961D7755D54DEF5F6" : "PGPandSMIME",
+    "E0E7691226235FFA70F1991FF76E8320FCF6B257" : "mailauth\/",
     "5F64760B60CD2F2A9FA67056F9370024CE6F2AEB" : "M\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Mynigma",
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Mynigma\/mynigma.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "689AA82008E9C4782CA556E961D7755D54DEF5F6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jessicastrickland\/mailauth.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0E7691226235FFA70F1991FF76E8320FCF6B257"
     }
   ]
 }

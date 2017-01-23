@@ -2267,6 +2267,8 @@
 		80EF52E71A1A004900B2DEA8 /* rightArrowHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EF52E11A1A004900B2DEA8 /* rightArrowHead.png */; };
 		80EF52EB1A1A004900B2DEA8 /* rightArrowHead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EF52E21A1A004900B2DEA8 /* rightArrowHead@2x.png */; };
 		80EF52EF1A1A004900B2DEA8 /* rightArrowHead@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80EF52E31A1A004900B2DEA8 /* rightArrowHead@3x.png */; };
+		943D511A1E23F8BD002741C9 /* auth16.png in Resources */ = {isa = PBXBuildFile; fileRef = 943D51181E23F8BD002741C9 /* auth16.png */; };
+		943D511B1E23F8BD002741C9 /* auth16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 943D51191E23F8BD002741C9 /* auth16@2x.png */; };
 		946C286E1E2215A400E4CB00 /* M.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 946C286D1E22156000E4CB00 /* M.entitlements */; };
 		949994331E2204E300A5679A /* bufgap.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994041E2204E300A5679A /* bufgap.c */; };
 		949994341E2204E300A5679A /* bufgap.c in Sources */ = {isa = PBXBuildFile; fileRef = 949994041E2204E300A5679A /* bufgap.c */; };
@@ -2342,6 +2344,7 @@
 		949994C21E220EC500A5679A /* SMIMEPublicKey+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994BB1E220EC400A5679A /* SMIMEPublicKey+Category.m */; };
 		949994C31E220EC500A5679A /* SMIMEWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 949994BD1E220EC500A5679A /* SMIMEWrapper.m */; };
 		949994C41E2210A900A5679A /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8002D38E1A45F59000C6A682 /* libMailCore-ios.a */; };
+		94EF88741E2CBDB2007AFA59 /* GroupMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EF88731E2CBDB2007AFA59 /* GroupMessagesController.m */; };
 		A947CD041A448FF700819CA6 /* Temporary_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A947CD031A448FF600819CA6 /* Temporary_Tests.m */; };
 		A9A4D44719F8FE270068ABA1 /* TableViewCellWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4D44619F8FE270068ABA1 /* TableViewCellWithButton.m */; };
 		A9A4D44819F8FE270068ABA1 /* TableViewCellWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4D44619F8FE270068ABA1 /* TableViewCellWithButton.m */; };
@@ -4449,6 +4452,8 @@
 		80EF52E21A1A004900B2DEA8 /* rightArrowHead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrowHead@2x.png"; sourceTree = "<group>"; };
 		80EF52E31A1A004900B2DEA8 /* rightArrowHead@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrowHead@3x.png"; sourceTree = "<group>"; };
 		80F052371A1F960C002E56DD /* ConnectionItem_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionItem_Tests.m; path = "../Unit Tests/ConnectionItem_Tests.m"; sourceTree = "<group>"; };
+		943D51181E23F8BD002741C9 /* auth16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auth16.png; sourceTree = "<group>"; };
+		943D51191E23F8BD002741C9 /* auth16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auth16@2x.png"; sourceTree = "<group>"; };
 		946C286D1E22156000E4CB00 /* M.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = M.entitlements; sourceTree = "<group>"; };
 		949994041E2204E300A5679A /* bufgap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bufgap.c; sourceTree = "<group>"; };
 		949994051E2204E300A5679A /* bufgap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bufgap.h; sourceTree = "<group>"; };
@@ -4769,6 +4774,8 @@
 		9499959C1E2210CA00A5679A /* NSObject+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MCO.h"; sourceTree = "<group>"; };
 		9499959D1E2210CA00A5679A /* NSString+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MCO.h"; sourceTree = "<group>"; };
 		9499959E1E2210CA00A5679A /* NSValue+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+MCO.h"; sourceTree = "<group>"; };
+		94EF88721E2CBD89007AFA59 /* GroupMessagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupMessagesController.h; sourceTree = "<group>"; };
+		94EF88731E2CBDB2007AFA59 /* GroupMessagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupMessagesController.m; sourceTree = "<group>"; };
 		A947CD031A448FF600819CA6 /* Temporary_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temporary_Tests.m; sourceTree = "<group>"; };
 		A9A4D44519F8FE270068ABA1 /* TableViewCellWithButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellWithButton.h; sourceTree = "<group>"; };
 		A9A4D44619F8FE270068ABA1 /* TableViewCellWithButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellWithButton.m; sourceTree = "<group>"; };
@@ -5388,60 +5395,7 @@
 		1E4B5B2617B6747000F2A19C = {
 			isa = PBXGroup;
 			children = (
-				946C286D1E22156000E4CB00 /* M.entitlements */,
-				949994B21E220EC300A5679A /* SMIMEMessage.h */,
-				949994B31E220EC400A5679A /* SMIMEMessage.m */,
-				949994B41E220EC400A5679A /* SMIMEMessage+Encryption.h */,
-				949994B51E220EC400A5679A /* SMIMEMessage+Encryption.m */,
-				949994B61E220EC400A5679A /* SMIMEPrivateKey.h */,
-				949994B71E220EC400A5679A /* SMIMEPrivateKey.m */,
-				949994B81E220EC400A5679A /* SMIMEPublicKey.h */,
-				949994B91E220EC400A5679A /* SMIMEPublicKey.m */,
-				949994BA1E220EC400A5679A /* SMIMEPublicKey+Category.h */,
-				949994BB1E220EC400A5679A /* SMIMEPublicKey+Category.m */,
-				949994BC1E220EC400A5679A /* SMIMEWrapper.h */,
-				949994BD1E220EC500A5679A /* SMIMEWrapper.m */,
-				9499945D1E22056900A5679A /* GenericPublicKey.h */,
-				9499945E1E22056900A5679A /* GenericPublicKey.m */,
-				949994AD1E2208EF00A5679A /* MynigmaMessage+Category.h */,
-				9499945F1E22056900A5679A /* GenericPublicKey+Category.h */,
-				949994AA1E22082400A5679A /* MynigmaMessage.h */,
-				949994AB1E22084500A5679A /* MynigmaMessage.m */,
-				949994601E22056900A5679A /* GenericPublicKey+Category.m */,
-				949994611E22056900A5679A /* KeychainHelper.h */,
-				949994621E22056900A5679A /* KeychainHelper.m */,
-				949994631E22056A00A5679A /* KeyExpectation.h */,
-				949994641E22056A00A5679A /* KeyExpectation.m */,
-				949994651E22056A00A5679A /* KeyExpectation+Category.h */,
-				949994661E22056A00A5679A /* KeyExpectation+Category.m */,
-				949994671E22056A00A5679A /* KeyListController.h */,
-				949994681E22056A00A5679A /* KeyListController.m */,
-				949994691E22056A00A5679A /* KeyListTableViewCell.h */,
-				9499946A1E22056A00A5679A /* KeyListTableViewCell.m */,
-				9499946B1E22056A00A5679A /* Mynigma encryption key info@mynigma.org|1377619023.914025.pem */,
-				9499946C1E22056A00A5679A /* Mynigma signature key info@mynigma.org|1377619023.914025.pem */,
-				9499946D1E22056A00A5679A /* MynigmaPrivateKey.h */,
-				9499946E1E22056B00A5679A /* MynigmaPrivateKey.m */,
-				9499946F1E22056B00A5679A /* MynigmaPrivateKey+Category.h */,
-				949994701E22056B00A5679A /* MynigmaPrivateKey+Category.m */,
-				949994711E22056B00A5679A /* MynigmaPublicKey.h */,
-				949994721E22056B00A5679A /* MynigmaPublicKey.m */,
-				949994731E22056B00A5679A /* MynigmaPublicKey+Category.h */,
-				949994741E22056B00A5679A /* MynigmaPublicKey+Category.m */,
-				949994751E22056B00A5679A /* PGPPrivateKey.h */,
-				949994761E22056B00A5679A /* PGPPrivateKey.m */,
-				949994771E22056B00A5679A /* PGPPublicKey.h */,
-				949994781E22056B00A5679A /* PGPPublicKey.m */,
-				949994791E22056B00A5679A /* PGPPublicKey+Category.h */,
-				9499947A1E22056C00A5679A /* PGPPublicKey+Category.m */,
-				9499947B1E22056C00A5679A /* PrivateKeychain.h */,
-				9499947C1E22056C00A5679A /* PrivateKeychain.m */,
-				9499947D1E22056C00A5679A /* PublicKeyManager.h */,
-				9499947E1E22056C00A5679A /* PublicKeyManager.mm */,
-				9499947F1E22056C00A5679A /* SessionKeyEntryDataStructure.h */,
-				949994801E22056C00A5679A /* SessionKeyEntryDataStructure.mm */,
-				949994811E22056C00A5679A /* SessionKeys.h */,
-				949994821E22056C00A5679A /* SessionKeys.m */,
+				94F49A8D1E261AED004F15A1 /* Mynigma */,
 				1E169E1F198658C60022A744 /* Mynigma_iOS.entitlements */,
 				1E4B5B3817B6747000F2A19C /* Main Project */,
 				1EF92E1017EC673100FC4F6A /* Unit Tests */,
@@ -5934,6 +5888,7 @@
 		1E7D0929199CB92C0056F5D9 /* Icon List */ = {
 			isa = PBXGroup;
 			children = (
+				943D51171E23F7CA002741C9 /* Auth */,
 				1E534EA91A1668A5008103A2 /* Star */,
 				1EAB4EA319EAA8F200173B1A /* Ultimate Message Status */,
 				1E206B4719B3181300D9DDA4 /* Device */,
@@ -6570,6 +6525,8 @@
 				1EF63D5F184A40C2008E6112 /* ComposeNewController.m */,
 				1E612F96185CEC100092A0DF /* DisplayMessageController.h */,
 				1E612F97185CEC100092A0DF /* DisplayMessageController.m */,
+				94EF88721E2CBD89007AFA59 /* GroupMessagesController.h */,
+				94EF88731E2CBDB2007AFA59 /* GroupMessagesController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -8333,6 +8290,15 @@
 			name = "Drag Icon";
 			sourceTree = "<group>";
 		};
+		943D51171E23F7CA002741C9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				943D51181E23F8BD002741C9 /* auth16.png */,
+				943D51191E23F8BD002741C9 /* auth16@2x.png */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
 		949994031E2204E300A5679A /* UNNetPGP */ = {
 			isa = PBXGroup;
 			children = (
@@ -8610,6 +8576,67 @@
 			);
 			name = MailCore;
 			path = include/MailCore;
+			sourceTree = "<group>";
+		};
+		94F49A8D1E261AED004F15A1 /* Mynigma */ = {
+			isa = PBXGroup;
+			children = (
+				946C286D1E22156000E4CB00 /* M.entitlements */,
+				949994B21E220EC300A5679A /* SMIMEMessage.h */,
+				949994B31E220EC400A5679A /* SMIMEMessage.m */,
+				949994B41E220EC400A5679A /* SMIMEMessage+Encryption.h */,
+				949994B51E220EC400A5679A /* SMIMEMessage+Encryption.m */,
+				949994B61E220EC400A5679A /* SMIMEPrivateKey.h */,
+				949994B71E220EC400A5679A /* SMIMEPrivateKey.m */,
+				949994B81E220EC400A5679A /* SMIMEPublicKey.h */,
+				949994B91E220EC400A5679A /* SMIMEPublicKey.m */,
+				949994BA1E220EC400A5679A /* SMIMEPublicKey+Category.h */,
+				949994BB1E220EC400A5679A /* SMIMEPublicKey+Category.m */,
+				949994BC1E220EC400A5679A /* SMIMEWrapper.h */,
+				949994BD1E220EC500A5679A /* SMIMEWrapper.m */,
+				9499945D1E22056900A5679A /* GenericPublicKey.h */,
+				9499945E1E22056900A5679A /* GenericPublicKey.m */,
+				949994AD1E2208EF00A5679A /* MynigmaMessage+Category.h */,
+				9499945F1E22056900A5679A /* GenericPublicKey+Category.h */,
+				949994AA1E22082400A5679A /* MynigmaMessage.h */,
+				949994AB1E22084500A5679A /* MynigmaMessage.m */,
+				949994601E22056900A5679A /* GenericPublicKey+Category.m */,
+				949994611E22056900A5679A /* KeychainHelper.h */,
+				949994621E22056900A5679A /* KeychainHelper.m */,
+				949994631E22056A00A5679A /* KeyExpectation.h */,
+				949994641E22056A00A5679A /* KeyExpectation.m */,
+				949994651E22056A00A5679A /* KeyExpectation+Category.h */,
+				949994661E22056A00A5679A /* KeyExpectation+Category.m */,
+				949994671E22056A00A5679A /* KeyListController.h */,
+				949994681E22056A00A5679A /* KeyListController.m */,
+				949994691E22056A00A5679A /* KeyListTableViewCell.h */,
+				9499946A1E22056A00A5679A /* KeyListTableViewCell.m */,
+				9499946B1E22056A00A5679A /* Mynigma encryption key info@mynigma.org|1377619023.914025.pem */,
+				9499946C1E22056A00A5679A /* Mynigma signature key info@mynigma.org|1377619023.914025.pem */,
+				9499946D1E22056A00A5679A /* MynigmaPrivateKey.h */,
+				9499946E1E22056B00A5679A /* MynigmaPrivateKey.m */,
+				9499946F1E22056B00A5679A /* MynigmaPrivateKey+Category.h */,
+				949994701E22056B00A5679A /* MynigmaPrivateKey+Category.m */,
+				949994711E22056B00A5679A /* MynigmaPublicKey.h */,
+				949994721E22056B00A5679A /* MynigmaPublicKey.m */,
+				949994731E22056B00A5679A /* MynigmaPublicKey+Category.h */,
+				949994741E22056B00A5679A /* MynigmaPublicKey+Category.m */,
+				949994751E22056B00A5679A /* PGPPrivateKey.h */,
+				949994761E22056B00A5679A /* PGPPrivateKey.m */,
+				949994771E22056B00A5679A /* PGPPublicKey.h */,
+				949994781E22056B00A5679A /* PGPPublicKey.m */,
+				949994791E22056B00A5679A /* PGPPublicKey+Category.h */,
+				9499947A1E22056C00A5679A /* PGPPublicKey+Category.m */,
+				9499947B1E22056C00A5679A /* PrivateKeychain.h */,
+				9499947C1E22056C00A5679A /* PrivateKeychain.m */,
+				9499947D1E22056C00A5679A /* PublicKeyManager.h */,
+				9499947E1E22056C00A5679A /* PublicKeyManager.mm */,
+				9499947F1E22056C00A5679A /* SessionKeyEntryDataStructure.h */,
+				949994801E22056C00A5679A /* SessionKeyEntryDataStructure.mm */,
+				949994811E22056C00A5679A /* SessionKeys.h */,
+				949994821E22056C00A5679A /* SessionKeys.m */,
+			);
+			name = Mynigma;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -9737,6 +9764,7 @@
 				1E9221CE1A13B46F0099F4CB /* lockClosed22@2x.png in Resources */,
 				1EE6366419964BA600703DE8 /* cloudRed.png in Resources */,
 				5E5A97D31A656DE90053EBDD /* Outlook22@3x.png in Resources */,
+				943D511A1E23F8BD002741C9 /* auth16.png in Resources */,
 				80B11BF91A9DD27C0080782A /* MoveMessageOptionsView.xib in Resources */,
 				5EE6639C1A83BFA20024E203 /* 40pt_@3x.png in Resources */,
 				1EBA2FEE1A49C74200EF70C6 /* search22@2x.png in Resources */,
@@ -9754,6 +9782,7 @@
 				1E91753719A4B9EB009113B0 /* forwardWhite16@2x.png in Resources */,
 				1E2546F0186A0962002F24D4 /* flagWithCross44.png in Resources */,
 				1E9221B81A13A9B20099F4CB /* attachment16.png in Resources */,
+				943D511B1E23F8BD002741C9 /* auth16@2x.png in Resources */,
 				1E4D66A218AF5C500078F548 /* flagWhite64.png in Resources */,
 				80E109E11A1266D900F3B1B5 /* replyallB22@3x.png in Resources */,
 				80E108E81A110B8900F3B1B5 /* settings29@2x.png in Resources */,
@@ -10825,6 +10854,7 @@
 				949994941E22056D00A5679A /* MynigmaPrivateKey+Category.h in Sources */,
 				1E83D160190529120052DFF4 /* MynigmaPrivateKey+Category.m in Sources */,
 				949994951E22056D00A5679A /* MynigmaPublicKey.h in Sources */,
+				94EF88741E2CBDB2007AFA59 /* GroupMessagesController.m in Sources */,
 				1E93552B1A45700F00F192AC /* MynigmaPublicKey.m in Sources */,
 				949994961E22056D00A5679A /* MynigmaPublicKey+Category.h in Sources */,
 				1E83D1651905297D0052DFF4 /* MynigmaPublicKey+Category.m in Sources */,

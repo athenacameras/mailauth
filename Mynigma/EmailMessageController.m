@@ -88,10 +88,12 @@ static NSInteger currentBlockIdentifier;
         sortedMessageInstances = [NSMutableArray new];
         sortComparator = ^(EmailMessageInstance* message1, EmailMessageInstance* message2)
         {
+            //messageData.subject
             NSComparisonResult result = [message2.message.dateSent compare:message1.message.dateSent];
             if(result!=NSOrderedSame)
                 return result;
             return [message2.message.messageid compare:message1.message.messageid];
+
         };
         filterPredicate = [NSPredicate predicateWithValue:YES];
 
@@ -285,7 +287,8 @@ static NSInteger currentBlockIdentifier;
 
 - (void)initialFetchDone
 {
-    sortedMessageInstances = [[APPDELEGATE.messages.fetchedObjects sortedArrayUsingComparator:sortComparator] mutableCopy];
+    //sortedMessageInstances = [[APPDELEGATE.messages.fetchedObjects sortedArrayUsingComparator:sortComparator] mutableCopy];//remove by ddo
+    sortedMessageInstances = [[APPDELEGATE.displayedMessages sortedArrayUsingComparator:sortComparator] mutableCopy];
     //NSLog(@"Before new fetch: %lu messages", (unsigned long)APPDELEGATE.filteredMessages.count);
     
     // account data was not loaded yet, need to reselect now

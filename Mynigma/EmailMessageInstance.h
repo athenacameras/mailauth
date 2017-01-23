@@ -31,6 +31,7 @@
 @property (nonatomic, retain) NSNumber * flags;
 @property (nonatomic, retain) NSNumber * important;
 @property (nonatomic, retain) NSNumber * uid;
+//@property (nonatomic, retain) NSNumber * gmailThreadID; //add by ddo
 @property (nonatomic, retain) IMAPFolderSetting *addedToFolder;
 @property (nonatomic, retain) IMAPFolderSetting *deletedFromFolder;
 @property (nonatomic, retain) IMAPFolderSetting *flagsChangedInFolder;

@@ -433,7 +433,11 @@
     }
 
     [message setMessageid:imapMessage.header.messageID];
-
+    //[message setMessageRefrences:imapMessage.header.references];
+    //NSMutableArray* references = [imapMessage.header.references mutableCopy];
+    NSData *arrayData = [NSKeyedArchiver archivedDataWithRootObject:imapMessage.header.references];
+    if (arrayData!=nil ) NSLog(@"%@",arrayData);
+    [message setReferences:arrayData];
     if(imapMessage.header.date)
         [message setDateSent:imapMessage.header.date];
     else

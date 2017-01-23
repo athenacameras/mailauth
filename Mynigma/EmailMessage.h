@@ -31,6 +31,7 @@
 @property (nonatomic, retain) NSDate * dateSent;
 @property (nonatomic, retain) NSNumber * hasHadInstancesAtSomePoint;
 @property (nonatomic, retain) NSString * messageid;
+@property (nonatomic, retain) NSData * references;// add by ddo
 @property (nonatomic, retain) NSString * searchString;
 @property (nonatomic, retain) NSSet *allAttachments;
 @property (nonatomic, retain) NSSet *attachments;

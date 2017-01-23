@@ -30,6 +30,7 @@
 #import "MoveMessageViewController.h"
 #import "SplitViewController.h"
 #import "SidePanelController.h"
+#import "GroupMessagesController.h"
 
 
 
@@ -47,7 +48,7 @@
 @property(strong) MoveMessageViewController* moveMessageViewController;
 @property(weak) SplitViewController* splitViewController;
 @property(weak) SidePanelController* sidePanelController;
-
+@property(weak) GroupMessagesController* groupMessage;
 
 
 @property BOOL hideTheStatusBar;

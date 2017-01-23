@@ -36,5 +36,5 @@
 @dynamic emails;
 @dynamic instances;
 @dynamic messageData;
-
+@dynamic references; // add by ddo
 @end

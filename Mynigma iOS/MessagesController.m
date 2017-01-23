@@ -64,7 +64,7 @@ static BOOL haveNewMessageToSelect = NO;
 
 @end
 
-@implementation MessagesController
+	@implementation MessagesController
 
 
 - (void)viewDidLoad
@@ -225,7 +225,12 @@ static BOOL haveNewMessageToSelect = NO;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     EmailMessageInstance* messageInstance = (EmailMessageInstance*)[EmailMessageController messageObjectAtIndex:indexPath.row];
-
+    NSLog(@"The content of MessageData is%@",messageInstance);
+    NSLog(@"Subject is%@",[[[messageInstance message] messageData] subject]);
+    
+    //List id of emails same conversation
+    NSArray *sameThread = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
+    NSLog(@"The content of sameThread array is%@",sameThread);
     if(!messageInstance)
     {
         if(indexPath.row == [[EmailMessageController sharedInstance] numberOfMessages])
@@ -742,9 +747,40 @@ static BOOL haveNewMessageToSelect = NO;
 }
 
 
+//add by ddo
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if ([[APPDELEGATE.messages sections] count] > 0) {
+        id <NSFetchedResultsSectionInfo> sectionInfo = [[APPDELEGATE.messages sections] objectAtIndex:section];
+        return [sectionInfo name];
+    } else
+        return nil;
+}
 
-
-
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // Return the number of sections.
+    return [[APPDELEGATE.messages sections] count];
+}
+//- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+//{
+//    return [APPDELEGATE.messages sectionIndexTitles];
+//}
+//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+//{
+//    return ;
+//    id <NSFetchedResultsSectionInfo> sectionInfo = [[self.fetchedResultsController sections] objectAtIndex:section];
+//    Money *money = [[sectionInfo objects] objectAtIndex:0]; // The first object in this section
+//    NSNumber *type = money.type;
+//    if (type.intValue == 0) {
+//        // Create and return header view for "expense" section.
+//        
+//    } else {
+//        // Create and return header view for "incomes" section.
+//        
+//    }
+//}
+//add by ddo
 #pragma mark - Message Cell Formatting
 
 - (void)configureLoadMoreCell:(MessageCell*)cell atIndexPath:(NSIndexPath*)indexPath
@@ -798,29 +834,33 @@ static BOOL haveNewMessageToSelect = NO;
 
     [cell setMessageInstance:messageInstance];
     [cell.nameLabel setText:messageInstance.message.messageData.fromName];
-    [cell.subjectLabel setText:messageInstance.message.messageData.subject];
+    //Add by ddo display total email in conversation 
+    NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
+    if (references!=nil)
+        [cell.subjectLabel setText:[messageInstance.message.messageData.subject stringByAppendingString:[NSString stringWithFormat: @"  | Total : %ld",[references count]+1]]];
+    else [cell.subjectLabel setText:messageInstance.message.messageData.subject];
     [cell.dateLabel setText:[self formattedDate:messageInstance.message.dateSent]];
 
     //add by ddo verify hash
     //ex: http://staging-eml.authenticatedreality.com/check?email=1bc59391e15d908c66931e83434d5b48036775299f229f1d5fba81c727ca5ca
 
-    Recipient *fromRecipient = [AddressDataHelper senderAsRecipientForMessage:messageInstance.message] ;
-    NSString  *hash = [self sha256:[fromRecipient displayEmail]];
-    NSError *error;
-    NSString *url_string = [NSString stringWithFormat: @"http://staging-eml.authenticatedreality.com/check?email=" ];
-    url_string= [url_string stringByAppendingString:hash];
-    NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
-    NSMutableArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
-
-    NSLog(@"%@", [json valueForKey: @"authenticated"]);
-    NSNumber*  authenticated = [json valueForKey: @"authenticated"];
-    NSLog(@"From: %@ -> authenticated : %@",[fromRecipient displayEmail],authenticated);
-    if ([authenticated intValue]==1){
-        [cell.nameLabel setBackgroundColor:[UIColor greenColor]];
-    } else {
-        [cell.nameLabel setBackgroundColor:[UIColor whiteColor]];
-    }
-
+    dispatch_async(dispatch_get_main_queue(), ^{
+        Recipient *fromRecipient = [AddressDataHelper senderAsRecipientForMessage:messageInstance.message] ;
+        NSString  *hash = [self sha256:[fromRecipient displayEmail]];
+        NSError *error;
+        NSString *url_string = [NSString stringWithFormat: @"http://staging-eml.authenticatedreality.com/check?email=" ];
+        url_string= [url_string stringByAppendingString:hash];
+        NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
+        NSMutableArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+        
+        NSNumber*  authenticated = [json valueForKey: @"authenticated"];
+        NSLog(@"From: %@ -> authenticated : %@",[fromRecipient displayEmail],authenticated);
+        if ([authenticated intValue]==1){
+            [cell.nameLabel setBackgroundColor:[UIColor greenColor]];
+        } else {
+            [cell.nameLabel setBackgroundColor:[UIColor whiteColor]];
+        }
+    });
     // end add by ddo
     
     NSMutableString* previewString = [NSMutableString new];

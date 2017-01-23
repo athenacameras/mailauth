@@ -38,9 +38,8 @@
 #import "IMAPAccount.h"
 #import "AccountCheckManager.h"
 #import "Contact+Category.h"
-
-
-
+#import "EmailMessageInstance.h"
+#import "EmailMessageData.h"
 
 #if ULTIMATE
 
@@ -156,9 +155,14 @@
 
 + (void)loadFromStore
 {
+    
+    
     [EmailMessageController sharedInstance].messageInstanceSortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"message.dateSent" ascending:NO], [NSSortDescriptor sortDescriptorWithKey:@"message.messageid" ascending:NO], [NSSortDescriptor sortDescriptorWithKey:@"uid" ascending:NO]];
     
+    //[EmailMessageController sharedInstance].messageInstanceSortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"message.messageData.subject" ascending:YES],[NSSortDescriptor sortDescriptorWithKey:@"message.dateSent" ascending:NO], [NSSortDescriptor sortDescriptorWithKey:@"message.messageid" ascending:NO], [NSSortDescriptor sortDescriptorWithKey:@"uid" ascending:NO]];
+    
     [EmailMessageController sharedInstance].messageSortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"dateSent" ascending:NO], [NSSortDescriptor sortDescriptorWithKey:@"messageid" ascending:NO]];
+    
 #if TARGET_OS_IPHONE
     
     NSFetchRequest* fetchRequest = [NSFetchRequest fetchRequestWithEntityName:@"Contact"];
@@ -196,16 +200,46 @@
     [newFetchRequest setPredicate:[NSPredicate predicateWithValue:YES]];
     //[newFetchRequest setFetchLimit:100];
     //[newFetchRequest setFetchBatchSize:20];
+//message.messageData.subject
     
     APPDELEGATE.messages = [[NSFetchedResultsController alloc] initWithFetchRequest:newFetchRequest managedObjectContext:MAIN_CONTEXT sectionNameKeyPath:nil cacheName:nil];
-    
+    //APPDELEGATE.messages = [[NSFetchedResultsController alloc] initWithFetchRequest:newFetchRequest managedObjectContext:MAIN_CONTEXT sectionNameKeyPath:@"message.messageData.subject" cacheName:nil];
     [APPDELEGATE.messages setDelegate:[EmailMessageController sharedInstance]];
     
     error = nil;
     [APPDELEGATE.messages performFetch:&error];
+       //NSMutableArray *groupMessages = [[APPDELEGATE.messages.fetchedObjects mutableCopy];
+
+    NSMutableArray *groupMessages = [[NSMutableArray alloc]init];
+    groupMessages = [NSMutableArray arrayWithArray:APPDELEGATE.messages.fetchedObjects];
+
+    NSInteger count = 0;
+    while (count < [groupMessages count]){
+        EmailMessageInstance* messageObject = [groupMessages objectAtIndex: count];
+        NSLog(@"%@ | %@", [[messageObject message] messageid],[[[messageObject message] messageData] subject]);
+        NSMutableArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageObject message].references];
+        if (references !=nil){
+        for (NSString *ref in references){
+            NSMutableIndexSet *indexesToDelete = [NSMutableIndexSet indexSet];
+            NSUInteger currentIndex = 0;
+            for (EmailMessageInstance* refObject in groupMessages){
+                if ([[[refObject message] messageid] isEqualToString:ref] ){
+                    [indexesToDelete addIndex:currentIndex];
+                }
+                currentIndex++;
+            }
+            NSLog(@"%@",indexesToDelete);
+            [groupMessages removeObjectsAtIndexes:indexesToDelete];
+        }
+        }
+        NSLog(@"The content of references array is%@",references);
+        count++;
+    }
     
-    APPDELEGATE.displayedMessages = APPDELEGATE.messages.fetchedObjects;
+    //APPDELEGATE.displayedMessages = APPDELEGATE.messages.fetchedObjects;
+    APPDELEGATE.displayedMessages = groupMessages;
     
+   // NSLog(@"The content of arry is%@",APPDELEGATE.displayedMessages);
     [[EmailMessageController sharedInstance] initialFetchDone];
     
     NSLog(@"%@ %lu messages, error: %@", [EmailMessageController sharedInstance], (unsigned long)APPDELEGATE.messages.fetchedObjects.count, error.localizedDescription);

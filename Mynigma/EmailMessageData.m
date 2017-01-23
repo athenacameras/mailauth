@@ -39,5 +39,5 @@
 @dynamic subject;
 @dynamic mainPartType;
 @dynamic message;
-
+//@dynamic gmailThreadID;
 @end

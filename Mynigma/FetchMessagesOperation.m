@@ -101,7 +101,7 @@
 
         if(self.requestKind & MCOIMAPMessagesRequestKindExtraHeaders)
         {
-            [operation setExtraHeaders:@[@"X-Mynigma-Safe-Message", @"X-Myn-PK", @"X-Myn-KL", @"X-Mynigma-Token", @"X-Mynigma-Signup", @"X-Mynigma-Device-Message", @"X-Mynigma-Device-Targets", @"X-Mynigma-Device-ThreadID", @"X-Mynigma-Device-Command", @"X-Mynigma-Device-Sender", @"X-Mailer"]];
+            [operation setExtraHeaders:@[@"X-Mynigma-Safe-Message", @"X-Myn-PK", @"X-Myn-KL", @"X-Mynigma-Token", @"X-Mynigma-Signup", @"X-Mynigma-Device-Message", @"X-Mynigma-Device-Targets", @"X-Mynigma-Device-ThreadID", @"X-Mynigma-Device-Command", @"X-Mynigma-Device-Sender", @"X-Mailer",@"X-GM-THRID"]];
         }
 
         [operation start:^(NSError* error, NSArray* messages, MCOIndexSet* vanishedMessages)

@@ -39,6 +39,7 @@
 @property (nonatomic, retain) NSNumber * size;
 @property (nonatomic, retain) NSString * subject;
 @property (nonatomic, retain) NSString * mainPartType;
+//@property (nonatomic, retain) NSNumber * gmailThreadID;//add by ddo
 @property (nonatomic, retain) EmailMessage *message;
 
 @end
