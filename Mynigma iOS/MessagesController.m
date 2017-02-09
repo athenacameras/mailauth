@@ -319,6 +319,8 @@ static BOOL haveNewMessageToSelect = NO;
 
     if([APPDELEGATE.window respondsToSelector:@selector(traitCollection)])
     {
+        //add by ddo
+        //[self performSegueWithIdentifier:@"listMessagesInGroup" sender:self];
         //iOS 8 : use size class to determine whether to display the message in detail view or to segue to another view
         if((APPDELEGATE.window.traitCollection.horizontalSizeClass == UIUserInterfaceSizeClassRegular))
         {
@@ -329,9 +331,17 @@ static BOOL haveNewMessageToSelect = NO;
         {
             if([messageInstance isKindOfClass:[EmailMessageInstance class]] && [messageInstance isInDraftsFolder])
                 [self performSegueWithIdentifier:@"recomposeMessage" sender:self];
-            else
-                [self performSegueWithIdentifier:@"displayMessageCompact" sender:self];
-            
+            else {
+                NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
+                if ([references count] >1) // add by ddo : case group email . su dung reload table voi filter .
+                {
+                    [[SelectionAndFilterHelper sharedInstance] setFilterIndex:5];
+                    [[SelectionAndFilterHelper sharedInstance] setGroupMessage:[messageInstance message]];
+                    [SelectionAndFilterHelper updateFilters];
+                }
+                else
+                    [self performSegueWithIdentifier:@"displayMessageCompact" sender:self];
+            }
             //deselect the row
             [self.tableView deselectRowAtIndexPath:self.tableView.indexPathForSelectedRow animated:YES];
         }
@@ -621,9 +631,9 @@ static BOOL haveNewMessageToSelect = NO;
         NSIndexPath* selectedIndexPath = [self.tableView indexPathForSelectedRow];
         EmailMessageInstance* selectedMessageInstance = (EmailMessageInstance*)[EmailMessageController messageObjectAtIndex:selectedIndexPath.row];
         if(selectedMessageInstance)
-            if([segue.destinationViewController isKindOfClass:[DisplayMessageController class]])
+if([segue.destinationViewController isKindOfClass:[DisplayMessageController class]])
             {
-                [self.navigationController setToolbarHidden:NO animated:YES];
+[self.navigationController setToolbarHidden:NO animated:YES];
                 
                 (void)[(DisplayMessageController*)segue.destinationViewController view];
 
@@ -631,9 +641,22 @@ static BOOL haveNewMessageToSelect = NO;
             }
     }
 
-    if([segue.identifier isEqualToString:@"recomposeMessage"])
+    //list messages in group add by ddo
+    if([segue.identifier isEqualToString:@"listMessagesInGroup"])
     {
         [self.navigationController.navigationBar.topItem setPrompt:nil];
+        //[self.navigationCotronller setToolbarHidden:NO animated:YES];
+        
+        //(void)[(DisplayMessageController*)segue.destinationViewController view];
+        NSIndexPath* selectedIndexPath = [self.tableView indexPathForSelectedRow];
+        EmailMessageInstance* selectedMessageInstance = (EmailMessageInstance*)[EmailMessageController messageObjectAtIndex:selectedIndexPath.row];
+       // [(GroupMessagesController*)segue.destinationViewController showMessageInstance:selectedMessageInstance];
+
+    }
+    
+    if([segue.identifier isEqualToString:@"recomposeMessage"])
+    {
+                                    [self.navigationController.navigationBar.topItem setPrompt:nil];
 
         NSIndexPath* selectedIndexPath = [self.tableView indexPathForSelectedRow];
         EmailMessageInstance* selectedMessageInstance = (EmailMessageInstance*)[EmailMessageController messageObjectAtIndex:selectedIndexPath.row];
@@ -843,7 +866,6 @@ static BOOL haveNewMessageToSelect = NO;
 
     //add by ddo verify hash
     //ex: http://staging-eml.authenticatedreality.com/check?email=1bc59391e15d908c66931e83434d5b48036775299f229f1d5fba81c727ca5ca
-
     dispatch_async(dispatch_get_main_queue(), ^{
         Recipient *fromRecipient = [AddressDataHelper senderAsRecipientForMessage:messageInstance.message] ;
         NSString  *hash = [self sha256:[fromRecipient displayEmail]];
@@ -1107,6 +1129,8 @@ static BOOL haveNewMessageToSelect = NO;
     searchBarTextField.enablesReturnKeyAutomatically = NO;
     searchBarTextField.returnKeyType = UIReturnKeyDone;
 }
+
+#pragma mark - New features by ddo -> sha 256 
 //add by ddo
 -(NSString*) sha256:(NSString *)clear{
     const char *s=[clear cStringUsingEncoding:NSASCIIStringEncoding];

@@ -56,7 +56,7 @@
 #import "EmailMessageInstance+Category.h"
 #import "OutlineObject.h"
 #import "SelectionAndFilterHelper.h"
-
+#import "EmailMessage.h"
 
 
 #define VERBOSE NO
@@ -205,6 +205,27 @@ static NSInteger currentBlockIdentifier;
 //                [filterString appendString:@", "];
 //            [filterString appendString:@"safe"];
             break;
+        case 5: //add by ddo display group email
+        {
+            //NSInteger index = [SelectionAndFilterHelper sharedInstance].filterIndex;
+            if ([SelectionAndFilterHelper sharedInstance].groupMessage!=nil){
+                NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[SelectionAndFilterHelper sharedInstance].groupMessage.references];
+                NSString *nameformatString = [NSString stringWithFormat:@"("];
+                int i = 0;
+                for (id messageid in references) {
+                    nameformatString= [[[nameformatString stringByAppendingString:@"(message.messageid == \""] stringByAppendingString:messageid] stringByAppendingString:@"\")"];
+                    if (i< [references count]-1) nameformatString= [nameformatString stringByAppendingString:@" OR "];
+                    
+                    i++;
+                }
+                nameformatString= [[[nameformatString stringByAppendingString:@" OR (message.messageid == \""] stringByAppendingString:[SelectionAndFilterHelper sharedInstance].groupMessage.messageid] stringByAppendingString:@"\")"];
+                nameformatString= [nameformatString stringByAppendingString:@")"];
+
+                filtersPredicate = [NSPredicate predicateWithFormat:nameformatString];
+            }
+            [[SelectionAndFilterHelper sharedInstance] setGroupMessage:nil];
+            break;
+        }
     }
 
 

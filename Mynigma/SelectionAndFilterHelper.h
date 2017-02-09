@@ -41,6 +41,9 @@
 //the text entered into the search field
 @property NSString* searchString;
 
+//the text entered into the search field
+@property EmailMessage* groupMessage;
+
 #else
 
 + (NSSet*)selectedFoldersAndLabels;

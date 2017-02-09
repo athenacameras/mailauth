@@ -37,7 +37,6 @@
 
 @property NSArray* displayedMessages;
 
-
 @property ContactSuggestions* contactSuggestions;
 
 

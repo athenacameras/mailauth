@@ -5,7 +5,7 @@
 
 @interface GroupMessagesController : UIViewController
 {
-  
+
 }
 
 @end

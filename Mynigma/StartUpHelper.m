@@ -214,30 +214,31 @@
     groupMessages = [NSMutableArray arrayWithArray:APPDELEGATE.messages.fetchedObjects];
 
     NSInteger count = 0;
-    while (count < [groupMessages count]){
-        EmailMessageInstance* messageObject = [groupMessages objectAtIndex: count];
-        NSLog(@"%@ | %@", [[messageObject message] messageid],[[[messageObject message] messageData] subject]);
-        NSMutableArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageObject message].references];
-        if (references !=nil){
-        for (NSString *ref in references){
-            NSMutableIndexSet *indexesToDelete = [NSMutableIndexSet indexSet];
-            NSUInteger currentIndex = 0;
-            for (EmailMessageInstance* refObject in groupMessages){
-                if ([[[refObject message] messageid] isEqualToString:ref] ){
-                    [indexesToDelete addIndex:currentIndex];
-                }
-                currentIndex++;
-            }
-            NSLog(@"%@",indexesToDelete);
-            [groupMessages removeObjectsAtIndexes:indexesToDelete];
-        }
-        }
-        NSLog(@"The content of references array is%@",references);
-        count++;
-    }
-    
-    //APPDELEGATE.displayedMessages = APPDELEGATE.messages.fetchedObjects;
-    APPDELEGATE.displayedMessages = groupMessages;
+//    while (count < [groupMessages count]){
+//        EmailMessageInstance* messageObject = [groupMessages objectAtIndex: count];
+//        NSLog(@"%@ | %@", [[messageObject message] messageid],[[[messageObject message] messageData] subject]);
+//        NSMutableArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageObject message].references];
+//        if (references !=nil){
+//        for (NSString *ref in references){
+//            NSMutableIndexSet *indexesToDelete = [NSMutableIndexSet indexSet];
+//            NSUInteger currentIndex = 0;
+//            for (EmailMessageInstance* refObject in groupMessages){
+//                if ([[[refObject message] messageid] isEqualToString:ref] ){
+//                    [indexesToDelete addIndex:currentIndex];
+//                }
+//                currentIndex++;
+//            }
+//            NSLog(@"%@",indexesToDelete);
+//            [groupMessages removeObjectsAtIndexes:indexesToDelete];
+//        }
+//        }
+//        NSLog(@"The content of references array is%@",references);
+//        count++;
+//    }
+//
+//    APPDELEGATE.displayedGroupMessages = groupMessages;
+
+    APPDELEGATE.displayedMessages = APPDELEGATE.messages.fetchedObjects;
     
    // NSLog(@"The content of arry is%@",APPDELEGATE.displayedMessages);
     [[EmailMessageController sharedInstance] initialFetchDone];
