@@ -223,7 +223,7 @@ static NSInteger currentBlockIdentifier;
 
                 filtersPredicate = [NSPredicate predicateWithFormat:nameformatString];
             }
-            [[SelectionAndFilterHelper sharedInstance] setGroupMessage:nil];
+            
             break;
         }
     }
@@ -262,7 +262,7 @@ static NSInteger currentBlockIdentifier;
 
     
     NSPredicate* groupDuplicatePredicate = [NSPredicate predicateWithValue:YES];
-    if ([SelectionAndFilterHelper sharedInstance].filterIndex !=5){
+    if ([SelectionAndFilterHelper sharedInstance].filterIndex !=5 || [SelectionAndFilterHelper sharedInstance].groupMessage==nil){
         if (APPDELEGATE.displayedGroupMessages !=nil ){
             if ([APPDELEGATE.displayedGroupMessages count]>0){
                 NSString *groupformatString = [NSString stringWithFormat:@"("];
@@ -278,7 +278,8 @@ static NSInteger currentBlockIdentifier;
             }
         }
     }
-
+    
+    [[SelectionAndFilterHelper sharedInstance] setGroupMessage:nil];
     NSPredicate* combinedPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[accountAndFolderSelectionPredicate, filtersPredicate, contactSelectionPredicate, searchStringPredicate,groupDuplicatePredicate]];
 
     filterPredicate = combinedPredicate;

@@ -333,11 +333,12 @@ static BOOL haveNewMessageToSelect = NO;
                 [self performSegueWithIdentifier:@"recomposeMessage" sender:self];
             else {
                 NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
-                if ([references count] >1) // add by ddo : case group email . su dung reload table voi filter .
+                if ([references count] >1 && [SelectionAndFilterHelper sharedInstance].filterIndex !=5) // add by ddo : case group email . su dung reload table voi filter .
                 {
                     [[SelectionAndFilterHelper sharedInstance] setFilterIndex:5];
                     [[SelectionAndFilterHelper sharedInstance] setGroupMessage:[messageInstance message]];
                     [SelectionAndFilterHelper updateFilters];
+                    
                 }
                 else
                     [self performSegueWithIdentifier:@"displayMessageCompact" sender:self];
@@ -641,19 +642,6 @@ if([segue.destinationViewController isKindOfClass:[DisplayMessageController clas
             }
     }
 
-    //list messages in group add by ddo
-    if([segue.identifier isEqualToString:@"listMessagesInGroup"])
-    {
-        [self.navigationController.navigationBar.topItem setPrompt:nil];
-        //[self.navigationCotronller setToolbarHidden:NO animated:YES];
-        
-        //(void)[(DisplayMessageController*)segue.destinationViewController view];
-        NSIndexPath* selectedIndexPath = [self.tableView indexPathForSelectedRow];
-        EmailMessageInstance* selectedMessageInstance = (EmailMessageInstance*)[EmailMessageController messageObjectAtIndex:selectedIndexPath.row];
-       // [(GroupMessagesController*)segue.destinationViewController showMessageInstance:selectedMessageInstance];
-
-    }
-    
     if([segue.identifier isEqualToString:@"recomposeMessage"])
     {
                                     [self.navigationController.navigationBar.topItem setPrompt:nil];
