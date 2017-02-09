@@ -111,6 +111,7 @@
     [SelectionAndFilterHelper sharedInstance].filterPredicate = [NSPredicate predicateWithValue:YES];
     //    self.titleBarString = NSLocalizedString(@"All Messages", @"Messages Controller");
     self.displayedMessages = @[];
+    self.displayedGroupMessages = @[];
     self.selectedMessageInstance = nil;
 
     MynigmaURLCache *URLCache = [[MynigmaURLCache alloc] initWithMemoryCapacity:10*1024*1024 diskCapacity:50*1024*1024 diskPath:@"/MynigmaCache/"];

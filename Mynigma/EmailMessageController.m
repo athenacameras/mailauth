@@ -260,7 +260,26 @@ static NSInteger currentBlockIdentifier;
     //            [filterString appendFormat:@", %@", contactName];
     //    }
 
-    NSPredicate* combinedPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[accountAndFolderSelectionPredicate, filtersPredicate, contactSelectionPredicate, searchStringPredicate]];
+    
+    NSPredicate* groupDuplicatePredicate = [NSPredicate predicateWithValue:YES];
+    if ([SelectionAndFilterHelper sharedInstance].filterIndex !=5){
+        if (APPDELEGATE.displayedGroupMessages !=nil ){
+            if ([APPDELEGATE.displayedGroupMessages count]>0){
+                NSString *groupformatString = [NSString stringWithFormat:@"("];
+                int i = 0;
+                for (EmailMessageInstance *emInstance in APPDELEGATE.displayedGroupMessages) {
+                    groupformatString= [[[groupformatString stringByAppendingString:@"(message.messageid == \""] stringByAppendingString:[emInstance message].messageid] stringByAppendingString:@"\")"];
+                    if (i< [APPDELEGATE.displayedGroupMessages count]-1) groupformatString= [groupformatString stringByAppendingString:@" OR "];
+                    i++;
+                }
+                groupformatString= [groupformatString stringByAppendingString:@")"];
+                
+                groupDuplicatePredicate = [NSPredicate predicateWithFormat:groupformatString];
+            }
+        }
+    }
+
+    NSPredicate* combinedPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[accountAndFolderSelectionPredicate, filtersPredicate, contactSelectionPredicate, searchStringPredicate,groupDuplicatePredicate]];
 
     filterPredicate = combinedPredicate;
     //NSLog(@"Before new fetch: %lu messages", (unsigned long)APPDELEGATE.filteredMessages.count);
