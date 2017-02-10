@@ -1542,7 +1542,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //NSLog(@"- Selected rows: %@", self.tableView.indexPathsForSelectedRows);
-
+    [[SelectionAndFilterHelper sharedInstance] setFilterIndex:0]; //add by ddo exit group email mode
     [SelectionAndFilterHelper updateFilters];
 
     [ViewControllersManager hideSidePanel];

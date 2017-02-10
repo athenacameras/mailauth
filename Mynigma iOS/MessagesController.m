@@ -333,15 +333,16 @@ static BOOL haveNewMessageToSelect = NO;
                 [self performSegueWithIdentifier:@"recomposeMessage" sender:self];
             else {
                 NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
-                if ([references count] >1 && [SelectionAndFilterHelper sharedInstance].filterIndex !=5) // add by ddo : case group email . su dung reload table voi filter .
+                // add by ddo : case group email . su dung reload table voi filter .
+                if ([references count] < 1 || [SelectionAndFilterHelper sharedInstance].filterIndex==5)
+                    [self performSegueWithIdentifier:@"displayMessageCompact" sender:self];
+                else
                 {
                     [[SelectionAndFilterHelper sharedInstance] setFilterIndex:5];
                     [[SelectionAndFilterHelper sharedInstance] setGroupMessage:[messageInstance message]];
                     [SelectionAndFilterHelper updateFilters];
                     
-                }
-                else
-                    [self performSegueWithIdentifier:@"displayMessageCompact" sender:self];
+                }            
             }
             //deselect the row
             [self.tableView deselectRowAtIndexPath:self.tableView.indexPathForSelectedRow animated:YES];
