@@ -845,7 +845,7 @@ if([segue.destinationViewController isKindOfClass:[DisplayMessageController clas
 
     [cell setMessageInstance:messageInstance];
     [cell.nameLabel setText:messageInstance.message.messageData.fromName];
-    //Add by ddo display total email in conversation 
+    //Add by ddo display total email in conversation
     NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
     if (references!=nil)
         [cell.subjectLabel setText:[messageInstance.message.messageData.subject stringByAppendingString:[NSString stringWithFormat: @"  | Total : %ld",[references count]+1]]];
@@ -858,12 +858,12 @@ if([segue.destinationViewController isKindOfClass:[DisplayMessageController clas
         Recipient *fromRecipient = [AddressDataHelper senderAsRecipientForMessage:messageInstance.message] ;
         NSString  *hash = [self sha256:[fromRecipient displayEmail]];
         NSError *error;
-        NSString *url_string = [NSString stringWithFormat: @"http://staging-eml.authenticatedreality.com/check?email=" ];
+        NSString *url_string = [NSString stringWithFormat: @"http://api.authenticatedreality.com/emails/check?hash=" ];
         url_string= [url_string stringByAppendingString:hash];
         NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
         NSMutableArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
         
-        NSNumber*  authenticated = [json valueForKey: @"authenticated"];
+        NSNumber*  authenticated = [json valueForKey: hash];
         NSLog(@"From: %@ -> authenticated : %@",[fromRecipient displayEmail],authenticated);
         if ([authenticated intValue]==1){
             [cell.nameLabel setBackgroundColor:[UIColor greenColor]];
