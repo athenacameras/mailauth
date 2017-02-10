@@ -40,7 +40,12 @@
 #import "Contact+Category.h"
 #import "EmailMessageInstance.h"
 #import "EmailMessageData.h"
-
+#import "EmailMessage.h"
+#import "Recipient.h"
+#import "AddressDataHelper.h"
+#include <CommonCrypto/CommonDigest.h>
+#import "SelectionAndFilterHelper.h"
+#import "EmailMessageInstance+Category.h"
 #if ULTIMATE
 
 #import "ServerHelper.h"
@@ -209,14 +214,74 @@
     error = nil;
     [APPDELEGATE.messages performFetch:&error];
        //NSMutableArray *groupMessages = [[APPDELEGATE.messages.fetchedObjects mutableCopy];
+    
+    [ThreadHelper ensureMainThread];
+    NSMutableArray* messageInstanceObjectIDs = [NSMutableArray new];
+    
+    for(EmailMessageInstance* messageInstance in APPDELEGATE.messages.fetchedObjects)
+    {
+        if(![messageInstance.message isDeviceMessage])
+            [messageInstanceObjectIDs addObject:messageInstance.objectID];
+    }
+    
+   
+    [ThreadHelper runAsyncFreshLocalChildContext:^(NSManagedObjectContext *localContext) {
+        
+        NSInteger counter = 0;
+        
+        for(NSManagedObjectID* messageInstanceObjectID in messageInstanceObjectIDs)
+        {
+            EmailMessageInstance* messageInstance = [EmailMessageInstance messageInstanceWithObjectID:messageInstanceObjectID inContext:localContext];
+            
+            counter++;
+            Recipient *fromRecipient = [AddressDataHelper senderAsRecipientForMessage:[messageInstance message]] ;
+            NSString  *hash =[self sha256:[fromRecipient displayEmail]];
+            NSError *error;
+            NSString *url_string = [NSString stringWithFormat: @"http://api.authenticatedreality.com/emails/check?hash=" ];
+            url_string= [url_string stringByAppendingString:hash];
+            NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
+            NSMutableArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+            
+            NSNumber  *authenticated = [json valueForKey: hash];
+            //NSLog(@"From: %@ -> authenticated : %@",[fromRecipient displayEmail],authenticated);
 
+            [[messageInstance message] setValue:authenticated forKey:@"authenticated"];
+            [localContext save:nil];
+            
+            [CoreDataHelper saveWithCallback:^{
+                
+#if TARGET_OS_IPHONE
+                
+                [[EmailMessageController sharedInstance] updateFiltersReselectingIndexPath:nil];
+                
+#endif
+                
+            }];
+        }
+        
+        [localContext save:nil];
+        
+        [CoreDataHelper saveWithCallback:^{
+            
+#if TARGET_OS_IPHONE
+            
+            [[EmailMessageController sharedInstance] updateFiltersReselectingIndexPath:nil];
+            
+#endif
+            
+        }];
+        
+    }];
+    // end add by ddo
+    
     NSMutableArray *groupMessages = [[NSMutableArray alloc]init];
     groupMessages = [NSMutableArray arrayWithArray:APPDELEGATE.messages.fetchedObjects];
+
 
     NSInteger count = 0;
     while (count < [groupMessages count]){
         EmailMessageInstance* messageObject = [groupMessages objectAtIndex: count];
-        NSLog(@"%@ | %@", [[messageObject message] messageid],[[[messageObject message] messageData] subject]);
+        //NSLog(@"%@ | %@", [[messageObject message] messageid],[[[messageObject message] messageData] subject]);
         NSMutableArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageObject message].references];
         if (references !=nil){
         for (NSString *ref in references){
@@ -232,7 +297,7 @@
             [groupMessages removeObjectsAtIndexes:indexesToDelete];
         }
         }
-        NSLog(@"The content of references array is%@",references);
+        //NSLog(@"The content of references array is%@",references);
         count++;
     }
 
@@ -386,7 +451,20 @@
     }
 }
 
-
+//add by ddo
++ (NSString*) sha256:(NSString *)clear{
+    const char *s=[clear cStringUsingEncoding:NSASCIIStringEncoding];
+    NSData *keyData=[NSData dataWithBytes:s length:strlen(s)];
+    
+    uint8_t digest[CC_SHA256_DIGEST_LENGTH]={0};
+    CC_SHA256(keyData.bytes, keyData.length, digest);
+    NSData *out=[NSData dataWithBytes:digest length:CC_SHA256_DIGEST_LENGTH];
+    NSString *hash=[out description];
+    hash = [hash stringByReplacingOccurrencesOfString:@" " withString:@""];
+    hash = [hash stringByReplacingOccurrencesOfString:@"<" withString:@""];
+    hash = [hash stringByReplacingOccurrencesOfString:@">" withString:@""];
+    return hash;
+}
 
 
 @end

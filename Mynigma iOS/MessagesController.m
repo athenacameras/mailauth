@@ -225,12 +225,12 @@ static BOOL haveNewMessageToSelect = NO;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     EmailMessageInstance* messageInstance = (EmailMessageInstance*)[EmailMessageController messageObjectAtIndex:indexPath.row];
-    NSLog(@"The content of MessageData is%@",messageInstance);
-    NSLog(@"Subject is%@",[[[messageInstance message] messageData] subject]);
+    //NSLog(@"The content of MessageData is%@",messageInstance);
+    //NSLog(@"Subject is%@",[[[messageInstance message] messageData] subject]);
     
     //List id of emails same conversation
     NSArray *sameThread = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
-    NSLog(@"The content of sameThread array is%@",sameThread);
+    //NSLog(@"The content of sameThread array is%@",sameThread);
     if(!messageInstance)
     {
         if(indexPath.row == [[EmailMessageController sharedInstance] numberOfMessages])
@@ -757,41 +757,6 @@ if([segue.destinationViewController isKindOfClass:[DisplayMessageController clas
     //[self refresh];
 }
 
-
-//add by ddo
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
-    if ([[APPDELEGATE.messages sections] count] > 0) {
-        id <NSFetchedResultsSectionInfo> sectionInfo = [[APPDELEGATE.messages sections] objectAtIndex:section];
-        return [sectionInfo name];
-    } else
-        return nil;
-}
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    // Return the number of sections.
-    return [[APPDELEGATE.messages sections] count];
-}
-//- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
-//{
-//    return [APPDELEGATE.messages sectionIndexTitles];
-//}
-//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-//{
-//    return ;
-//    id <NSFetchedResultsSectionInfo> sectionInfo = [[self.fetchedResultsController sections] objectAtIndex:section];
-//    Money *money = [[sectionInfo objects] objectAtIndex:0]; // The first object in this section
-//    NSNumber *type = money.type;
-//    if (type.intValue == 0) {
-//        // Create and return header view for "expense" section.
-//        
-//    } else {
-//        // Create and return header view for "incomes" section.
-//        
-//    }
-//}
-//add by ddo
 #pragma mark - Message Cell Formatting
 
 - (void)configureLoadMoreCell:(MessageCell*)cell atIndexPath:(NSIndexPath*)indexPath
@@ -853,24 +818,12 @@ if([segue.destinationViewController isKindOfClass:[DisplayMessageController clas
     [cell.dateLabel setText:[self formattedDate:messageInstance.message.dateSent]];
 
     //add by ddo verify hash
-    //ex: http://staging-eml.authenticatedreality.com/check?email=1bc59391e15d908c66931e83434d5b48036775299f229f1d5fba81c727ca5ca
-    dispatch_async(dispatch_get_main_queue(), ^{
-        Recipient *fromRecipient = [AddressDataHelper senderAsRecipientForMessage:messageInstance.message] ;
-        NSString  *hash = [self sha256:[fromRecipient displayEmail]];
-        NSError *error;
-        NSString *url_string = [NSString stringWithFormat: @"http://api.authenticatedreality.com/emails/check?hash=" ];
-        url_string= [url_string stringByAppendingString:hash];
-        NSData *data = [NSData dataWithContentsOfURL: [NSURL URLWithString:url_string]];
-        NSMutableArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
-        
-        NSNumber*  authenticated = [json valueForKey: hash];
-        NSLog(@"From: %@ -> authenticated : %@",[fromRecipient displayEmail],authenticated);
-        if ([authenticated intValue]==1){
-            [cell.nameLabel setBackgroundColor:[UIColor greenColor]];
-        } else {
-            [cell.nameLabel setBackgroundColor:[UIColor whiteColor]];
-        }
-    });
+    NSNumber *authenticated = [[messageInstance message] valueForKey:@"authenticated"];
+    if ([authenticated intValue]==1){
+        [cell.nameLabel setBackgroundColor:[UIColor greenColor]];
+    } else {
+        [cell.nameLabel setBackgroundColor:[UIColor whiteColor]];
+    }
     // end add by ddo
     
     NSMutableString* previewString = [NSMutableString new];
@@ -1116,22 +1069,6 @@ if([segue.destinationViewController isKindOfClass:[DisplayMessageController clas
     }
     searchBarTextField.enablesReturnKeyAutomatically = NO;
     searchBarTextField.returnKeyType = UIReturnKeyDone;
-}
-
-#pragma mark - New features by ddo -> sha 256 
-//add by ddo
--(NSString*) sha256:(NSString *)clear{
-    const char *s=[clear cStringUsingEncoding:NSASCIIStringEncoding];
-    NSData *keyData=[NSData dataWithBytes:s length:strlen(s)];
-    
-    uint8_t digest[CC_SHA256_DIGEST_LENGTH]={0};
-    CC_SHA256(keyData.bytes, keyData.length, digest);
-    NSData *out=[NSData dataWithBytes:digest length:CC_SHA256_DIGEST_LENGTH];
-    NSString *hash=[out description];
-    hash = [hash stringByReplacingOccurrencesOfString:@" " withString:@""];
-    hash = [hash stringByReplacingOccurrencesOfString:@"<" withString:@""];
-    hash = [hash stringByReplacingOccurrencesOfString:@">" withString:@""];
-    return hash;
 }
 
 - (NSDictionary *) indexKeyedDictionaryFromArray:(NSArray *)array
