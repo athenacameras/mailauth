@@ -1718,9 +1718,9 @@
         <image name="starred22.png" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vEI-JP-3FG"/>
-        <segue reference="CJh-DH-9t2"/>
+        <segue reference="nTb-pY-NHm"/>
         <segue reference="Pnl-2C-ZRy"/>
+        <segue reference="NZ1-v9-MQ3"/>
         <segue reference="jHt-lc-OBc"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.29019607843137252" green="0.6705882352941176" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

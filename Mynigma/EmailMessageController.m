@@ -211,10 +211,10 @@ static NSInteger currentBlockIdentifier;
             if ([SelectionAndFilterHelper sharedInstance].groupMessage!=nil){
                 NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[SelectionAndFilterHelper sharedInstance].groupMessage.references];
                 NSString *nameformatString = [NSString stringWithFormat:@"("];
-                int i = 0;
+                int i = 1;
                 for (id messageid in references) {
                     nameformatString= [[[nameformatString stringByAppendingString:@"(message.messageid == \""] stringByAppendingString:messageid] stringByAppendingString:@"\")"];
-                    if (i< [references count]-1) nameformatString= [nameformatString stringByAppendingString:@" OR "];
+                    if (i< [references count]) nameformatString= [nameformatString stringByAppendingString:@" OR "];
                     
                     i++;
                 }
@@ -223,7 +223,6 @@ static NSInteger currentBlockIdentifier;
 
                 filtersPredicate = [NSPredicate predicateWithFormat:nameformatString];
             }
-            
             break;
         }
     }
@@ -260,7 +259,7 @@ static NSInteger currentBlockIdentifier;
     //            [filterString appendFormat:@", %@", contactName];
     //    }
 
-    
+    // add by ddo : hide relationship email in group
     NSPredicate* groupDuplicatePredicate = [NSPredicate predicateWithValue:YES];
     if ([SelectionAndFilterHelper sharedInstance].filterIndex !=5 || [SelectionAndFilterHelper sharedInstance].groupMessage==nil){
         if (APPDELEGATE.displayedGroupMessages !=nil ){
@@ -280,6 +279,7 @@ static NSInteger currentBlockIdentifier;
     }
     
     [[SelectionAndFilterHelper sharedInstance] setGroupMessage:nil];
+    //[[SelectionAndFilterHelper sharedInstance] setFilterIndex:0];
     NSPredicate* combinedPredicate = [NSCompoundPredicate andPredicateWithSubpredicates:@[accountAndFolderSelectionPredicate, filtersPredicate, contactSelectionPredicate, searchStringPredicate,groupDuplicatePredicate]];
 
     filterPredicate = combinedPredicate;

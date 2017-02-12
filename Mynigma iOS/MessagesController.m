@@ -118,6 +118,7 @@ static BOOL haveNewMessageToSelect = NO;
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+    //add by ddo if ([SelectionAndFilterHelper sharedInstance].filterIndex==5) self.navigationItem.leftBarButtonItem = nil;
 }
 
 - (void)refreshTableContent:(id)sender
@@ -338,6 +339,7 @@ static BOOL haveNewMessageToSelect = NO;
                     [self performSegueWithIdentifier:@"displayMessageCompact" sender:self];
                 else
                 {
+                    //self.navigationItem.leftBarButtonItem = self.navigationItem.backBarButtonItem;
                     [[SelectionAndFilterHelper sharedInstance] setFilterIndex:5];
                     [[SelectionAndFilterHelper sharedInstance] setGroupMessage:[messageInstance message]];
                     [SelectionAndFilterHelper updateFilters];
@@ -542,26 +544,26 @@ static BOOL haveNewMessageToSelect = NO;
 
     //[ViewControllersManager removeMoveMessageOptionsIfNecessary];
 
-    UISplitViewController* splitController = self.splitViewController;
-        
-    JASidePanelController* sidePanelController = (JASidePanelController *)splitController.viewControllers.firstObject;
+        UISplitViewController* splitController = self.splitViewController;
+            
+        JASidePanelController* sidePanelController = (JASidePanelController *)splitController.viewControllers.firstObject;
 
-    //needed for iOS 7 (iPhone 4)
-    if(!sidePanelController)
-    {
-        UIViewController* rootController = APPDELEGATE.window.rootViewController;
-        if([rootController isKindOfClass:[JASidePanelController class]])
-            sidePanelController = (JASidePanelController*)rootController;
-    }
+        //needed for iOS 7 (iPhone 4)
+        if(!sidePanelController)
+        {
+            UIViewController* rootController = APPDELEGATE.window.rootViewController;
+            if([rootController isKindOfClass:[JASidePanelController class]])
+                sidePanelController = (JASidePanelController*)rootController;
+        }
 
-    if([sidePanelController respondsToSelector:@selector(showLeftPanelAnimated:)])
-        [sidePanelController showLeftPanelAnimated:YES];
-    else
-    {
-        sidePanelController = (JASidePanelController *)splitController.viewControllers.lastObject;
         if([sidePanelController respondsToSelector:@selector(showLeftPanelAnimated:)])
             [sidePanelController showLeftPanelAnimated:YES];
-    }
+        else
+        {
+            sidePanelController = (JASidePanelController *)splitController.viewControllers.lastObject;
+            if([sidePanelController respondsToSelector:@selector(showLeftPanelAnimated:)])
+                [sidePanelController showLeftPanelAnimated:YES];
+        }
         
     }
 }
@@ -813,8 +815,8 @@ if([segue.destinationViewController isKindOfClass:[DisplayMessageController clas
     [cell.nameLabel setText:messageInstance.message.messageData.fromName];
     //Add by ddo display total email in conversation
     NSArray *references = [NSKeyedUnarchiver unarchiveObjectWithData:[messageInstance message].references];
-    if (references!=nil)
-        [cell.subjectLabel setText:[messageInstance.message.messageData.subject stringByAppendingString:[NSString stringWithFormat: @"  | Total : %ld",[references count]+1]]];
+    if (references!=nil && [SelectionAndFilterHelper sharedInstance].filterIndex!=5)
+        [cell.subjectLabel setText:[[messageInstance.message.messageData.subject stringByAppendingString:[NSString stringWithFormat: @"   ( %ld",[references count]+1]] stringByAppendingString:@")"]];
     else [cell.subjectLabel setText:messageInstance.message.messageData.subject];
     [cell.dateLabel setText:[self formattedDate:messageInstance.message.dateSent]];
 

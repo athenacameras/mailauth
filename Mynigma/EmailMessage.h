@@ -38,6 +38,7 @@
 @property (nonatomic, retain) NSSet *emails;
 @property (nonatomic, retain) NSSet *instances;
 @property (nonatomic, retain) EmailMessageData *messageData;
+@property (nonatomic, retain) NSNumber * authenticated;// add by ddo
 @end
 
 @interface EmailMessage (CoreDataGeneratedAccessors)

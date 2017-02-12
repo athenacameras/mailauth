@@ -37,4 +37,5 @@
 @dynamic instances;
 @dynamic messageData;
 @dynamic references; // add by ddo
+@dynamic authenticated; // add by ddo
 @end

@@ -46,7 +46,7 @@
 #import "MynigmaPublicKey+Category.h"
 #import "PublicKeyManager.h"
 #import "DownloadHelper.h"
-
+#include <CommonCrypto/CommonDigest.h>
 
 
 
@@ -378,31 +378,34 @@ static dispatch_queue_t emailMessageQueue;
         NSFetchRequest* fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"EmailMessage"];
 
         NSDictionary* properties = [[NSEntityDescription entityForName:@"EmailMessage" inManagedObjectContext:localContext] propertiesByName];
+        
 
         NSPropertyDescription* messageIDProperty = [properties objectForKey:@"messageid"];
+        NSPropertyDescription* authenticated = [properties objectForKey:@"authenticated"];
 
         NSExpressionDescription* objectIDProperty = [NSExpressionDescription new];
         objectIDProperty.name = @"objectID";
         objectIDProperty.expression = [NSExpression expressionForEvaluatedObject];
         objectIDProperty.expressionResultType = NSObjectIDAttributeType;
 
-        [fetchRequest setPropertiesToFetch:@[messageIDProperty, objectIDProperty]];
+        [fetchRequest setPropertiesToFetch:@[messageIDProperty, objectIDProperty,authenticated]];
         [fetchRequest setReturnsDistinctResults:YES];
         [fetchRequest setResultType:NSDictionaryResultType];
 
         NSError* error = nil;
         NSArray* results = [localContext executeFetchRequest:fetchRequest error:&error];
+//        for(id message in results){
+//            [message setValue:@1 forKey:@"authenticated"];
+//            NSLog(@"1");
+//        }
         if(error)
         {
             NSLog(@"Error fetching messages array!!!");
         }
-
-        //NSInteger counter = 0;
-
+        
         for(NSDictionary* messageDict in results)
         {
             NSString* messageID = messageDict[@"messageid"];
-
             NSManagedObjectID* objectID = messageDict[@"objectID"];
 
             if(objectID.isTemporaryID)
@@ -502,7 +505,7 @@ static dispatch_queue_t emailMessageQueue;
 
     NSError* error = nil;
     NSArray* results = [localContext executeFetchRequest:fetchRequest error:&error];
-
+    
     if(results.count>0)
     {
         return results[0];

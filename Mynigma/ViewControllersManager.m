@@ -50,7 +50,7 @@
 
 - (void)feedbackButton:(id)sender
 {
-    [self.messagesController performSegueWithIdentifier:@"compo seFeedback" sender:sender];
+    [self.messagesController performSegueWithIdentifier:@"composeFeedback" sender:sender];
 }
 
 + (void)showMoveMessageOptions
